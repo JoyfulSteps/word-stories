@@ -1,0 +1,4699 @@
+﻿word	unit	page	pos	vi
+sweater	W02	4	n	áo len
+toothbrush	W02	5	n	bàn chải đánh răng
+toothpaste	W02	5	n	kem đánh răng
+biscuit	W03	6	n	bánh quy (Anh)
+insect	W04	8	n	côn trùng
+butterfly	W04	8	n/v/adj	con bướm
+giraffe	W04	8	n	hươu cao cổ
+zebra	W04	8	n	ngựa vằn
+kangaroo	W04	8	n	chuột túi
+panda	W04	8	n	gấu trúc
+dolphin	W04	8	n	cá heo
+whale	W04	8	n	cá voi
+shark	W04	8	n	cá mập
+crocodile	W04	8	n	cá sấu
+hippo	W04	8	n	hà mã
+penguin	W04	8	n	chim cánh cụt
+owl	W04	8	n	con cú
+fly	W04	8	v/n	bay; con ruồi
+ant	W04	8	n	con kiến
+leaf	W04	8	n	chiếc lá
+leaves	W04	8	n	lá cây
+rose	W04	8	v/n/adj	tăng lên
+pupil	W05	9	n	học sinh
+skate	W05	10	v/n	trượt băng, trượt patin
+Easter	W05	11	n	lễ Phục sinh
+Canadian	W06	11	adj/n	người Ca-na-đa
+nephew	W08	14	n	cháu trai (con anh chị em)
+niece	W08	14	n	cháu gái (con anh chị em)
+elbow	W08	15	n	khuỷu tay
+nail	W08	15	n	móng tay
+ankle	W08	15	n	mắt cá chân
+heel	W08	15	n	gót chân
+chest	W08	15	n	ngực
+hip	W08	15	n	hông
+waist	W08	15	n	eo
+chin	W08	15	n/v	cằm
+cheek	W08	15	n	má
+forehead	W08	15	n	trán
+eyebrow	W08	15	n	lông mày
+eyelash	W08	15	n	lông mi
+beard	W08	15	n	râu
+mustache	W08	15	n	ria mép
+lung	W08	15	n	phổi
+wavy	W08	16	adj	gợn sóng
+freckles	W08	16	n	tàn nhang
+wrinkle	W08	16	n/v	nếp nhăn
+wrinkled	W08	16	adj	nhăn nheo
+elegant	W08	16	adj	thanh lịch
+plain	W08	16	adj/n/adv	đơn giản; trơn
+impatient	W08	16	adj	thiếu kiên nhẫn
+sensible	W08	16	adj	biết điều, hợp lý
+sensitive	W08	16	adj	nhạy cảm
+wise	W08	16	adj	khôn ngoan
+jealous	W09	16	adj	ghen tị
+embarrassed	W09	16	adj	ngượng ngùng
+frightened	W09	17	adj	hoảng sợ
+sandals	W09	17	n	dép quai hậu, xăng-đan
+slippers	W09	17	n	dép đi trong nhà
+pajamas	W09	17	n	đồ ngủ
+uniform	W09	17	n/adj	đồng phục
+raincoat	W09	17	n	áo mưa
+swimsuit	W09	17	n	đồ bơi
+underwear	W09	17	n	đồ lót
+vest	W09	17	n	áo gi-lê, áo ba lỗ
+hoodie	W09	17	n	áo hoodie
+cardigan	W09	17	n	áo len cài khuy
+jumper	W09	17	n	áo len (Anh)
+button	W09	17	n/v	cúc áo; nút bấm
+pocket	W09	17	n	túi áo, túi quần
+zip	W09	17	n/v	khoá kéo (Anh)
+zipper	W09	17	n	khoá kéo
+collar	W09	17	n/v	cổ áo
+sleeve	W09	17	n	tay áo
+wallet	W09	17	n	ví
+purse	W09	17	n	ví nữ
+handbag	W09	17	n	túi xách tay
+backpack	W09	17	n	ba lô
+jewelry	W09	17	n	đồ trang sức
+ring	W09	17	n/v	nhẫn; reo, gọi
+necklace	W09	17	n	vòng cổ
+earring	W09	17	n	khuyên tai
+bracelet	W09	17	n	vòng tay
+sunglasses	W09	17	n	kính râm
+cotton	W09	17	n	vải cotton
+wool	W09	17	n	len
+leather	W09	17	n	da thuộc
+silk	W09	17	n	lụa
+fashion	W09	17	n/v	thời trang
+style	W09	17	n/v	phong cách
+undress	W09	17	v	cởi quần áo
+hall	W09	17	n	sảnh; hội trường
+hallway	W09	17	n	hành lang
+corridor	W09	17	n	hành lang
+lounge	W09	17	n	phòng khách, sảnh chờ
+cellar	W09	17	n	hầm chứa
+basement	W09	17	n	tầng hầm
+attic	W09	18	n	gác mái
+balcony	W09	18	n	ban công
+ceiling	W09	18	n	trần nhà
+chimney	W09	18	n	ống khói
+fence	W09	18	n	hàng rào
+lawn	W09	18	n	bãi cỏ
+lift	W09	18	v/n	nâng
+elevator	W09	18	n	thang máy
+steps	W09	18	n	bậc thềm
+entrance	W09	18	n/v	lối vào
+cottage	W09	18	n	nhà tranh
+villa	W09	18	n	biệt thự
+palace	W09	18	n	cung điện
+castle	W09	18	n/v	lâu đài
+tent	W09	18	n	lều
+hut	W09	18	n	túp lều
+neighborhood	W09	18	n	khu phố
+landlord	W09	18	n	chủ nhà
+rent	W09	18	n/v	tiền thuê nhà; thuê
+lock	W09	18	n/v	khoá
+unlock	W09	18	v	mở khoá
+doorbell	W09	18	n	chuông cửa
+porch	W09	18	n	hiên nhà
+terrace	W09	18	n	sân hiên
+studio	W09	18	n	căn hộ một phòng; xưởng
+armchair	W09	18	n	ghế bành
+couch	W09	18	n	ghế dài
+bookcase	W09	18	n	tủ sách
+bookshelf	W09	18	n	giá sách
+drawer	W09	18	n	ngăn kéo
+wardrobe	W09	18	n	tủ quần áo
+closet	W09	18	n	tủ âm tường
+cabinet	W09	18	n	tủ, tủ bếp
+carpet	W09	18	n	thảm trải sàn
+rug	W09	18	n	tấm thảm nhỏ
+curtain	W09	18	n	rèm cửa
+curtains	W09	18	n	rèm cửa
+blind	W09	18	n/adj	mành cửa; mù
+pillow	W09	18	n	gối
+cushion	W09	18	n/v	gối tựa, nệm
+blanket	W09	18	n	chăn
+sheet	W09	18	n/v	tờ giấy; tấm ga
+duvet	W09	18	n	chăn lông
+mattress	W09	18	n	nệm
+stool	W09	18	n	ghế đẩu
+bench	W09	18	n	ghế băng
+bunk	W09	18	n	giường tầng
+crib	W09	18	n	nôi, cũi trẻ em
+cot	W09	18	n	cũi trẻ em (Anh)
+fridge	W09	18	n/v	tủ lạnh
+refrigerator	W09	18	n	tủ lạnh
+freezer	W09	18	n	tủ đông
+cooker	W09	18	n	bếp nấu (Anh)
+stove	W09	18	n	bếp lò
+oven	W09	18	n	lò nướng
+microwave	W09	18	n/v	lò vi sóng
+dishwasher	W09	18	n	máy rửa bát
+sink	W09	18	v/n	bồn rửa; chìm
+tap	W10	18	v/n	vòi nước
+faucet	W10	18	n	vòi nước (Mỹ)
+washbasin	W10	18	n	bồn rửa mặt
+heater	W10	18	n	máy sưởi
+fan	W10	18	n/v	quạt; người hâm mộ
+radiator	W10	18	n	lò sưởi
+fireplace	W10	18	n	lò sưởi
+vase	W10	18	n	lọ hoa
+poster	W10	18	n	áp phích
+frame	W10	19	n/v	khung
+alarm	W10	19	n/v	báo thức; chuông báo
+socket	W10	19	n	ổ cắm
+plug	W10	19	n/v	phích cắm
+switch	W10	19	n/v	công tắc
+bulb	W10	19	n	bóng đèn
+candle	W10	19	n	cây nến
+furniture	W10	19	n	đồ nội thất
+mug	W10	19	n/v	cái cốc
+saucer	W10	19	n	đĩa lót tách
+dish	W10	19	n/v	đĩa; món ăn
+dishes	W10	19	n	bát đĩa
+tray	W10	19	n	khay
+jug	W10	19	n	bình rót
+pot	W10	19	n/v	nồi
+pan	W10	19	n/v/adj	cái chảo
+lid	W10	19	n	nắp
+jar	W10	19	n	lọ, hũ
+tin	W10	19	n	hộp thiếc; thiếc
+kettle	W10	19	n	ấm đun nước
+teapot	W10	19	n	ấm trà
+chopsticks	W10	19	n	đũa
+napkin	W10	19	n	khăn ăn
+tissue	W10	19	n	khăn giấy
+sponge	W10	19	n	miếng bọt biển
+bucket	W10	19	n	cái xô
+mop	W10	19	n/v	cây lau nhà; lau
+broom	W10	19	n	cái chổi
+vacuum	W10	19	v/n	hút bụi
+rubbish	W10	19	n/v/adj/interj	rác
+dustbin	W10	19	n	thùng rác (Anh)
+scissors	W10	19	n	cái kéo
+glue	W10	19	n/v	keo dán
+tape	W10	19	n/v	băng dính
+string	W10	19	n	sợi dây
+rope	W10	19	n	dây thừng
+needle	W10	19	n	cây kim
+thread	W10	19	n	sợi chỉ
+pin	W10	19	n/v	ghim; mã PIN
+battery	W10	19	n/adj	pin
+torch	W10	19	n	đèn pin (Anh)
+flashlight	W10	19	n	đèn pin
+matches	W10	19	n	diêm
+lighter	W10	19	n	bật lửa
+shampoo	W10	19	n/v	dầu gội
+conditioner	W10	19	n	dầu xả
+razor	W10	19	n/v	dao cạo
+hairbrush	W10	19	n	lược chải tóc
+hairdryer	W10	19	n	máy sấy tóc
+perfume	W10	19	n	nước hoa
+deodorant	W10	19	n	lăn khử mùi
+makeup	W10	19	n	đồ trang điểm
+lipstick	W10	19	n	son môi
+diary	W10	19	n	nhật ký
+calendar	W10	19	n	lịch
+notebook	W10	19	n	quyển vở
+envelope	W10	19	n	phong bì
+stamp	W10	19	n/v	tem
+parcel	W10	19	n	bưu kiện
+sweep	W10	19	v/n	quét
+dust	W10	19	n/v	bụi; lau bụi
+iron	W10	19	n/v/adj	sắt; bàn là
+polish	W10	20	v/n/adj	đánh bóng
+wipe	W10	20	v	lau
+scrub	W10	20	v	cọ rửa
+rinse	W10	20	v	tráng, xả nước
+hang	W10	20	v/n	treo
+fold	W10	20	v	gấp
+pack	W10	20	v/n	đóng gói
+unpack	W10	20	v	dỡ đồ
+chore	W10	20	n	việc nhà
+laundry	W10	20	n	đồ giặt
+washing	W10	20	n	đồ giặt; việc giặt
+supper	W10	20	n	bữa tối nhẹ
+nap	W10	20	n/v	giấc ngủ ngắn
+shave	W10	20	v/n	cạo râu
+bathe	W10	20	v/n	tắm
+relax	W10	20	v	thư giãn
+hurry	W10	20	v/n	vội vàng
+rush	W10	20	v/n	vội vàng
+lamb	W10	20	n	thịt cừu non
+ham	W10	20	n	giăm bông
+bacon	W10	20	n	thịt xông khói
+sausage	W10	20	n	xúc xích
+steak	W10	20	n	bít tết
+turkey	W10	20	n	gà tây
+seafood	W10	20	n	hải sản
+shrimp	W10	20	n	tôm
+prawn	W10	20	n	tôm (Anh)
+crab	W10	20	n	con cua
+lobster	W10	20	n	tôm hùm
+tuna	W10	20	n	cá ngừ
+salmon	W10	20	n	cá hồi
+yogurt	W10	20	n	sữa chua
+flour	W10	20	n	bột mì
+oil	W10	20	n/v	dầu
+pepper	W10	20	n	hạt tiêu; ớt chuông
+sauce	W10	20	n	nước sốt
+ketchup	W10	20	n	tương cà
+mayonnaise	W10	20	n	sốt mayonnaise
+mustard	W10	20	n	mù tạt
+honey	W10	20	n	mật ong
+jam	W10	20	n/v	mứt
+cereal	W10	20	n	ngũ cốc
+toast	W10	20	n/v	bánh mì nướng
+roll	W10	20	v/n	bánh mì tròn nhỏ; cuộn, lăn
+pie	W10	20	n/v	bánh nướng
+tart	W10	20	n	bánh tart
+dessert	W10	20	n	món tráng miệng
+pudding	W10	20	n	bánh pudding
+popcorn	W10	20	n	bỏng ngô
+chips	W10	20	n	khoai tây chiên
+crisps	W10	20	n	khoai tây lát (Anh)
+fries	W10	20	n	khoai tây chiên
+nut	W10	20	n/v	hạt
+nuts	W10	20	n	các loại hạt
+peanut	W10	20	n	lạc
+almond	W10	20	n	hạnh nhân
+coconut	W11	20	n	quả dừa
+lime	W11	20	n/v	chanh xanh
+plum	W11	20	n	quả mận
+melon	W11	20	n	dưa
+kiwi	W11	20	n	quả kiwi
+berry	W11	20	n/adj	quả mọng
+raspberry	W11	20	n	quả mâm xôi
+blueberry	W11	20	n	quả việt quất
+avocado	W11	20	n	quả bơ
+cabbage	W11	20	n	bắp cải
+lettuce	W11	20	n	rau xà lách
+cucumber	W11	20	n	dưa chuột
+garlic	W11	20	n	tỏi
+mushroom	W11	21	n/adj/v	nấm
+pumpkin	W11	21	n	bí ngô
+spinach	W11	21	n	rau chân vịt
+broccoli	W11	21	n	bông cải xanh
+cauliflower	W11	21	n	súp lơ trắng
+celery	W11	21	n	cần tây
+olive	W11	21	n	quả ô liu
+herb	W11	21	n	thảo mộc
+spice	W11	21	n/v	gia vị
+curry	W11	21	n	món cà ri
+dumpling	W11	21	n	bánh bao, sủi cảo
+tofu	W11	21	n	đậu phụ
+omelet	W11	21	n	trứng tráng
+pancake	W11	21	n	bánh kếp
+waffle	W11	21	n	bánh quế
+muffin	W11	21	n	bánh muffin
+cupcake	W11	21	n	bánh cupcake
+donut	W11	21	n	bánh vòng
+sweet	W11	21	adj/n/interj	ngọt
+sour	W11	21	adj	chua
+salty	W11	21	adj	mặn
+spicy	W11	21	adj	cay
+bitter	W11	21	adj/n	đắng
+fresh	W11	21	adj	tươi
+tasty	W11	21	adj	ngon
+taste	W11	21	n/v	vị
+flavor	W11	21	n	hương vị
+recipe	W11	21	n	công thức nấu ăn
+slice	W11	21	n/v	lát, miếng
+loaf	W11	21	n	ổ bánh mì
+beer	W11	21	n	bia
+wine	W11	21	n	rượu vang
+mineral	W11	21	n/adj	khoáng chất
+smoothie	W11	21	n	sinh tố
+milkshake	W11	21	n	sữa lắc
+cocoa	W11	21	n	ca cao
+straw	W11	21	n	ống hút
+sip	W11	21	v/n	nhấp, uống từng ngụm
+pour	W11	21	v	rót
+bake	W11	21	v/n	nướng (lò)
+boil	W11	21	v	luộc, đun sôi
+fry	W11	21	v	rán, chiên
+grill	W11	21	v/n	nướng vỉ
+roast	W11	21	v/n/adj	quay, nướng
+mix	W11	21	v/n	trộn
+stir	W11	21	v	khuấy
+chop	W11	21	v	thái, chặt
+peel	W11	21	v/n	gọt vỏ
+add	W11	21	v/n	thêm
+heat	W11	21	n/v	nhiệt
+melt	W11	21	v/n	tan chảy
+burn	W11	21	v/n	cháy; đốt
+smell	W11	21	v/n	ngửi; mùi
+serve	W11	21	v/n	phục vụ
+share	W11	21	v/n	chia sẻ
+waitress	W11	21	n	nữ bồi bàn
+course	W11	21	n/v	khóa học; (of course) tất nhiên
+tip	W11	21	v/n	tiền boa; mẹo
+check	W11	21	v/n/interj	kiểm tra
+receipt	W11	21	n	hoá đơn
+reservation	W11	21	n	sự đặt chỗ
+booking	W11	21	n	sự đặt chỗ
+canteen	W11	21	n	căng tin
+cafeteria	W11	21	n	nhà ăn tự phục vụ
+takeaway	W11	21	n/adj	đồ ăn mang đi
+barbecue	W11	21	n/v	tiệc nướng ngoài trời
+feast	W11	21	n/v	bữa tiệc lớn
+dining	W11	21	n	việc ăn uống
+diner	W11	21	n	quán ăn bình dân
+century	W11	22	n	thế kỷ
+decade	W11	22	n	thập kỷ
+dawn	W11	22	n/v	bình minh
+sunrise	W11	22	n	bình minh
+dusk	W11	22	n	chạng vạng
+lately	W11	22	adv	gần đây
+recently	W11	22	adv	gần đây
+eventually	W11	22	adv	cuối cùng
+meanwhile	W11	22	adv	trong khi đó
+during	W11	22	prep	trong suốt
+fortnight	W11	22	n	hai tuần
+timeless	W11	22	adj	vượt thời gian
+storm	W11	22	n/v	cơn bão
+stormy	W11	22	adj	có bão
+icy	W11	22	adj	đóng băng, lạnh giá
+fog	W11	22	n	sương mù
+foggy	W11	22	adj	có sương mù
+thunder	W11	22	n/v	sấm
+lightning	W11	22	n	tia chớp
+rainbow	W11	22	n	cầu vồng
+degree	W11	22	n	bằng cấp
+forecast	W11	22	n/v	dự báo
+freezing	W11	22	adj	lạnh cóng
+frost	W11	22	n	sương giá
+hail	W11	22	n/v	mưa đá
+breeze	W11	22	n	gió nhẹ
+mist	W11	22	n	sương mỏng
+misty	W11	22	adj	mờ sương
+humid	W11	22	adj	ẩm ướt, nồm
+rainfall	W11	22	n	lượng mưa
+snowfall	W11	22	n	lượng tuyết rơi
+snowman	W11	22	n	người tuyết
+climate	W11	22	n/adj	khí hậu
+dull	W11	22	adj	âm u, buồn tẻ
+mild	W12	22	adj/n	nhẹ, ôn hòa
+chilly	W12	22	adj	se lạnh
+boiling	W12	22	adj	nóng như thiêu
+coast	W12	22	n/v	bờ biển
+shore	W12	22	n	bờ
+cliff	W12	22	n	vách đá
+valley	W12	22	n	thung lũng
+desert	W12	22	n/v	sa mạc
+jungle	W12	22	n	rừng rậm
+woods	W12	22	n	khu rừng nhỏ
+stream	W12	22	n/v	dòng suối
+waterfall	W12	22	n	thác nước
+pond	W12	22	n	ao
+cave	W12	23	n/v	hang động
+volcano	W12	23	n	núi lửa
+land	W12	23	n/v	đất liền
+ground	W12	23	n/v/adj	mặt đất
+soil	W12	23	n/v	đất
+mud	W12	23	n	bùn
+path	W12	23	n	con đường nhỏ
+nature	W12	23	n	thiên nhiên
+natural	W12	23	adj/n/adv	tự nhiên
+countryside	W12	23	n	nông thôn
+north	W12	23	n/adj/adv	phía bắc
+south	W12	23	n/adj/adv	phía nam
+east	W12	23	n/adj/adv	phía đông
+west	W12	23	n/adj/adv	phía tây
+planet	W12	23	n	hành tinh
+puppy	W12	23	n	chó con
+kitten	W12	23	n	mèo con
+goat	W12	23	n	con dê
+donkey	W12	23	n	con lừa
+camel	W12	23	n	con lạc đà
+deer	W12	23	n	con hươu
+wolf	W12	23	n	chó sói
+fox	W12	23	n	con cáo
+squirrel	W12	23	n	con sóc
+rat	W12	23	n	con chuột cống
+bat	W12	23	n/v	con dơi; cây gậy
+hen	W12	23	n	gà mái
+goose	W12	23	n	con ngỗng
+geese	W12	23	n	những con ngỗng
+parrot	W12	23	n/v	con vẹt
+eagle	W12	23	n	đại bàng
+pigeon	W12	23	n	chim bồ câu
+swan	W12	23	n	thiên nga
+crow	W12	23	n	con quạ
+tortoise	W12	23	n	con rùa cạn
+turtle	W12	23	n	con rùa
+lizard	W12	23	n	con thằn lằn
+dinosaur	W12	23	n	khủng long
+octopus	W12	23	n	bạch tuộc
+shell	W12	23	n/v/adj	vỏ sò, vỏ
+mosquito	W12	23	n	con muỗi
+cockroach	W12	23	n	con gián
+worm	W12	23	n	con giun
+snail	W12	23	n	con ốc sên
+ladybird	W12	23	n	con bọ rùa (Anh)
+ladybug	W12	23	n	con bọ rùa
+beetle	W12	23	n	con bọ cánh cứng
+wing	W12	23	n	cánh
+tail	W12	23	n	đuôi
+fur	W12	23	n/v	bộ lông
+feather	W12	23	n	lông vũ
+beak	W12	23	n	mỏ chim
+claw	W12	23	n	móng vuốt
+paw	W12	23	n	bàn chân thú
+horn	W12	23	n	sừng; còi xe
+nest	W12	23	n	tổ chim
+cage	W12	23	n	lồng
+tame	W12	23	adj	thuần, đã thuần hoá
+bark	W12	23	v/n	sủa; vỏ cây
+bite	W12	23	v/n	cắn
+hunt	W12	23	v/n	săn
+sting	W12	23	v/n	đốt, chích
+chick	W12	23	n	gà con
+calf	W12	23	n	con bê; bắp chân
+bull	W12	23	n	bò đực
+ox	W12	23	n	con bò đực kéo
+pony	W12	23	n	ngựa con
+gorilla	W12	23	n	khỉ đột
+koala	W12	23	n	gấu túi
+polar	W12	24	adj/n	thuộc vùng cực
+seal	W12	24	n	hải cẩu
+bush	W12	24	n	bụi cây
+branch	W12	24	n/v	chi nhánh; cành cây
+root	W12	24	n/v	rễ
+trunk	W12	24	n	thân cây; vòi voi
+crop	W12	24	n/v	cây trồng
+wheat	W12	24	n	lúa mì
+sunflower	W12	24	n	hoa hướng dương
+tulip	W12	24	n	hoa tulip
+lily	W12	24	n	hoa loa kèn
+daisy	W12	24	n	hoa cúc dại
+palm	W12	24	n/v	cây cọ; lòng bàn tay
+pine	W12	24	n	cây thông
+oak	W12	24	n	cây sồi
+bamboo	W12	24	n	cây tre
+cactus	W12	24	n	cây xương rồng
+weed	W12	24	n/v	cỏ dại
+pick	W12	24	v/n	chọn
+petal	W12	24	n	cánh hoa
+stem	W12	24	n/v	thân cây nhỏ, cuống
+bloom	W12	24	v/n	nở hoa
+pollution	W12	24	n	ô nhiễm
+litter	W12	24	n/v	rác vứt bừa
+recycle	W12	24	v	tái chế
+waste	W12	24	n/v/adj	lãng phí
+power	W12	24	n/v/adj	sức mạnh, điện
+solar	W12	24	adj	thuộc mặt trời
+rocket	W12	24	n/v	tăng vùn vụt
+astronaut	W12	24	n	phi hành gia (người được đào tạo để du hành và làm việc trong không gian)
+scientist	W12	24	n	nhà khoa học
+laboratory	W12	24	n	phòng thí nghiệm
+satellite	W13	24	n	vệ tinh (vật thể tự nhiên hoặc nhân tạo quay quanh thiên thể)
+telescope	W13	24	n/v	kính thiên văn (dụng cụ quan sát các thiên thể ở xa)
+microscope	W13	24	n	kính hiển vi
+crossroads	W13	24	n	ngã tư
+crossing	W13	24	n	chỗ qua đường
+avenue	W13	24	n	đại lộ
+lane	W13	24	n	làn đường
+sidewalk	W13	25	n	vỉa hè
+pavement	W13	25	n	vỉa hè (Anh)
+post	W13	25	n/v	đăng bài; bưu điện
+stadium	W13	25	n	sân vận động
+pool	W13	25	n/v	hồ bơi
+tower	W13	25	n/v	tòa tháp
+temple	W13	25	n	ngôi đền
+mosque	W13	25	n	nhà thờ Hồi giáo
+cathedral	W13	25	n	nhà thờ lớn
+monument	W13	25	n	đài tưởng niệm
+statue	W13	25	n	bức tượng
+fountain	W13	25	n	đài phun nước
+playground	W13	25	n	sân chơi
+factory	W13	25	n	nhà máy
+port	W13	25	n/v	cảng
+harbor	W13	25	n	bến cảng
+prison	W13	25	n	nhà tù
+university	W13	25	n	đại học
+college	W13	25	n	cao đẳng
+bakery	W13	25	n	tiệm bánh
+butcher	W13	25	n	người bán thịt
+kiosk	W13	25	n	ki-ốt
+suburb	W13	25	n	vùng ngoại ô
+capital	W13	25	n/adj	vốn
+van	W13	25	n	xe tải nhỏ
+lorry	W13	25	n	xe tải (Anh)
+scooter	W13	25	n	xe tay ga
+motorcycle	W13	25	n	xe mô tô
+helicopter	W13	25	n	máy bay trực thăng
+ferry	W13	25	n	phà
+yacht	W13	25	n	du thuyền
+canoe	W13	25	n	xuồng
+sail	W13	25	v/n	đi thuyền buồm; cánh buồm
+sailing	W13	25	n	môn đua thuyền buồm
+passenger	W13	25	n	hành khách
+pilot	W13	25	n/adj/v	phi công
+crew	W13	25	n	phi hành đoàn, thuỷ thủ đoàn
+highway	W13	25	n	đường cao tốc
+motorway	W13	25	n	đường cao tốc (Anh)
+petrol	W13	25	n	xăng (Anh)
+fuel	W13	25	n/v	nhiên liệu
+engine	W13	26	n	động cơ
+wheel	W13	26	n	bánh xe
+tire	W13	26	v/n	lốp xe
+brake	W13	26	n/v	phanh
+sightseeing	W13	26	n	tham quan
+receptionist	W13	26	n	lễ tân
+guesthouse	W13	26	n	nhà khách
+reserve	W13	26	v/n	kín đáo
+souvenir	W13	26	n	quà lưu niệm
+sunbathe	W13	26	v	tắm nắng
+sunbathing	W13	26	n	việc tắm nắng
+heritage	W13	26	n/adj	di sản
+cashier	W13	26	n	thu ngân
+bargain	W13	26	n/v/adj	món hời
+trolley	W13	26	n	xe đẩy (Anh)
+aisle	W13	26	n	lối đi giữa các dãy
+counter	W13	26	n/v/adv	quầy
+wage	W14	27	n/v	tiền lương
+cheque	W14	27	n	séc (Anh)
+sharpener	W14	27	n	gọt bút chì
+crayon	W14	27	n	bút sáp màu
+headteacher	W14	27	n	hiệu trưởng
+diploma	W14	27	n	bằng tốt nghiệp
+kindergarten	W14	28	n	mẫu giáo
+nursery	W14	28	n/adj	nhà trẻ
+profession	W14	28	n	nghề nghiệp
+carpenter	W14	28	n	thợ mộc
+painter	W14	28	n	thợ sơn, hoạ sĩ
+cleaner	W14	28	n	người dọn dẹp
+hairdresser	W14	28	n	thợ làm tóc
+barber	W14	28	n	thợ cắt tóc nam
+vet	W14	28	n/v	bác sĩ thú y
+firefighter	W14	28	n	lính cứu hoả
+businesswoman	W14	28	n	nữ doanh nhân
+stapler	W14	28	n	cái dập ghim
+gadget	W15	29	n	đồ công nghệ nhỏ
+episode	W15	29	n	tập phim
+presenter	W15	29	n	người dẫn chương trình
+celebrity	W15	29	n	người nổi tiếng
+broadcast	W15	29	v/n/adj	phát sóng
+rob	W15	30	v/n	cướp
+protest	W15	30	n/v	cuộc biểu tình
+charity	W15	30	n	tổ chức từ thiện
+hockey	W15	30	n	khúc côn cầu
+rugby	W15	30	n	bóng bầu dục
+cricket	W15	30	n	môn cricket; con dế
+boxing	W15	30	n	quyền anh
+cycling	W15	30	n	đạp xe
+skating	W15	30	n	trượt băng
+surfing	W15	30	n	lướt sóng
+yoga	W15	30	n	yoga
+karate	W15	30	n	võ karate
+judo	W15	30	n	võ judo
+gymnastics	W15	30	n	thể dục dụng cụ
+tournament	W15	30	n	giải đấu
+medal	W15	30	n	huy chương
+trainer	W15	30	n	huấn luyện viên
+referee	W15	30	n/v	trọng tài
+pitch	W15	30	n	sân thi đấu
+racket	W15	30	n	vợt
+sewing	W15	31	n	may vá
+knitting	W15	31	n	đan len
+baking	W15	31	n	làm bánh
+leisure	W15	31	n	thời gian rảnh
+spare	W15	31	adj/v/n	dự phòng
+interest	W15	31	n/v	sự quan tâm
+relaxing	W15	31	adj	thư giãn
+exciting	W15	31	adj	hấp dẫn, sôi động
+circus	W16	31	n	rạp xiếc
+amusement	W16	31	n	sự thích thú
+magician	W16	31	n	ảo thuật gia
+flute	W16	31	n	sáo
+trumpet	W16	31	n	kèn trumpet
+saxophone	W16	31	n	kèn saxophone
+orchestra	W16	31	n	dàn nhạc
+choir	W16	31	n	dàn hợp xướng
+folk	W16	31	n/adj	dân gian
+melody	W16	31	n	giai điệu
+rhythm	W16	31	n	nhịp điệu
+sculpture	W16	31	n	điêu khắc / tác phẩm điêu khắc
+exhibition	W16	31	n	triển lãm
+horror	W16	31	n/adj	kinh dị
+romance	W16	31	n/v/adj	chuyện tình lãng mạn
+ceremony	W16	32	n	buổi lễ
+carnival	W16	32	n	lễ hội đường phố
+parade	W16	32	n/v	cuộc diễu hành
+costume	W16	32	n	trang phục hoá trang
+Halloween	W16	32	n	lễ Halloween
+Thanksgiving	W16	32	n	lễ Tạ ơn
+Valentine	W16	32	n	người yêu ngày Valentine
+prayer	W16	32	n	lời cầu nguyện
+holy	W16	33	adj	thiêng liêng
+Christian	W16	33	adj/n	người theo đạo Thiên Chúa
+Buddhist	W16	33	adj/n	Phật tử
+Muslim	W16	33	adj/n	người Hồi giáo
+lantern	W16	33	n	đèn lồng
+nationality	W16	33	n	quốc tịch
+Asia	W16	33	n	châu Á
+Asian	W16	33	adj/n	người châu Á
+Europe	W16	33	n	châu Âu
+European	W16	33	adj/n	người châu Âu
+Africa	W16	33	n	châu Phi
+African	W16	33	adj/n	người châu Phi
+Scotland	W16	33	n	Xcốt-len
+Scottish	W16	33	adj	người Xcốt-len
+Ireland	W16	33	n	Ai-len
+Irish	W16	33	adj/n	người Ai-len
+Wales	W16	33	n	xứ Wales
+Welsh	W16	33	adj/n	người xứ Wales
+Egypt	W16	33	n	Ai Cập
+Egyptian	W16	33	adj/n	người Ai Cập
+Greece	W16	33	n	Hy Lạp
+Greek	W16	33	adj/n	người Hy Lạp, tiếng Hy Lạp
+Turkish	W16	33	adj/n	người Thổ Nhĩ Kỳ
+Portugal	W16	33	n	Bồ Đào Nha
+Portuguese	W16	33	adj/n	tiếng Bồ Đào Nha
+Netherlands	W16	33	n	Hà Lan
+Dutch	W16	33	adj/n	người Hà Lan
+Sweden	W16	33	n	Thuỵ Điển
+Swedish	W16	33	adj/n	người Thuỵ Điển
+Norway	W16	33	n	Na Uy
+Norwegian	W16	33	adj/n	người Na Uy
+Poland	W16	33	n	Ba Lan
+Switzerland	W16	33	n	Thuỵ Sĩ
+Swiss	W16	33	adj/n	người Thuỵ Sĩ
+Argentina	W16	33	n	Ác-hen-ti-na
+Argentinian	W16	33	adj/n	người Ác-hen-ti-na
+Singapore	W16	33	n	Xin-ga-po
+Malaysia	W16	33	n	Ma-lai-xi-a
+Malaysian	W16	33	adj/n	người Ma-lai-xi-a
+Indonesia	W16	33	n	In-đô-nê-xi-a
+Indonesian	W16	33	adj/n	người In-đô-nê-xi-a
+Philippines	W16	33	n	Phi-líp-pin
+Filipino	W16	33	adj/n	người Phi-líp-pin
+Cambodia	W16	33	n	Cam-pu-chia
+Cambodian	W16	33	adj/n	người Cam-pu-chia
+Laos	W16	33	n	Lào
+Lao	W16	33	adj/n	người Lào, tiếng Lào
+Arabic	W16	33	n/adj	tiếng Ả Rập
+Arab	W16	33	n/adj	người Ả Rập
+Israel	W17	33	n	I-xra-en
+Israeli	W17	33	adj/n	người I-xra-en
+Iran	W17	33	n	I-ran
+Iranian	W17	33	adj/n	người I-ran
+Pakistan	W17	33	n	Pa-ki-xtan
+Pakistani	W17	33	adj/n	người Pa-ki-xtan
+Nigeria	W17	33	n	Ni-giê-ri-a
+Nigerian	W17	33	adj/n	người Ni-giê-ri-a
+Kenya	W17	33	n	Kê-ni-a
+Kenyan	W17	33	adj/n	người Kê-ni-a
+Peru	W17	33	n	Pê-ru
+Peruvian	W17	33	adj/n	người Pê-ru
+Chile	W17	33	n	Chi-lê
+Chilean	W17	33	adj/n	người Chi-lê
+Colombia	W17	33	n	Cô-lôm-bi-a
+Colombian	W17	33	adj/n	người Cô-lôm-bi-a
+colorful	W17	33	adj	sặc sỡ
+pale	W17	34	adj	nhợt nhạt, nhạt
+oval	W17	34	adj/n	hình bầu dục
+spot	W17	34	n/v/adj	vết; chỗ
+stripe	W17	34	n	sọc
+striped	W17	34	adj	có sọc
+pattern	W17	34	n/adj/v	họa tiết; mẫu
+smooth	W17	34	adj	mịn, nhẵn
+rough	W17	34	adj/v/n/adv	gồ ghề
+huge	W17	34	adj	khổng lồ
+tiny	W17	34	adj	nhỏ xíu
+giant	W17	34	n/adj	người khổng lồ
+enormous	W17	34	adj	khổng lồ
+ounce	W17	34	n	ao-xơ
+liter	W17	34	n	lít
+gallon	W17	34	n	ga-lông
+whatever	W17	35	pron/det	bất cứ cái gì
+whoever	W17	35	pron	bất cứ ai
+wherever	W17	35	conj/adv	bất cứ đâu
+whenever	W17	35	conj/adv	bất cứ khi nào
+beneath	W17	35	prep/adv	bên dưới
+oops	W18	35	interj	ôi, ối
+ouch	W18	35	interj	ui da
+rescue	W18	36	v/n	cứu
+brilliant	W18	36	adj	xuất sắc
+eastern	W18	36	adj	phía đông
+ordinary	W18	37	adj	bình thường
+realize	W19	39	v	nhận ra
+gesture	W19	39	n/v	cử chỉ
+check-up	W19	39	n	buổi khám tổng quát
+good-looking	W19	39	adj	ưa nhìn
+hard-working	W19	39	adj	chăm chỉ
+easy-going	W19	39	adj	dễ tính
+take-off	W19	39	n	lúc cất cánh
+check-in	W19	39	n	làm thủ tục nhận phòng
+check-out	W19	39	n	trả phòng
+half-price	W19	39	adj/adv	nửa giá
+kick-off	W19	39	n	giờ giao bóng
+half-time	W19	39	n	giờ nghỉ giữa hiệp
+hip-hop	W19	39	n	nhạc hip-hop
+non-fiction	W19	39	n	sách phi hư cấu
+divorce	W20	39	n/v	ly hôn
+divorced	W20	39	adj	đã ly hôn
+engaged	W20	39	adj	đã đính hôn
+engagement	W20	40	n	lễ đính hôn
+funeral	W20	40	n	đám tang
+retirement	W20	40	n	sự nghỉ hưu
+pregnant	W20	40	adj	mang thai
+bride	W20	40	n	cô dâu
+groom	W20	40	n	chú rể
+elderly	W20	40	adj/n	cao tuổi
+teenage	W20	40	adj	tuổi thiếu niên
+youth	W20	40	n/adj	tuổi trẻ
+flatmate	W20	40	n	bạn cùng căn hộ
+hostess	W20	40	n	nữ chủ nhà
+introduction	W20	40	n	phần giới thiệu
+adopt	W20	40	v	nhận con nuôi
+honeymoon	W20	40	n	tuần trăng mật
+jaw	W20	40	n	hàm
+fist	W20	40	n	nắm đấm
+spine	W20	40	n	cột sống
+rib	W20	40	n	xương sườn
+skull	W20	40	n	hộp sọ
+liver	W20	40	n	gan
+kidney	W20	40	n	thận
+organ	W20	40	n	cơ quan
+nerve	W20	40	n	dây thần kinh
+vein	W20	40	n	tĩnh mạch
+bladder	W20	40	n	bàng quang
+skeleton	W20	40	n/adj	bộ xương
+limb	W20	40	n	chi
+wink	W20	40	v/n	nháy mắt
+blink	W20	40	v/n	chớp mắt
+frown	W20	40	v/n	cau mày
+yawn	W20	40	v/n	ngáp
+sneeze	W20	40	v/n	hắt hơi
+swallow	W20	40	v	nuốt
+chew	W20	40	v	nhai
+lick	W20	40	v	liếm
+scratch	W20	40	v/n/adj	gãi
+sniff	W20	40	v/n	hít ngửi
+stare	W20	40	v/n	nhìn chằm chằm
+glance	W20	40	v/n	liếc nhìn
+symptom	W20	40	n	triệu chứng
+infection	W20	40	n	sự nhiễm trùng
+allergy	W20	40	n	dị ứng
+allergic	W20	40	adj	bị dị ứng
+asthma	W20	40	n	bệnh hen suyễn
+cancer	W20	40	n	ung thư
+diabetes	W20	40	n	bệnh tiểu đường
+stroke	W20	40	n/v	nét; đột quỵ
+wound	W20	40	n/v	vết thương
+bruise	W20	40	n/v	vết bầm
+scar	W20	40	n	vết sẹo
+rash	W20	40	n	phát ban
+swollen	W20	40	adj	sưng
+dizzy	W20	40	adj	chóng mặt
+vomit	W20	40	v/n	nôn
+prescription	W20	40	n/adj	đơn thuốc
+surgeon	W20	40	n	bác sĩ phẫu thuật
+surgery	W20	40	n	phẫu thuật
+specialist	W20	40	n/adj	chuyên gia
+therapy	W20	40	n	trị liệu
+therapist	W20	40	n	chuyên viên trị liệu
+vaccine	W20	40	n	vắc-xin (chất kích thích hệ miễn dịch tạo bảo vệ chống bệnh)
+injection	W20	41	n	mũi tiêm
+ward	W20	41	n	khu bệnh
+stretcher	W20	41	n	cáng
+crutches	W20	41	n	nạng
+wheelchair	W20	41	n	xe lăn
+disabled	W20	41	adj/n	khuyết tật
+disability	W20	41	n	tình trạng khuyết tật
+deaf	W20	41	adj	điếc
+cure	W20	41	v/n	thuốc chữa; chữa khỏi
+heal	W20	41	v	lành lại
+infect	W20	41	v	lây nhiễm
+painful	W20	41	adj	đau đớn
+painkiller	W20	41	n	thuốc giảm đau
+antibiotic	W20	41	n/adj	thuốc kháng sinh
+vitamin	W20	41	n	vi-ta-min
+nutrition	W20	41	n	dinh dưỡng
+obese	W20	41	adj	béo phì
+underweight	W20	41	adj	thiếu cân
+addicted	W20	41	adj	bị nghiện
+addiction	W20	41	n	sự nghiện
+cigarette	W20	41	n	điếu thuốc lá
+alcohol	W20	41	n	cồn
+drunk	W20	41	adj	say rượu
+sickness	W20	41	n	tình trạng ốm
+poison	W20	41	n/v	chất độc
+poisonous	W20	41	adj	có độc
+pregnancy	W20	41	n	thai kỳ
+muscular	W20	41	adj	vạm vỡ
+tanned	W20	41	adj	rám nắng
+gorgeous	W20	41	adj	rất đẹp
+stylish	W20	41	adj	sành điệu
+fashionable	W20	41	adj	hợp thời trang
+scruffy	W20	41	adj	luộm thuộm
+ponytail	W20	41	n	tóc đuôi ngựa
+fringe	W20	41	n/v	vùng rìa
+bangs	W20	41	n	tóc mái
+complexion	W20	41	n	nước da
+figure	W20	41	n/v	con số, số liệu
+resemble	W20	41	v	trông giống
+tattoo	W20	41	n	hình xăm
+slender	W20	41	adj	thon thả
+ambitious	W20	41	adj	tham vọng
+arrogant	W20	41	adj	kiêu ngạo
+bossy	W20	41	adj/n	hách dịch
+cautious	W20	41	adj	thận trọng
+charming	W20	41	adj	duyên dáng
+competitive	W20	41	adj	cạnh tranh
+considerate	W20	41	adj	chu đáo
+curious	W20	41	adj	tò mò
+determined	W20	41	adj	quyết tâm
+energetic	W20	41	adj	năng động
+enthusiastic	W20	42	adj	nhiệt tình
+flexible	W20	42	adj	linh hoạt
+foolish	W20	42	adj	ngốc nghếch
+grumpy	W20	42	adj	cáu kỉnh
+loyal	W20	42	adj	trung thành
+mature	W20	42	adj/v	chín chắn
+immature	W20	42	adj	thiếu chín chắn
+moody	W20	42	adj	tính khí thất thường
+optimistic	W20	42	adj	lạc quan
+pessimistic	W20	42	adj	bi quan
+outgoing	W20	42	adj	hướng ngoại
+reliable	W20	42	adj	đáng tin cậy
+unreliable	W20	42	adj	không đáng tin
+irresponsible	W20	42	adj	vô trách nhiệm
+sociable	W20	42	adj	hòa đồng
+stubborn	W21	42	adj	bướng bỉnh
+sympathetic	W21	42	adj	thông cảm
+thoughtful	W21	42	adj	chu đáo
+tolerant	W21	42	adj	khoan dung
+trustworthy	W21	42	adj	đáng tin cậy
+aggressive	W21	42	adj	hung hăng
+cruel	W21	42	adj	độc ác
+greedy	W21	42	adj	tham lam
+humble	W21	42	adj/v	khiêm tốn
+sincere	W21	42	adj	chân thành
+punctual	W21	42	adj	đúng giờ
+manners	W21	42	n	phép lịch sự
+temper	W21	42	n	tính khí
+ashamed	W21	42	adj	xấu hổ
+confusion	W21	42	n	sự nhầm lẫn
+delighted	W21	42	adj	rất vui mừng
+disgusted	W21	42	adj	ghê tởm
+emotion	W21	42	n	cảm xúc
+emotional	W21	42	adj	xúc động
+envy	W21	42	n/v	ghen tị
+fond	W21	42	adj/n	yêu mến
+frustrated	W21	42	adj	bực bội
+frustration	W21	42	n	sự bực bội
+furious	W21	42	adj	giận dữ
+grateful	W21	42	adj	biết ơn
+guilt	W21	42	n	cảm giác tội lỗi
+horrified	W21	42	adj	kinh hoàng
+impressed	W21	42	adj	ấn tượng
+irritated	W21	42	adj	khó chịu
+joy	W21	42	n	niềm vui
+miserable	W21	43	adj	khổ sở
+panic	W21	43	n/v	hoảng loạn
+regret	W21	43	v/n	hối tiếc
+relief	W21	43	n	sự nhẹ nhõm
+relieved	W21	43	adj	nhẹ nhõm
+satisfaction	W21	43	n	sự hài lòng
+sympathy	W21	43	n	sự cảm thông
+terrified	W21	43	adj	khiếp sợ
+thankful	W21	43	adj	biết ơn
+thrilled	W21	43	adj	vô cùng phấn khích
+annoyed	W21	43	adj	bực mình
+annoying	W21	43	adj	gây khó chịu
+amused	W21	43	adj	thích thú
+eager	W21	43	adj	háo hức
+homesick	W21	43	adj	nhớ nhà
+hopeful	W21	43	adj/n	đầy hy vọng
+hopeless	W21	43	adj	tuyệt vọng
+sorrow	W21	43	n	nỗi buồn sâu sắc
+pity	W21	43	n/v	lòng thương cảm
+cheer	W21	43	v/n	cổ vũ
+admire	W21	43	v	ngưỡng mộ
+adore	W21	43	v	yêu quý
+appreciate	W21	43	v	trân trọng
+bother	W21	43	v/n/interj	làm phiền
+concern	W21	43	v/n	mối lo ngại
+concerned	W21	43	adj	lo lắng
+tense	W21	43	n/adj/v	căng thẳng
+keen	W21	43	adj/v	hăng hái, say mê
+desperate	W21	43	adj	rất cần
+outfit	W21	43	n	bộ trang phục
+tights	W21	43	n	quần tất
+stockings	W21	43	n	tất dài
+heels	W21	43	n	giày cao gót
+overcoat	W21	43	n	áo khoác dài
+waistcoat	W21	43	n	áo gi lê
+apron	W21	43	n	tạp dề
+hood	W21	43	n	mũ áo
+lace	W21	43	n	ren
+casual	W21	43	adj/n	thoải mái
+loose	W21	43	adj/v	rộng
+tight	W21	43	adj	chật
+baggy	W21	43	adj	rộng thùng thình
+trendy	W21	43	adj/n	hợp thời trang
+spotted	W21	43	adj	có chấm
+checked	W21	43	adj	kẻ ô
+sleeveless	W21	43	adj	không tay
+denim	W21	43	n	vải bò
+nylon	W21	43	n	ni lông
+fabric	W21	43	n	vải
+material	W21	43	n/adj	chất liệu
+linen	W21	43	n	vải lanh
+velvet	W21	43	n	vải nhung
+hanger	W21	43	n	móc áo
+unzip	W21	43	v	mở khóa kéo
+untie	W21	43	v	cởi nút
+buckle	W21	43	n/v	khóa thắt lưng
+accessory	W21	43	n	phụ kiện
+accommodation	W21	43	n	chỗ ở
+residence	W21	44	n	nơi cư trú
+resident	W21	44	n/adj	cư dân
+tenant	W21	44	n	người thuê nhà
+property	W21	44	n	tài sản
+estate	W21	44	n	điền trang
+housing	W21	44	n	nhà ở
+detached	W21	44	adj	riêng biệt
+terraced	W21	44	adj	liền kề
+furnished	W21	44	adj	có sẵn nội thất
+unfurnished	W21	44	adj	không có nội thất
+spacious	W21	44	adj	rộng rãi
+cozy	W21	44	adj	ấm cúng
+renovate	W21	44	v	cải tạo
+maintenance	W21	44	n	bảo trì
+mortgage	W21	44	n/v	thế chấp / vay mua nhà
+deposit	W21	44	v/n	gửi tiền
+landlady	W21	44	n	bà chủ cho thuê nhà
+doorstep	W21	44	n	bậc cửa
+staircase	W21	44	n	cầu thang
+shutter	W21	44	n	cửa chớp
+skylight	W21	44	n	cửa sổ mái
+loft	W21	44	n	gác mái
+shed	W21	44	n	nhà kho nhỏ
+greenhouse	W21	44	n	nhà kính
+driveway	W21	44	n	đường xe vào nhà
+plumbing	W21	44	n	hệ thống ống nước
+heating	W21	44	n	hệ thống sưởi
+insulation	W21	44	n	vật liệu cách nhiệt
+dresser	W21	44	n	tủ ngăn kéo
+sideboard	W21	44	n	tủ đựng bát đĩa
+headboard	W21	44	n	đầu giường
+footstool	W21	44	n	ghế kê chân
+recliner	W21	44	n	ghế ngả lưng
+hammock	W21	44	n	võng
+quilt	W21	44	n	chăn bông
+pillowcase	W21	44	n	vỏ gối
+bedspread	W21	44	n	khăn phủ giường
+wallpaper	W21	44	n	giấy dán tường
+tile	W21	44	n	viên gạch lát
+tiles	W21	44	n	gạch lát
+banister	W21	44	n	tay vịn cầu thang
+doormat	W21	44	n	thảm chùi chân
+ornament	W21	44	n/v	đồ trang trí
+chandelier	W21	44	n	đèn chùm
+lampshade	W21	44	n	chao đèn
+appliance	W21	44	n	thiết bị gia dụng
+dryer	W21	44	n	máy sấy
+boiler	W21	44	n	nồi đun nước
+thermostat	W21	44	n	bộ điều nhiệt
+extractor	W22	44	n	máy hút
+cutlery	W22	44	n	dao nĩa thìa
+crockery	W22	44	n	bát đĩa
+utensil	W22	44	n	dụng cụ nhà bếp
+ladle	W22	44	n	muôi
+spatula	W22	44	n	xẻng nấu ăn
+whisk	W22	44	n/v	phới đánh trứng
+grater	W22	44	n	dụng cụ bào
+peeler	W22	44	n	dụng cụ gọt vỏ
+sieve	W22	44	n	rây
+colander	W22	44	n	rổ lọc
+corkscrew	W22	45	n	dụng cụ mở nút chai
+opener	W22	45	n	đồ mở nắp
+tongs	W22	45	n	kẹp gắp
+foil	W22	45	n	giấy bạc
+detergent	W22	45	n	chất tẩy rửa
+bleach	W22	45	n/v	thuốc tẩy
+duster	W22	45	n	khăn lau bụi
+dustpan	W22	45	n	hót rác
+peg	W22	45	n	kẹp phơi đồ
+clothespin	W22	45	n	kẹp quần áo
+hose	W22	45	n	ống nước mềm
+ladder	W22	45	n/v	cái thang
+toolbox	W22	45	n	hộp dụng cụ
+hammer	W22	45	n/v	búa
+screw	W22	45	n/v	vít
+screwdriver	W22	45	n	tua vít
+drill	W22	45	n/v	máy khoan
+saw	W22	45	v/n	cưa
+spanner	W22	45	n	cờ lê
+wrench	W22	45	n	cờ lê
+pliers	W22	45	n	kìm
+paintbrush	W22	45	n	cọ sơn
+padlock	W22	45	n	ổ khóa treo
+chain	W22	45	n/v	sợi xích
+hook	W22	45	n	móc
+mat	W22	45	n	thảm nhỏ
+cord	W22	45	n	sợi dây
+adapter	W22	45	n	bộ chuyển đổi
+extension	W22	45	n/adj	phần nối dài
+remote	W22	45	adj/n	xa xôi
+device	W22	45	n	thiết bị
+tool	W22	45	n	dụng cụ
+kit	W22	45	n	bộ dụng cụ
+homemaker	W22	45	n	người nội trợ
+housekeeper	W22	45	n	người giúp việc
+housewife	W22	45	n	nội trợ
+babysitter	W22	45	n	người trông trẻ
+babysit	W22	45	v	trông trẻ
+nanny	W22	45	n	người trông trẻ
+errand	W22	45	n	việc vặt bên ngoài
+groceries	W22	45	n	thực phẩm và đồ dùng
+declutter	W22	45	v	dọn bớt đồ
+mend	W22	45	v	vá sửa
+assemble	W22	45	v	lắp ráp
+unplug	W22	45	v	rút phích cắm
+spill	W22	45	v/n	làm đổ
+stain	W22	45	n/v	vết bẩn
+mess	W22	45	n	sự bừa bộn
+filthy	W22	45	adj	bẩn thỉu
+spotless	W22	45	adj	sạch bóng
+appetizer	W22	45	n	món khai vị
+starter	W22	45	n	món khai vị
+portion	W22	45	n	khẩu phần
+ingredient	W22	45	n	nguyên liệu
+vinegar	W22	45	n	giấm
+gravy	W22	45	n	nước xốt thịt
+dressing	W22	46	n	nước xốt salad
+stew	W22	46	n/v	món hầm
+kebab	W22	46	n	thịt xiên nướng
+sushi	W22	46	n	sushi
+porridge	W22	46	n	cháo yến mạch
+oatmeal	W22	46	n	cháo yến mạch
+bun	W22	46	n	bánh mì tròn
+bagel	W22	46	n	bánh mì vòng
+croissant	W22	46	n	bánh sừng bò
+crumb	W22	46	n	vụn bánh
+crust	W22	46	n	vỏ bánh
+dough	W22	46	n	bột nhào
+pastry	W22	46	n	bột bánh ngọt
+cracker	W22	46	n	bánh quy giòn
+raisin	W22	46	n	nho khô
+fig	W22	46	n	quả sung
+apricot	W22	46	n	quả mơ
+grapefruit	W22	46	n	bưởi chùm
+tangerine	W22	46	n	quả quýt
+papaya	W22	46	n	đu đủ
+lychee	W22	46	n	quả vải
+durian	W22	46	n	sầu riêng
+beetroot	W22	46	n	củ dền
+radish	W22	46	n	củ cải
+zucchini	W22	46	n	bí ngòi
+eggplant	W22	46	n	cà tím
+aubergine	W22	46	n	cà tím
+courgette	W22	46	n	bí ngòi
+asparagus	W22	46	n	măng tây
+leek	W22	46	n	tỏi tây
+ginger	W22	46	n	gừng
+chili	W22	46	n	ớt
+cinnamon	W22	46	n	quế
+vanilla	W22	46	n	vani
+parsley	W22	46	n	mùi tây
+basil	W22	46	n	húng tây
+mint	W22	46	n	bạc hà
+lemongrass	W22	46	n	sả
+seasoning	W22	46	n	gia vị
+protein	W22	46	n	chất đạm
+carbohydrate	W22	46	n	tinh bột
+fiber	W22	46	n	chất xơ
+calorie	W22	46	n	ca-lo
+vegetarian	W22	46	n/adj	người ăn chay
+vegan	W22	46	n/adj	người ăn thuần chay
+organic	W22	46	adj	hữu cơ
+raw	W22	46	adj	sống; thô
+ripe	W22	46	adj	chín
+rotten	W22	46	adj	thối
+stale	W22	46	adj	ôi cũ
+frozen	W22	46	adj	đông lạnh
+canned	W22	46	adj	đóng hộp
+processed	W22	46	adj	đã qua chế biến
+homemade	W22	46	adj	tự làm ở nhà
+junk	W22	46	n/v/adj	đồ bỏ đi
+takeout	W22	46	n	đồ ăn mang về
+leftovers	W22	46	n	thức ăn thừa
+nutritious	W22	46	adj	bổ dưỡng
+edible	W22	46	adj	ăn được
+crunchy	W22	46	adj	giòn
+crispy	W22	46	adj	giòn rụm
+juicy	W22	46	adj	mọng nước
+creamy	W22	46	adj	béo mịn
+greasy	W22	46	adj	nhiều dầu mỡ
+bland	W22	46	adj	nhạt nhẽo
+savory	W22	46	adj/n	có vị mặn
+filling	W22	47	adj	gây no
+alcoholic	W22	47	adj	có cồn
+spirits	W22	47	n	rượu mạnh
+whisky	W22	47	n	rượu whisky
+vodka	W22	47	n	rượu vodka
+champagne	W22	47	n	rượu sâm panh
+cocktail	W23	47	n	đồ uống pha trộn
+cider	W23	47	n	nước táo ép
+latte	W23	47	n	cà phê sữa nóng
+espresso	W23	47	n	cà phê espresso
+cappuccino	W23	47	n	cà phê sữa bọt
+decaf	W23	47	n/adj	cà phê ít caffeine
+herbal	W23	47	adj	từ thảo mộc
+beverage	W23	47	n	đồ uống
+refreshment	W23	47	n	đồ ăn thức uống
+sparkling	W23	47	adj	có ga
+fizzy	W23	47	adj	có ga
+steam	W23	47	v/n	hấp
+blend	W23	47	n/v	xay trộn
+grate	W23	47	v	bào nhỏ
+squeeze	W23	47	v	vắt
+sprinkle	W23	47	v	rắc
+spread	W23	47	v/n	phết; lan rộng
+marinate	W23	47	v	ướp
+simmer	W23	47	v/n	ninh nhỏ lửa
+defrost	W23	47	v	rã đông
+weigh	W23	47	v	cân
+preheat	W23	47	v	làm nóng trước
+cookbook	W23	47	n	sách dạy nấu ăn
+cuisine	W23	47	n	nền ẩm thực
+aroma	W23	47	n	hương thơm
+overcooked	W23	47	adj	nấu quá chín
+undercooked	W23	47	adj	chưa chín kỹ
+server	W23	47	n	nhân viên phục vụ
+catering	W23	47	n/adj	dịch vụ ăn uống
+chopstick	W23	47	n	chiếc đũa
+era	W23	47	n	thời đại, kỷ nguyên
+millennium	W23	47	n	thiên niên kỷ
+former	W23	47	adj/n	trước đây
+latter	W23	47	adj/pron	cái sau
+seldom	W23	47	adv	hiếm khi
+constantly	W23	47	adv	liên tục
+regularly	W23	47	adv	đều đặn
+instantly	W23	47	adv	ngay lập tức
+shortly	W23	47	adv	chẳng bao lâu
+currently	W23	47	adv	hiện nay
+formerly	W23	47	adv	trước đây
+previously	W23	47	adv	trước đây
+subsequently	W23	47	adv	sau đó
+afterward	W23	47	adv	sau đó
+beforehand	W23	47	adv	trước
+overdue	W23	47	adj	quá hạn
+prolong	W23	48	v	kéo dài
+lasting	W23	48	adj	lâu dài
+contemporary	W23	48	adj/n	đương đại
+upcoming	W23	48	adj	sắp tới
+outdated	W23	48	adj	lỗi thời
+drizzle	W23	48	n/v	mưa phùn
+downpour	W23	48	n	mưa như trút
+flood	W23	48	v/n	lũ
+drought	W23	48	n	hạn hán
+hurricane	W23	48	n	bão lớn
+typhoon	W23	48	n	bão nhiệt đới
+tornado	W23	48	n	lốc xoáy
+blizzard	W23	48	n	bão tuyết
+heatwave	W23	48	n	đợt nắng nóng
+thunderstorm	W23	48	n	giông bão
+gale	W23	48	n	gió mạnh
+gust	W23	48	n	cơn gió giật
+sleet	W23	48	n	mưa tuyết
+puddle	W23	48	n	vũng nước
+humidity	W23	48	n	độ ẩm
+moisture	W23	48	n	độ ẩm
+dew	W23	48	n	sương
+overcast	W23	48	adj	u ám
+sunshine	W23	48	n	ánh nắng
+sunlight	W23	48	n	ánh nắng
+shade	W23	48	n/v	bóng râm
+shadow	W23	48	n	bóng
+damp	W23	48	adj	ẩm
+muggy	W23	48	adj	oi bức
+scorching	W23	48	adj	nóng như thiêu
+settled	W23	48	adj	ổn định
+changeable	W23	48	adj	hay thay đổi
+unpredictable	W23	48	adj	khó dự đoán
+seasonal	W23	48	adj	theo mùa
+tropical	W23	48	adj	nhiệt đới
+monsoon	W23	48	n	gió mùa
+rainforest	W23	48	n	rừng mưa nhiệt đới
+scenery	W23	48	n	phong cảnh
+continent	W23	48	n	châu lục
+region	W23	48	n	vùng, khu vực
+territory	W23	48	n	lãnh thổ
+peninsula	W23	48	n	bán đảo
+bay	W23	48	n/v	vịnh
+gulf	W23	48	n	vịnh lớn
+canal	W23	48	n	kênh đào
+glacier	W23	48	n	sông băng
+iceberg	W23	48	n	tảng băng trôi
+plateau	W23	48	n/v	đạt mức ổn định, đi ngang
+slope	W23	48	n	sườn dốc
+peak	W23	48	n/adj/v	đạt đỉnh
+summit	W23	48	n	đỉnh núi
+ridge	W23	48	n	sống núi
+canyon	W23	48	n	hẻm núi
+swamp	W23	48	n	đầm lầy
+marsh	W23	48	n	đầm lầy cỏ
+meadow	W23	48	n	đồng cỏ
+prairie	W23	48	n	thảo nguyên
+oasis	W23	48	n	ốc đảo
+reef	W23	48	n	rạn
+coral	W23	48	n	san hô
+tide	W23	48	n	thủy triều
+source	W23	48	n/v	nguồn
+edge	W23	48	n/v	mép, rìa
+surface	W23	48	n/v/adj	bề mặt
+border	W23	48	n	biên giới
+landmark	W23	49	n	địa danh
+pole	W23	49	n	cực địa lý
+equator	W23	49	n	đường xích đạo
+hemisphere	W23	49	n	bán cầu
+latitude	W23	49	n	vĩ độ
+longitude	W23	49	n	kinh độ
+geographical	W23	49	adj	thuộc địa lý
+rural	W23	49	adj	nông thôn
+urban	W23	49	adj	thuộc đô thị
+scenic	W23	49	adj	có cảnh đẹp
+crystal	W23	49	n	tinh thể
+gem	W23	49	n	đá quý
+diamond	W23	49	n	kim cương
+copper	W23	49	n	đồng
+coal	W23	49	n	than đá
+steel	W23	49	n/v	thép
+creature	W23	49	n	sinh vật
+mammal	W23	49	n	động vật có vú
+reptile	W23	49	n	bò sát
+species	W23	49	n	loài (nhóm sinh vật có thể sinh sản với nhau)
+herd	W23	49	n/v	đàn
+flock	W23	49	n/v	đàn chim, đàn cừu
+swarm	W23	49	n	đàn côn trùng
+hive	W23	49	n	tổ ong
+den	W24	49	n	hang thú
+burrow	W24	49	n/v	hang đào
+habitat	W24	49	n	môi trường sống (của động vật)
+predator	W24	49	n	động vật săn mồi (động vật săn và giết động vật khác để ăn)
+prey	W24	49	n	con mồi
+hunter	W24	49	n	thợ săn
+cheetah	W24	49	n	báo săn
+leopard	W24	49	n	báo hoa mai
+jaguar	W24	49	n	báo đốm Mỹ
+rhino	W24	49	n	tê giác
+rhinoceros	W24	49	n	tê giác
+hippopotamus	W24	49	n	hà mã
+buffalo	W24	49	n	trâu
+bison	W24	49	n	bò rừng
+moose	W24	49	n	nai sừng tấm
+hedgehog	W24	49	n	nhím gai
+mole	W24	49	n	chuột chũi
+otter	W24	49	n	rái cá
+beaver	W24	49	n	hải ly
+raccoon	W24	49	n	gấu mèo
+skunk	W24	49	n	chồn hôi
+hamster	W24	49	n	chuột hamster
+peacock	W24	49	n	chim công trống
+ostrich	W24	49	n	đà điểu
+flamingo	W24	49	n	hồng hạc
+seagull	W24	49	n	chim hải âu
+sparrow	W24	49	n	chim sẻ
+robin	W24	49	n	chim cổ đỏ
+vulture	W24	49	n	kền kền
+hawk	W24	49	n	diều hâu
+falcon	W24	49	n	chim ưng
+jellyfish	W24	49	n	sứa
+starfish	W24	49	n	sao biển
+seahorse	W24	49	n	cá ngựa
+oyster	W24	49	n	hàu
+eel	W24	49	n	cá chình
+trout	W24	49	n	cá hồi suối
+wasp	W24	49	n	ong bắp cày
+hornet	W24	49	n	ong vò vẽ
+moth	W24	49	n	bướm đêm
+caterpillar	W24	49	n	sâu bướm
+grasshopper	W24	49	n	châu chấu
+dragonfly	W24	49	n	chuồn chuồn
+flea	W24	49	n	bọ chét
+tick	W24	49	n/v	bọ ve
+scorpion	W24	50	n	bọ cạp
+centipede	W24	50	n	con rết
+slug	W24	50	n	sên trần
+toad	W24	50	n	con cóc
+alligator	W24	50	n	cá sấu Mỹ
+tadpole	W24	50	n	nòng nọc
+cub	W24	50	n	thú con
+foal	W24	50	n	ngựa con
+piglet	W24	50	n	lợn con
+duckling	W24	50	n	vịt con
+endangered	W24	50	adj	ngôn ngữ bị đe doạ
+extinct	W24	50	adj	tuyệt chủng
+domestic	W24	50	adj/n	trong nước; gia đình
+poultry	W24	50	n	gia cầm
+livestock	W24	50	n	vật nuôi trang trại
+cattle	W24	50	n	gia súc họ bò
+breed	W24	50	v/n	giống vật nuôi
+veterinarian	W24	50	n	bác sĩ thú y
+scale	W24	50	n/v	cái cân; quy mô
+fin	W24	50	n	vây
+gill	W24	50	n	mang cá
+hoof	W24	50	n	móng guốc
+tusk	W24	50	n	ngà
+mane	W24	50	n	bờm
+whisker	W24	50	n	râu thú
+antler	W24	50	n	gạc
+pouch	W24	50	n	túi bụng
+hibernate	W24	50	v	ngủ đông
+migrate	W24	50	v	di cư
+roar	W24	50	v/n	gầm
+howl	W24	50	v/n	tru
+growl	W24	50	v/n	gầm gừ
+purr	W24	50	v/n	kêu rừ rừ
+hiss	W24	50	v/n	rít
+buzz	W24	50	v/n	tiếng vo ve
+tweet	W24	50	v/n	hót líu lo
+squeak	W24	50	v/n	kêu chít chít
+blossom	W24	50	v/n	nở hoa
+bud	W24	50	n	nụ
+thorn	W24	50	n	gai
+ivy	W24	50	n	thường xuân
+moss	W24	50	n	rêu
+fern	W24	50	n	dương xỉ
+shrub	W24	50	n	cây bụi
+hedge	W24	50	n/v	hàng rào cây
+vine	W24	50	n	cây leo
+orchid	W24	50	n	hoa lan
+lotus	W24	50	n	sen
+maple	W24	50	n	cây phong
+willow	W24	50	n	cây liễu
+birch	W24	50	n	cây bạch dương
+cedar	W24	50	n	cây tuyết tùng
+fungus	W24	50	n	nấm
+harvest	W24	50	n/v	mùa gặt
+plow	W24	50	n/v	cày
+plough	W24	50	n/v	cày
+irrigate	W24	50	v	tưới tiêu
+fertilizer	W24	50	n	phân bón
+pesticide	W24	50	n	thuốc trừ sâu
+orchard	W24	50	n	vườn cây ăn quả
+vineyard	W24	50	n	vườn nho
+plantation	W24	50	n	đồn điền
+botanical	W24	50	adj	thuộc thực vật học
+gardener	W24	50	n	người làm vườn
+prune	W24	50	v	cắt tỉa
+wither	W24	50	v	héo
+ripen	W24	50	v	chín dần
+rot	W24	50	v/n	mục thối
+sow	W24	50	v	gieo
+sprout	W24	51	v/n	nảy mầm
+pollute	W24	51	v	gây ô nhiễm
+emission	W24	51	n	khí thải
+fossil	W24	51	n	hóa thạch
+sustainability	W24	51	n	tính bền vững
+conservation	W24	51	n	bảo tồn (tài nguyên)
+smog	W24	51	n	khói bụi
+sewage	W24	51	n	nước thải
+ecological	W24	51	adj	thuộc sinh thái
+turbine	W24	51	n	tua-bin
+footprint	W24	51	n	dấu chân môi trường
+orbit	W25	51	n/v	quỹ đạo; di chuyển theo quỹ đạo (đường cong thiên thể di chuyển quanh sao/hành tinh)
+meteor	W25	51	n	sao băng
+asteroid	W25	51	n	tiểu hành tinh (thiên thể đá nhỏ quay quanh Mặt Trời, chủ yếu giữa Mars và Jupiter)
+spacecraft	W25	51	n	tàu vũ trụ (phương tiện thiết kế để hoạt động trong không gian)
+molecule	W25	51	n	phân tử
+cell	W25	51	n	tế bào (đơn vị cấu trúc và chức năng nhỏ nhất của sinh vật)
+genetic	W25	51	adj	thuộc di truyền
+compound	W25	51	n/v/adj	khu, khuôn viên
+mass	W25	52	adj/n/v	khối; đám đông
+magnetic	W25	52	adj	có từ tính
+ray	W25	52	n	tia
+beam	W25	52	n	chùm tia
+radiation	W25	52	n	bức xạ
+outskirts	W25	52	n	ngoại ô
+skyscraper	W25	52	n	nhà chọc trời
+plaza	W25	52	n	quảng trường
+courtyard	W25	52	n	sân trong
+alley	W25	52	n	ngõ hẻm
+roundabout	W25	52	n	vòng xuyến
+underpass	W25	52	n	đường chui
+overpass	W25	52	n	cầu vượt
+pedestrian	W25	52	n/adj	người đi bộ
+inhabitant	W25	52	n	cư dân
+mayor	W25	52	n	thị trưởng
+municipal	W25	52	adj/n	thuộc thành phố
+amenities	W25	52	n	tiện ích
+aquarium	W25	52	n	thủy cung
+laundromat	W25	52	n	tiệm giặt tự phục vụ
+launderette	W25	52	n	tiệm giặt tự phục vụ
+cemetery	W25	52	n	nghĩa trang
+graveyard	W25	52	n	nghĩa địa
+embassy	W25	52	n	đại sứ quán
+consulate	W25	53	n	lãnh sự quán
+headquarters	W25	53	n	trụ sở chính
+warehouse	W25	53	n/v	nhà kho
+demolish	W25	53	v	phá dỡ
+congested	W25	53	adj	ùn tắc
+congestion	W25	53	n	sự ùn tắc
+vibrant	W25	53	adj	sống động
+lively	W25	53	adj	nhộn nhịp
+deserted	W25	53	adj	vắng tanh
+shabby	W25	53	adj	tồi tàn
+picturesque	W25	53	adj	đẹp như tranh
+transportation	W25	53	n	giao thông vận tải
+cockpit	W25	53	n	buồng lái
+deck	W25	53	n	boong tàu
+cargo	W25	53	n	hàng chuyên chở
+freight	W25	53	n/v/adv	hàng hóa vận chuyển
+aircraft	W25	53	n	máy bay
+jet	W25	53	n	máy bay phản lực
+glider	W25	53	n	tàu lượn
+hovercraft	W25	53	n	tàu đệm khí
+steer	W25	53	v	lái
+accelerate	W25	53	v	tăng tốc
+overtake	W25	53	v	vượt xe
+reverse	W25	53	v/n/adj	đảo ngược, lùi
+indicator	W25	53	n	đèn báo rẽ
+headlight	W25	53	n	đèn pha
+windscreen	W25	53	n	kính chắn gió
+windshield	W25	53	n	kính chắn gió
+wiper	W25	53	n	cần gạt nước
+bonnet	W25	53	n	nắp ca pô
+dashboard	W25	53	n	bảng điều khiển
+gear	W25	53	n	số xe
+clutch	W25	53	n	bộ ly hợp
+handlebar	W25	53	n	ghi đông
+pedal	W25	53	n/v	bàn đạp
+pump	W25	53	n/v	máy bơm
+breakdown	W25	53	n	sự hỏng xe
+puncture	W25	53	n/v	lỗ thủng lốp
+toll	W25	53	n/v	phí cầu đường
+fare	W25	53	n	tiền vé
+speeding	W25	53	n	chạy quá tốc độ
+runway	W25	53	n	đường băng
+hitchhike	W26	54	v	đi nhờ xe
+cyclist	W26	54	n	người đi xe đạp
+motorist	W26	54	n	người lái ô tô
+itinerary	W26	54	n	lịch trình
+sightseer	W26	54	n	khách tham quan
+excursion	W26	54	n	chuyến tham quan
+expedition	W26	54	n	chuyến thám hiểm
+voyage	W26	54	n	chuyến hải hành
+brochure	W26	54	n	tập quảng cáo
+attraction	W26	54	n	điểm thu hút
+exotic	W26	54	adj	lạ từ phương xa
+peaceful	W26	54	adj	yên bình
+touristy	W26	54	adj	quá nhiều khách du lịch
+backpacker	W26	54	n	người du lịch ba lô
+traveler	W26	54	n	người đi du lịch
+holidaymaker	W26	54	n	người đi nghỉ
+globetrotter	W26	54	n	người chu du thế giới
+customs	W26	54	n	hải quan
+immigration	W26	54	n	sự nhập cư
+insurance	W26	54	n/adj	bảo hiểm
+luxury	W26	54	n/adj	sự sang trọng
+vacancy	W26	54	n	phòng trống
+vacancies	W26	54	n	phòng còn trống
+overbooked	W26	54	adj	nhận đặt quá chỗ
+sightsee	W26	54	v	tham quan
+wander	W26	54	v	đi lang thang
+sunscreen	W26	54	n	kem chống nắng
+sunburn	W26	54	n	cháy nắng
+retailer	W26	54	n	nhà bán lẻ
+retail	W26	54	n/v/adv/adj	bán lẻ
+wholesale	W26	54	adj/n/adv	bán buôn / bán sỉ
+outlet	W26	54	n	ổ cắm điện
+boutique	W26	54	n/adj	cửa hàng thời trang
+stall	W26	54	n	quầy hàng
+vendor	W26	54	n	người bán hàng
+catalog	W26	54	n	danh mục sản phẩm
+voucher	W26	54	n	phiếu mua hàng
+coupon	W26	54	n	phiếu giảm giá
+guarantee	W26	54	n/v	sự bảo đảm
+warranty	W26	54	n	bảo hành
+faulty	W26	54	adj	bị lỗi
+damaged	W26	54	adj	bị hư hỏng
+complaint	W26	54	n	lời phàn nàn
+browse	W26	54	v/n	xem hàng
+haggle	W26	54	v	mặc cả
+overpriced	W26	54	adj	quá đắt
+affordable	W26	54	adj	vừa túi tiền
+pricey	W26	54	adj	đắt
+promotion	W26	55	n	sự thăng chức
+installment	W26	55	n	khoản trả góp
+invoice	W26	55	n/v	hóa đơn
+expense	W26	55	n/v	chi phí
+expenses	W26	55	n	chi phí
+expenditure	W26	55	n	chi tiêu
+loan	W26	55	n/v	khoản vay
+debt	W26	55	n	nợ
+investor	W26	55	n	nhà đầu tư
+inflation	W26	55	n	lạm phát
+bankrupt	W26	55	adj/n/v	phá sản
+statement	W26	55	n/adj/v	lời tuyên bố
+pension	W26	55	n	lương hưu
+allowance	W26	55	n	tiền tiêu vặt
+donation	W26	55	n	khoản quyên góp
+donate	W26	55	v	quyên góp
+fortune	W26	55	n	gia tài
+millionaire	W26	55	n	triệu phú
+billionaire	W26	55	n	tỷ phú
+fund	W26	55	n/v	quỹ; tài trợ
+funding	W26	55	n	nguồn tiền
+savings	W26	55	n	tiền tiết kiệm
+academic	W26	55	adj/n	thuộc học thuật
+assignment	W26	55	n	bài tập
+essay	W26	55	n/v	bài luận
+coursework	W26	55	n	bài tập khóa học
+thesis	W26	55	n	luận văn
+dissertation	W26	55	n	luận án
+lecture	W26	55	n/v	bài giảng
+seminar	W26	55	n	buổi thảo luận chuyên đề
+campus	W26	55	n	khuôn viên trường
+faculty	W26	55	n	đội ngũ giảng viên
+undergraduate	W26	55	n	sinh viên đại học (chưa tốt nghiệp)
+graduate	W26	55	n/v/adj	người tốt nghiệp
+postgraduate	W26	55	n/adj	sau đại học
+tuition	W26	56	n	học phí
+attendance	W26	56	n	sự chuyên cần
+absence	W26	56	n	sự vắng mặt
+curriculum	W26	56	n	chương trình giảng dạy
+syllabus	W26	56	n	đề cương môn học
+qualification	W26	56	n	bằng cấp
+qualify	W26	56	v	đạt đủ trình độ
+intelligence	W26	56	n	trí thông minh
+concentrate	W26	56	v/n	tập trung
+concentration	W26	56	n	sự tập trung
+assessment	W26	56	n	sự đánh giá
+assess	W26	56	v	đánh giá
+evaluate	W26	56	v	đánh giá
+plagiarism	W26	56	n	đạo văn
+cheat	W26	56	v/n	gian lận
+discipline	W26	56	n/v	kỷ luật
+detention	W26	56	n	bị phạt ở lại trường
+expel	W27	56	v	đuổi học
+boarding	W27	56	adj/n	nội trú
+state	W27	56	n/v/adj	bang
+mixed	W27	56	adj	pha trộn
+vocational	W27	56	adj	hướng nghiệp
+literacy	W27	56	n	khả năng đọc viết
+numeracy	W27	56	n	khả năng tính toán
+bachelor	W27	56	n	cử nhân
+master	W27	56	n/v/adj	bậc thầy
+doctorate	W27	56	n	bằng tiến sĩ
+PhD	W27	56	n	bằng tiến sĩ
+textbook	W27	56	n/adj	sách giáo khoa
+workbook	W27	56	n	sách bài tập
+handout	W27	56	n	tài liệu phát tay
+worksheet	W27	56	n	phiếu bài tập
+occupation	W27	56	n	nghề nghiệp
+recruit	W27	56	v/n	tuyển dụng
+recruitment	W27	56	n	tuyển dụng
+candidate	W27	56	n	ứng cử viên / ứng viên
+applicant	W27	56	n	ứng viên / người nộp đơn
+reference	W27	56	n/v	tham khảo
+promote	W27	56	v	thúc đẩy, quảng bá
+resign	W27	56	v	từ chức
+resignation	W27	56	n	sự từ chức
+dismiss	W27	57	v	sa thải
+sack	W27	57	v	sa thải
+shift	W27	57	v/n	sự thay đổi; chuyển đổi
+workforce	W27	57	n	lực lượng lao động
+supervisor	W27	57	n	người giám sát
+executive	W27	57	n/adj	giám đốc điều hành
+chairman	W27	57	n	chủ tịch
+founder	W27	57	n/v	người sáng lập
+entrepreneur	W27	57	n	doanh nhân
+consultant	W27	57	n	chuyên gia tư vấn
+trainee	W27	57	n	người tập sự
+apprentice	W27	57	n/v	người học nghề
+duty	W27	57	n/adj	nhiệm vụ
+perk	W27	57	n/v	đặc quyền nhỏ
+paycheck	W27	57	n	tiền lương
+union	W27	57	n	công đoàn
+strike	W27	57	v/n	đình công
+earnings	W27	57	n	thu nhập
+turnover	W27	57	n	doanh số
+agent	W27	57	n	đại lý
+competitor	W27	57	n	đối thủ
+conference	W27	58	n	hội nghị
+agenda	W27	58	n	chương trình họp
+proposal	W27	58	n	đề xuất
+journalism	W28	59	n	nghề báo
+columnist	W28	59	n	người viết chuyên mục
+critic	W28	59	n	nhà phê bình
+commentary	W28	59	n	lời bình luận
+bulletin	W28	59	n	bản tin
+tabloid	W28	59	adj/n	báo lá cải (tin giật gân, khổ nhỏ)
+broadsheet	W28	59	n	báo khổ lớn (tin chính thống, chất lượng)
+gossip	W28	59	n/v	chuyện ngồi lê đôi mách
+rumor	W28	59	n	tin đồn
+influencer	W28	59	n	người có ảnh hưởng (trên mạng xã hội)
+censor	W28	59	n/v	kiểm duyệt
+censorship	W28	59	n	kiểm duyệt
+editorial	W28	59	adj/n	bài xã luận
+parliament	W28	59	n	quốc hội
+congress	W28	59	n	quốc hội
+democracy	W28	59	n	nền dân chủ
+democratic	W28	59	adj	(thuộc) dân chủ
+dictator	W28	59	n	nhà độc tài
+republic	W28	59	n	nước cộng hoà
+monarchy	W28	59	n	chế độ quân chủ
+kingdom	W28	59	n	vương quốc
+majority	W28	59	n/adj	đa số
+minority	W28	59	n/adj	thiểu số
+rights	W28	60	n	quyền
+discrimination	W28	60	n	sự phân biệt đối xử
+racism	W28	60	n	chủ nghĩa phân biệt chủng tộc
+racist	W28	60	adj/n	phân biệt chủng tộc
+sexism	W28	60	n	sự phân biệt giới tính
+refugee	W28	60	n	người tị nạn
+criminal	W28	60	n/adj	kẻ phạm tội
+burglar	W28	60	n	kẻ trộm đột nhập
+burglary	W28	60	n	đột nhập (vào toà nhà để trộm)
+robbery	W28	60	n	cướp (dùng vũ lực hoặc đe doạ)
+murder	W28	60	n/v	vụ giết người
+murderer	W28	60	n	kẻ giết người
+kidnap	W28	60	v	bắt cóc
+vandal	W28	60	n/adj	kẻ phá hoại
+vandalism	W28	60	n	phá hoại tài sản
+shoplifting	W28	60	n	trộm đồ trong cửa hàng
+shoplifter	W28	60	n	kẻ trộm trong cửa hàng
+pickpocket	W28	60	n	kẻ móc túi
+arrest	W28	60	v/n	bắt giữ
+charge	W28	60	v/n	tính phí
+accuse	W28	60	v	buộc tội
+innocent	W28	60	adj/n	vô tội
+trial	W28	60	n/v	phiên toà
+jury	W28	60	n	bồi thẩm đoàn
+witness	W28	60	n/v	nhân chứng
+punish	W28	60	v	trừng phạt
+punishment	W28	60	n	hình phạt
+prisoner	W28	60	n	tù nhân
+terrorism	W28	60	n	chủ nghĩa khủng bố
+terrorist	W28	60	n	kẻ khủng bố
+violence	W28	60	n	bạo lực
+violent	W28	60	adj	bạo lực
+weapon	W28	60	n	vũ khí
+gun	W28	60	n	súng
+demonstration	W28	60	n	cuộc biểu tình
+riot	W28	60	n/v	cuộc bạo loạn
+ally	W28	60	n	đồng minh
+troops	W28	60	n	quân lính
+military	W28	60	adj/n	quân sự
+navy	W28	60	n	hải quân
+battle	W28	60	n	trận chiến
+invade	W28	60	v	xâm lược
+invasion	W28	60	n	cuộc xâm lược
+amateur	W28	61	adj/n	nghiệp dư
+opponent	W28	61	n	người phản đối
+rival	W28	61	n/v/adj	đối thủ
+squad	W28	61	n	đội tuyển
+lap	W28	61	n	vòng đua
+foul	W28	61	n/v	lỗi phạm luật
+tackle	W28	61	v/n	xử lý, đối phó
+shoot	W28	61	v/n/interj	bắn; sút
+dribble	W28	61	v	dẫn bóng
+volley	W28	61	n/v	đánh bóng trên không
+bounce	W28	61	v/n	nảy
+sprint	W28	61	v/n	chạy nước rút
+sprinter	W28	61	n	vận động viên chạy ngắn
+workout	W28	61	n	buổi tập luyện
+stretch	W29	61	v/n	duỗi
+stamina	W29	61	n	thể lực / sức chịu đựng
+spectator	W29	61	n	khán giả
+umpire	W29	61	n	trọng tài
+whistle	W29	61	v/n	huýt sáo
+trophy	W29	61	n	cúp vô địch
+equipment	W29	61	n	thiết bị
+skateboard	W29	61	n/v	ván trượt
+snowboard	W29	61	n/v	ván trượt tuyết
+scuba	W29	61	n	bình thở lặn
+archery	W29	61	n	môn bắn cung
+fencing	W29	61	n	môn đấu kiếm
+wrestling	W29	61	n	môn đấu vật
+weightlifting	W29	61	n	môn cử tạ
+rowing	W29	61	n	môn chèo thuyền
+canoeing	W29	61	n	chèo xuồng
+mountaineering	W29	61	n	môn leo núi
+triathlon	W29	61	n	ba môn phối hợp
+pastime	W29	61	n	trò tiêu khiển
+craft	W29	61	n/v/adj	nghề thủ công
+crafts	W29	61	n	thủ công
+handicraft	W29	61	n	nghề thủ công
+pottery	W29	61	n	đồ gốm
+origami	W29	61	n	nghệ thuật gấp giấy
+embroidery	W29	61	n	thêu
+crochet	W29	61	n/v	móc len
+jigsaw	W29	61	n	trò ghép hình
+crossword	W29	61	n	ô chữ
+sudoku	W29	61	n	trò sudoku
+karaoke	W29	61	n	hát karaoke
+nightlife	W29	61	n	hoạt động giải trí đêm
+nightclub	W29	61	n	hộp đêm
+clubbing	W29	61	n	đi hộp đêm
+birdwatching	W29	62	n	ngắm chim
+scrapbook	W29	62	n	sổ lưu niệm
+blogging	W29	62	n	viết blog
+gaming	W29	62	n	chơi trò chơi điện tử
+gamer	W29	62	n	game thủ
+outing	W29	62	n	chuyến đi chơi
+socialize	W29	62	v	giao lưu
+entertain	W29	62	v	làm vui
+amuse	W29	62	v	làm thích thú
+amusing	W29	62	adj	vui nhộn
+recreation	W29	62	n	sự giải trí
+recreational	W29	62	adj	thuộc giải trí
+enthusiast	W29	62	n	người đam mê
+addict	W29	62	n	người nghiện
+hobbyist	W29	62	n	người chơi theo sở thích
+composer	W29	62	n	nhà soạn nhạc
+compose	W29	62	v	sáng tác
+composition	W29	62	n	thành phần
+conductor	W29	62	n	nhạc trưởng
+soloist	W29	62	n	nghệ sĩ độc tấu
+vocalist	W29	62	n	ca sĩ
+guitarist	W29	62	n	người chơi ghi ta
+pianist	W29	62	n	nghệ sĩ dương cầm
+drummer	W29	62	n	tay trống
+violinist	W29	62	n	nghệ sĩ vĩ cầm
+rehearse	W29	62	v	tập dượt
+rehearsal	W29	62	n	buổi tập dượt
+gig	W29	62	n/v	buổi diễn nhạc
+soundtrack	W29	62	n	nhạc phim
+harmony	W29	62	n	sự hòa thuận
+chord	W29	62	n	hợp âm
+genre	W29	62	n/adj	thể loại
+sculptor	W29	62	n	nhà điêu khắc
+canvas	W29	62	n	vải vẽ
+sketch	W29	62	n/v	bản phác họa
+watercolor	W29	62	n	màu nước
+realistic	W29	62	adj	thực tế
+masterpiece	W29	62	n	kiệt tác
+artwork	W29	62	n	tác phẩm nghệ thuật
+craftsman	W29	62	n	thợ thủ công
+exhibit	W29	62	v/n	trưng bày
+display	W29	62	v/n	trưng bày
+curator	W29	62	n	người phụ trách bảo tàng
+script	W29	62	n/v	kịch bản
+screenplay	W29	62	n	kịch bản phim
+plot	W29	62	n	cốt truyện
+cast	W29	62	n/v	dàn diễn viên
+sequel	W29	62	n	phần tiếp theo
+premiere	W29	62	n	buổi công chiếu đầu
+trailer	W29	62	n	đoạn giới thiệu phim
+blockbuster	W29	62	n	phim bom tấn
+subtitles	W29	62	n	phụ đề
+dubbed	W29	62	adj	được lồng tiếng
+drama	W29	62	n	phim chính kịch
+dramatic	W29	62	adj	kịch tính
+tragedy	W29	62	n	bi kịch
+tragic	W29	62	adj	bi thảm
+comedian	W29	62	n	diễn viên hài
+playwright	W29	63	n	nhà viết kịch
+entertainer	W29	63	n	nghệ sĩ biểu diễn
+applause	W29	63	n	tiếng vỗ tay
+applaud	W29	63	v	vỗ tay tán thưởng
+encore	W29	63	n	tiết mục diễn thêm
+autograph	W29	63	n	chữ ký lưu niệm
+fame	W29	63	n	danh tiếng
+creativity	W29	63	n	sáng tạo, tính sáng tạo
+imagination	W29	63	n	trí tưởng tượng
+imaginative	W29	63	adj	giàu trí tưởng tượng
+inspire	W29	63	v	truyền cảm hứng
+inspiration	W29	63	n	cảm hứng
+literary	W29	63	adj	thuộc văn chương
+narrator	W29	63	n	người kể chuyện
+hero	W29	63	n	nam nhân vật chính
+heroine	W29	63	n	nữ nhân vật chính
+villain	W29	63	n	nhân vật phản diện
+mystery	W29	63	n	truyện bí ẩn
+detective	W29	63	n	thám tử
+fantasy	W29	63	n	truyện kỳ ảo
+paperback	W29	63	n	sách bìa mềm
+hardback	W29	63	n	sách bìa cứng
+bilingual	W29	63	adj/n	song ngữ
+dialect	W29	63	n	phương ngữ / tiếng địa phương
+punctuation	W29	63	n	dấu câu
+hyphen	W29	63	n	dấu gạch nối
+spiritual	W30	63	adj	thuộc tâm linh
+ritual	W30	63	n	nghi thức
+worship	W30	64	v/n	thờ phượng
+saint	W30	64	n	vị thánh
+priest	W30	64	n	linh mục
+monk	W30	64	n	tu sĩ nam
+nun	W30	64	n	nữ tu
+pilgrim	W30	64	n	người hành hương
+festive	W30	64	adj	mang không khí lễ hội
+occasion	W30	64	n/v	dịp
+reunion	W30	64	n	cuộc đoàn tụ
+gathering	W30	64	n	buổi tụ họp
+banquet	W30	64	n	tiệc lớn
+cheers	W30	64	interj	chúc mừng
+commemorate	W30	64	v	tưởng niệm
+memorial	W30	64	n/adj	đài tưởng niệm
+mourn	W30	64	v	thương tiếc
+mourning	W30	64	n	sự để tang
+legend	W30	64	n	truyền thuyết
+myth	W30	64	n	thần thoại
+superstition	W30	64	n	sự mê tín
+superstitious	W30	64	adj	mê tín
+blessing	W30	64	n	lời chúc phúc
+bless	W30	64	v	ban phúc
+lunar	W30	64	adj	thuộc mặt trăng
+zodiac	W30	64	n	hoàng đạo
+overseas	W30	64	adj/adv	ở nước ngoài
+citizenship	W30	64	n	quốc tịch
+anthem	W30	64	n	quốc ca
+Antarctica	W30	64	n	châu Nam Cực
+Arctic	W30	64	n/adj	Bắc Cực
+Atlantic	W30	64	n/adj	Đại Tây Dương
+Pacific	W30	64	n/adj	Thái Bình Dương
+Mediterranean	W30	64	n/adj	Địa Trung Hải
+Belgium	W30	64	n	nước Bỉ
+Belgian	W30	64	adj/n	thuộc Bỉ
+Denmark	W30	64	n	nước Đan Mạch
+Danish	W30	64	adj/n	tiếng Đan Mạch
+Finland	W30	64	n	nước Phần Lan
+Finnish	W30	64	adj/n	tiếng Phần Lan
+Austria	W30	64	n	nước Áo
+Austrian	W30	64	adj/n	thuộc Áo
+Hungary	W30	64	n	nước Hungary
+Hungarian	W30	64	adj/n	tiếng Hungary
+Ukraine	W30	64	n	nước Ukraine
+Ukrainian	W30	64	adj/n	thuộc Ukraine
+Czech	W30	64	adj/n	tiếng Séc
+Saudi	W30	64	adj/n	thuộc Ả Rập Xê Út
+Iraq	W30	64	n	nước Iraq
+Iraqi	W30	64	adj/n	thuộc Iraq
+Afghanistan	W30	64	n	nước Afghanistan
+Bangladesh	W30	64	n	nước Bangladesh
+Myanmar	W30	64	n	nước Myanmar
+Mongolia	W30	64	n	nước Mông Cổ
+Mongolian	W30	64	adj/n	thuộc Mông Cổ
+Nepal	W30	64	n	nước Nepal
+Cuba	W30	64	n	nước Cuba
+Cuban	W30	64	adj/n	thuộc Cuba
+Jamaica	W30	64	n	nước Jamaica
+Jamaican	W30	64	adj/n	thuộc Jamaica
+Morocco	W30	65	n	nước Ma Rốc
+Moroccan	W30	65	adj/n	thuộc Ma Rốc
+Ethiopia	W30	65	n	nước Ethiopia
+Ethiopian	W30	65	adj/n	thuộc Ethiopia
+Ghana	W30	65	n	nước Ghana
+Ghanaian	W30	65	adj/n	thuộc Ghana
+beige	W30	65	n/adj	màu be
+turquoise	W30	65	n/adj	màu xanh ngọc
+violet	W30	65	adj/n	màu tím
+maroon	W30	65	n/adj	màu nâu đỏ
+crimson	W30	65	n/adj	màu đỏ thẫm
+scarlet	W30	65	n/adj	màu đỏ tươi
+khaki	W30	65	n/adj	màu kaki
+silvery	W30	65	adj	óng ánh bạc
+tone	W30	65	n/v	giọng điệu
+transparent	W30	65	adj	trong suốt
+hollow	W30	65	adj	rỗng
+curved	W30	65	adj	cong
+diagonal	W30	65	adj/n	chéo
+parallel	W30	65	adj/n/v/adv	song song
+cube	W30	65	n	hình lập phương
+sphere	W30	65	n	hình cầu
+cylinder	W30	65	n	hình trụ
+pyramid	W30	65	n	hình chóp
+cone	W30	65	n	hình nón
+cardboard	W30	65	n	bìa cứng
+concrete	W30	65	n	bê tông
+brick	W30	65	n/v	gạch
+marble	W30	65	n	đá cẩm thạch
+clay	W30	65	n	đất sét
+ceramic	W30	65	n/adj	bằng gốm
+porcelain	W30	65	n	sứ
+aluminum	W30	65	n	nhôm
+bronze	W30	65	n/adj	đồng; huy chương đồng
+lead	W30	65	v/n/adj	dẫn dắt
+wax	W30	65	n/v	sáp
+foam	W30	65	n	mút
+rigid	W30	65	adj	cứng nhắc
+fragile	W30	65	adj	dễ vỡ
+delicate	W30	65	adj	dễ vỡ
+sturdy	W30	65	adj	chắc chắn
+durable	W30	65	adj	bền
+waterproof	W30	65	adj/v/n	chống nước
+shiny	W30	65	adj	sáng bóng
+sticky	W30	65	adj/n	dính
+slippery	W30	65	adj	trơn
+fluffy	W30	65	adj	bông xốp
+furry	W30	65	adj/n	có lông mềm
+hairy	W30	65	adj	nhiều lông
+bumpy	W30	65	adj	gồ ghề
+fuzzy	W30	65	adj	có lông tơ
+fraction	W30	65	n	phần nhỏ, một phần
+roughly	W30	66	adv	khoảng, đại khái
+halve	W31	66	v	chia đôi
+sharply	W31	66	adv	đột ngột
+dramatically	W31	66	adv	đột ngột, mạnh mẽ
+rapidly	W31	66	adv	một cách nhanh chóng
+stable	W31	66	adj/n/v	ổn định
+fluctuate	W31	66	v	dao động
+whereas	W31	66	conj	trong khi (đối lập)
+whereby	W31	66	adv	nhờ đó
+nevertheless	W31	66	adv	tuy nhiên, dù vậy
+nonetheless	W31	66	adv	tuy nhiên
+hence	W31	66	adv	vì thế
+regardless	W31	66	adv	bất chấp
+whilst	W31	66	conj	trong khi
+amid	W31	66	prep	giữa
+amongst	W31	66	prep	ở giữa
+alongside	W31	66	prep	bên cạnh
+underneath	W31	66	prep/adv	bên dưới
+beyond	W31	66	prep	ở phía bên kia
+regarding	W31	66	prep	liên quan đến
+concerning	W31	66	prep/adj	liên quan đến
+aside	W31	66	adv	sang một bên
+provided	W31	66	v/conj	miễn là
+providing	W31	66	conj	miễn là
+supposing	W31	66	conj	giả sử
+lest	W31	66	conj	kẻo
+scarcely	W31	66	adv	hầu như không
+barely	W31	66	adv	vừa đủ, hầu như không
+oneself	W31	66	pron	bản thân
+appeal	W31	67	n/v	kháng cáo
+blame	W31	67	v/n	đổ lỗi
+boast	W31	67	v/n	khoe khoang
+convince	W31	67	v	thuyết phục
+criticize	W31	67	v	phê bình
+deserve	W31	67	v	xứng đáng
+explode	W31	67	v	phát nổ
+forgive	W31	67	v	tha thứ
+insist	W31	67	v	khăng khăng
+obey	W31	67	v	tuân theo
+possess	W31	67	v	sở hữu
+struggle	W31	68	v/n	vật lộn
+suspect	W31	68	v/n/adj	nghi ngờ
+tolerate	W31	68	v	chịu đựng
+faithful	W32	68	adj/n	trung thành
+fierce	W32	68	adj	dữ tợn
+genuine	W32	68	adj	thật, chân thật
+harmful	W32	68	adj	có hại
+historical	W32	68	adj	thuộc về lịch sử
+hostile	W32	68	adj	thù địch
+identical	W32	68	adj	giống hệt
+inevitable	W32	68	adj	không thể tránh khỏi
+intense	W32	69	adj	dữ dội, mãnh liệt
+liberal	W32	69	adj/n	cởi mở
+mere	W32	69	adj	chỉ là
+moral	W32	69	adj/n	đạo đức
+neutral	W32	69	adj/n	trung lập
+outstanding	W32	69	adj	xuất sắc
+precious	W32	69	adj	quý giá
+precise	W32	69	adj	chính xác
+profound	W32	69	adj	sâu sắc
+prominent	W32	69	adj	nổi bật
+rational	W32	69	adj	hợp lý
+reluctant	W32	69	adj	miễn cưỡng
+stiff	W32	69	adj	cứng đờ
+straightforward	W32	69	adj	đơn giản, dễ hiểu
+subtle	W32	69	adj	tinh tế
+superb	W32	69	adj	tuyệt hảo
+superior	W32	69	adj/n	cao cấp hơn
+thorough	W32	69	adj	kỹ lưỡng
+tough	W32	69	adj/n	dai; khó khăn
+tremendous	W32	69	adj	to lớn
+vivid	W32	69	adj	sống động
+weird	W32	69	adj	kỳ lạ
+accidentally	W32	69	adv	vô tình
+apparently	W32	69	adv	hình như
+deliberately	W32	70	adv	cố ý
+evidently	W32	70	adv	rõ ràng
+frankly	W32	70	adv	nói thẳng
+ideally	W32	70	adv	lý tưởng nhất
+indeed	W32	70	adv	quả thật
+purely	W32	70	adv	hoàn toàn, chỉ
+surprisingly	W33	70	adv	đáng ngạc nhiên
+thoroughly	W33	70	adv	kỹ lưỡng
+undoubtedly	W33	70	adv	chắc chắn
+utterly	W33	70	adv	hoàn toàn
+virtually	W33	70	adv	gần như
+wholly	W33	70	adv	hoàn toàn
+atmosphere	W33	71	n	khí quyển, bầu khí quyển (lớp khí bao quanh hành tinh)
+crisis	W33	71	n	cuộc khủng hoảng
+curiosity	W33	71	n	sự tò mò
+desire	W33	71	v/n	mong muốn
+dispute	W33	71	n/v	tranh chấp
+involvement	W33	71	n	sự tham gia
+judgment	W33	71	n	sự phán đoán
+manner	W33	71	n	cách thức; thái độ
+mission	W33	71	n	sứ mệnh
+obligation	W33	71	n	nghĩa vụ
+prospect	W33	71	n/v	triển vọng
+quest	W33	71	n	cuộc tìm kiếm
+reputation	W33	72	n	danh tiếng
+revenge	W33	72	n	sự trả thù
+sacrifice	W33	72	v/n	hy sinh
+tension	W33	72	n	sự căng thẳng
+welfare	W33	72	n	phúc lợi
+wisdom	W33	72	n	sự khôn ngoan
+insult	W33	72	n/v	lời xúc phạm
+confess	W33	72	v	thú nhận
+instinct	W33	72	n	bản năng
+well-dressed	W33	72	adj	ăn mặc đẹp
+middle-aged	W33	72	adj	trung niên
+old-fashioned	W33	72	adj	lỗi thời
+semi-detached	W33	72	adj	nhà chung một vách
+fast-food	W33	72	adj	thức ăn nhanh
+sugar-free	W33	72	adj	không đường
+well-done	W33	72	adj	chín kỹ
+self-service	W33	72	adj/n	tự phục vụ
+up-to-date	W33	72	adj	cập nhật mới nhất
+eco-friendly	W33	72	adj	thân thiện với môi trường
+run-down	W33	72	adj	xuống cấp
+en-suite	W33	72	adj/adv	khép kín
+duty-free	W33	72	adj/adv	miễn thuế
+single-sex	W33	73	adj	một giới
+semi-final	W33	73	n	trận bán kết
+quarter-final	W33	73	n	trận tứ kết
+sibling	W34	73	n	anh chị em ruột
+spouse	W34	73	n	vợ hoặc chồng
+ancestor	W34	73	n	tổ tiên
+descendant	W34	73	n	hậu duệ
+toddler	W34	73	n	trẻ mới biết đi
+infant	W34	73	n/adj	trẻ sơ sinh
+orphan	W34	73	n/v	trẻ mồ côi
+widow	W34	73	n	góa phụ
+widower	W34	73	n	người đàn ông góa vợ
+acquaintance	W34	73	n	người quen
+upbringing	W34	73	n	sự nuôi dạy
+adulthood	W34	73	n	tuổi trưởng thành
+adolescence	W34	73	n	tuổi vị thành niên
+adolescent	W34	73	n/adj	thanh thiếu niên
+peer	W34	73	v/n	bạn cùng lứa
+companion	W34	73	n	bạn đồng hành
+fiance	W34	73	n	hôn phu
+stepmother	W34	73	n	mẹ kế
+stepfather	W34	73	n	cha dượng
+stepson	W34	73	n	con trai riêng của vợ chồng
+stepdaughter	W34	73	n	con gái riêng của vợ chồng
+kinship	W34	73	n	mối quan hệ họ hàng
+inherit	W34	73	v	thừa kế
+heir	W34	73	n	người thừa kế
+forearm	W34	73	n	cẳng tay
+thigh	W34	73	n	đùi
+buttocks	W34	73	n	mông
+torso	W34	73	n	thân mình
+eyelid	W34	73	n	mí mắt
+nostril	W34	73	n	lỗ mũi
+gum	W34	73	n	lợi
+tonsil	W34	73	n	amiđan
+intestine	W34	73	n	ruột
+artery	W34	73	n	động mạch
+pulse	W34	73	n	mạch đập
+saliva	W34	73	n	nước bọt
+hormone	W34	73	n	hoóc môn
+digest	W34	73	v	tiêu hóa
+digestion	W34	73	n	sự tiêu hóa
+inhale	W34	73	v	hít vào
+exhale	W34	73	v	thở ra
+shiver	W34	73	v/n	run vì lạnh
+tremble	W34	73	v	run rẩy
+chronic	W34	73	adj	mãn tính
+acute	W34	73	adj/n	cấp tính
+contagious	W34	73	adj	dễ lây
+epidemic	W34	73	n/adj	dịch bệnh
+pandemic	W34	73	adj/n	đại dịch
+immune	W34	73	adj	miễn dịch
+immunity	W34	74	n	miễn dịch
+fatigue	W34	74	n/v	sự mệt mỏi
+insomnia	W34	74	n	chứng mất ngủ
+nausea	W34	74	n	buồn nôn
+migraine	W34	74	n	chứng đau nửa đầu
+fracture	W34	74	n/v	gãy xương
+sprain	W34	74	n/v	bong gân
+inflammation	W34	74	n	viêm
+disorder	W34	74	n	chứng rối loạn
+syndrome	W34	74	n	hội chứng
+rehabilitation	W34	74	n	phục hồi chức năng
+transplant	W34	74	v/n	ca cấy ghép
+anesthetic	W34	74	n	thuốc gây tê mê
+paramedic	W34	74	n	nhân viên cấp cứu
+pharmacist	W34	74	n	dược sĩ
+physician	W34	74	n	bác sĩ
+recovery	W34	74	n	sự phục hồi
+relapse	W34	74	v/n	tái phát
+remedy	W34	74	n/v	khắc phục, biện pháp
+overdose	W34	74	n	sự dùng quá liều
+dose	W34	74	n	liều thuốc
+hygiene	W34	74	n	vệ sinh
+sanitation	W34	74	n	vệ sinh môi trường
+obesity	W34	74	n	béo phì
+malnutrition	W34	74	n	suy dinh dưỡng
+wellness	W34	74	n	sức khoẻ tốt
+ailment	W34	74	n	bệnh nhẹ
+plump	W34	74	adj	mũm mĩm
+chubby	W34	74	adj	mập mạp
+stocky	W34	74	adj	chắc nịch
+petite	W34	74	adj	nhỏ nhắn
+unattractive	W34	74	adj	kém hấp dẫn
+striking	W34	74	adj	nổi bật
+graceful	W34	74	adj	duyên dáng
+clumsy	W34	74	adj	vụng về
+hairstyle	W34	74	n	kiểu tóc
+dimple	W34	74	n	lúm đồng tiền
+pierced	W34	74	adj	được xỏ lỗ
+piercing	W34	74	n	lỗ xỏ khuyên
+posture	W34	74	n/v	tư thế
+assertive	W34	74	adj	quyết đoán
+compassionate	W34	74	adj	giàu lòng trắc ẩn
+conscientious	W34	74	adj	tận tâm
+decisive	W34	74	adj	quyết đoán (hành động)
+indecisive	W34	74	adj	thiếu quyết đoán
+diligent	W34	74	adj	siêng năng
+eccentric	W34	74	adj	lập dị
+gullible	W34	74	adj	cả tin
+impulsive	W34	74	adj	bốc đồng
+introvert	W34	74	n	người hướng nội
+extrovert	W34	74	n/adj	người hướng ngoại
+introverted	W34	74	adj	hướng nội
+extroverted	W34	74	adj	hướng ngoại
+meticulous	W34	74	adj	tỉ mỉ
+naive	W34	74	adj	ngây thơ
+obstinate	W34	74	adj	ngoan cố
+passionate	W34	74	adj	đam mê
+persistent	W34	74	adj	kiên trì
+resilient	W34	74	adj	kiên cường
+spontaneous	W34	74	adj	tự phát
+tactful	W34	74	adj	tế nhị
+temperamental	W34	74	adj	tính khí thất thường
+vain	W34	75	adj	tự phụ
+witty	W34	75	adj	dí dỏm
+frank	W34	75	adj/v	thẳng thắn
+humorous	W34	75	adj	hài hước
+courageous	W34	75	adj	can đảm
+courteous	W34	75	adj	lịch sự
+gracious	W34	75	adj	nhã nhặn
+dependable	W34	75	adj	đáng tin cậy
+diplomatic	W34	75	adj	khéo léo, ngoại giao
+empathetic	W34	75	adj	đồng cảm
+versatile	W34	75	adj	đa năng
+trait	W34	75	n	đặc điểm tính cách
+apprehensive	W34	75	adj	lo sợ
+astonished	W34	75	adj	kinh ngạc
+bewildered	W34	75	adj	hoang mang
+content	W34	75	adj/v/n	hài lòng
+contented	W34	75	adj	mãn nguyện
+devastated	W34	75	adj	suy sụp
+dismayed	W34	75	adj	thất vọng lo lắng
+ecstatic	W34	75	adj	vui sướng tột độ
+elated	W34	75	adj	phấn khởi
+exasperated	W34	75	adj	bực tức
+exhilarated	W34	75	adj	phấn chấn
+gloomy	W34	75	adj	buồn rầu
+grief	W34	75	n	nỗi đau buồn
+grieve	W34	75	v	đau buồn
+humiliated	W34	75	adj	bị làm nhục
+indifferent	W34	75	adj	thờ ơ
+insecure	W34	75	adj	thiếu tự tin
+irritable	W35	75	adj	dễ cáu
+nostalgic	W35	75	adj	hoài niệm
+overwhelmed	W35	75	adj	choáng ngợp
+perplexed	W35	75	adj	bối rối
+resentful	W35	75	adj	ấm ức
+resentment	W35	75	n	sự oán giận
+remorse	W35	75	n	sự hối hận
+sentimental	W35	75	adj	đa cảm
+stunned	W35	75	adj	sững sờ
+uneasy	W35	75	adj	bất an
+wary	W35	75	adj	cảnh giác
+weary	W35	75	adj	mệt mỏi
+agitated	W35	75	adj	kích động
+distressed	W35	75	adj	đau khổ
+compassion	W35	75	n	lòng trắc ẩn
+contempt	W35	75	n	sự khinh miệt
+despair	W35	75	n/v	sự tuyệt vọng
+dread	W35	75	n/v	nỗi khiếp sợ
+enthusiasm	W35	75	n	sự nhiệt tình
+gratitude	W35	75	n	lòng biết ơn
+passion	W35	75	n	niềm đam mê
+rage	W35	75	n	cơn thịnh nộ
+sorrowful	W35	75	adj	đau buồn
+attire	W35	75	n	trang phục
+garment	W35	75	n	quần áo
+garments	W35	75	n	quần áo
+tuxedo	W35	75	n	bộ lễ phục nam
+gown	W35	75	n	váy dạ hội
+robe	W35	75	n	áo choàng
+blazer	W35	75	n	áo khoác vest
+cuff	W35	75	n	cổ tay áo
+hem	W35	75	n	gấu áo váy
+seam	W35	75	n	đường may
+knit	W35	76	v/n/adj	đan
+knitted	W35	76	adj	được đan
+silky	W35	76	adj	mượt như lụa
+polyester	W35	76	n	vải polyester
+synthetic	W35	76	adj/n	tổng hợp
+tailor	W35	76	n/v	thợ may
+tailored	W35	76	adj	được may đo
+vintage	W35	76	adj	cổ điển
+brooch	W35	76	n	trâm cài áo
+pendant	W35	76	n	mặt dây chuyền
+anklet	W35	76	n	lắc chân
+cufflinks	W35	76	n	khuy măng sét
+footwear	W35	76	n	giày dép
+headscarf	W35	76	n	khăn trùm đầu
+veil	W35	76	n	mạng che mặt
+dwelling	W35	76	n	nhà ở
+premises	W35	76	n	cơ sở nhà đất
+occupant	W35	76	n	người ở
+lodger	W35	76	n	người thuê phòng trọ
+homeowner	W35	76	n	chủ nhà
+refurbish	W35	76	v	tân trang
+remodel	W35	76	v	sửa sang
+conservatory	W35	76	n	phòng kính
+utility	W35	76	n/adj	tiện ích; dịch vụ công
+foundation	W35	76	n	nền móng
+partition	W35	76	n	vách ngăn
+floorboard	W35	76	n	ván sàn
+upholstery	W35	76	n	vật liệu bọc ghế
+furnishings	W35	76	n	đồ nội thất
+fixture	W35	76	n	thiết bị cố định
+fittings	W35	76	n	thiết bị lắp đặt
+drapes	W35	76	n	rèm cửa dày
+valance	W35	76	n	diềm rèm
+ottoman	W35	76	n	ghế đôn bọc nệm
+futon	W35	76	n	nệm gấp
+armoire	W35	76	n	tủ quần áo
+bureau	W35	76	n	tủ ngăn kéo
+receptacle	W35	76	n	đồ chứa
+canister	W35	76	n	hộp đựng
+decanter	W35	76	n	bình đựng rượu
+carafe	W35	76	n	bình rót nước
+thermos	W35	76	n	bình giữ nhiệt
+coaster	W35	76	n	miếng lót cốc
+doily	W35	76	n	khăn lót trang trí
+trivet	W35	76	n	đế lót nồi
+mallet	W35	76	n	vồ
+chisel	W35	76	n	đục
+crowbar	W35	76	n	xà beng
+wheelbarrow	W35	76	n	xe cút kít
+rake	W35	76	n/v	cào
+shovel	W35	76	n/v	xẻng
+spade	W35	76	n	mai đào đất
+trowel	W35	76	n	bay làm vườn
+sandpaper	W35	76	n	giấy nhám
+solvent	W35	76	adj/n	dung môi
+adhesive	W35	76	n/adj	chất kết dính
+upkeep	W35	76	n	chi phí bảo dưỡng
+sanitize	W35	76	v	làm sạch vệ sinh
+disinfect	W35	76	v	khử trùng
+launder	W35	76	v	giặt là
+delicacy	W35	77	n	món ngon đặc sản
+gourmet	W35	77	adj/n	người sành ăn
+culinary	W35	77	adj	thuộc về ẩm thực
+condiment	W35	77	n	gia vị ăn kèm
+marinade	W35	77	n	nước ướp
+broth	W35	77	n	nước dùng
+consomme	W35	77	n	súp trong
+puree	W35	77	n/v	thức ăn nghiền nhuyễn
+mousse	W35	77	n	bánh mousse
+souffle	W35	77	n	bánh trứng phồng
+sorbet	W35	77	n	kem trái cây không sữa
+custard	W35	77	n	xốt trứng sữa
+meringue	W35	77	n	bánh lòng trắng trứng
+caramel	W35	77	n	đường thắng
+syrup	W35	77	n	si rô
+molasses	W35	77	n	mật rỉ đường
+legume	W35	77	n	cây họ đậu
+lentil	W35	77	n	đậu lăng
+chickpea	W35	77	n	đậu gà
+quinoa	W35	77	n	hạt diêm mạch
+barley	W35	77	n	lúa mạch
+oats	W35	77	n	yến mạch
+wholegrain	W35	77	adj	nguyên hạt
+wholemeal	W35	77	adj	nguyên cám
+venison	W35	77	n	thịt hươu
+veal	W35	77	n	thịt bê
+mussel	W35	77	n	vẹm
+scallop	W35	77	n	sò điệp
+squid	W35	77	n	mực
+clam	W35	77	n	nghêu
+anchovy	W35	77	n	cá cơm
+sardine	W35	77	n	cá mòi
+mackerel	W35	77	n	cá thu
+cod	W35	77	n	cá tuyết
+artichoke	W35	77	n	atisô
+kale	W35	77	n	cải xoăn
+turnip	W35	77	n	củ cải tròn
+parsnip	W35	77	n	củ cải vàng
+shallot	W35	77	n	hành tím
+scallion	W35	77	n	hành lá
+saffron	W35	77	n	nhụy hoa nghệ tây
+nutmeg	W35	77	n	nhục đậu khấu
+oregano	W35	77	n	kinh giới cay
+thyme	W35	77	n	cỏ xạ hương
+rosemary	W35	77	n	hương thảo
+coriander	W35	77	n	rau mùi
+cilantro	W35	77	n	rau mùi
+cumin	W36	77	n	thì là Ai Cập
+appetizing	W36	77	adj	ngon mắt
+succulent	W36	77	adj/n	mọng ngon
+tender	W36	77	adj	mềm
+palatable	W36	77	adj	hợp khẩu vị
+unpalatable	W36	77	adj	khó ăn
+starving	W36	77	adj	đói lả
+famished	W36	77	adj	đói ngấu
+gluttony	W36	77	n	thói tham ăn
+vegetarianism	W36	77	n	chế độ ăn chay
+liqueur	W36	77	n	rượu mùi
+brandy	W36	77	n	rượu brandy
+rum	W36	77	n	rượu rum
+gin	W36	77	n/v	rượu gin
+sake	W36	77	n	rượu sake
+kombucha	W36	77	n	trà lên men
+caffeine	W36	77	n	caffeine
+dehydrated	W36	77	adj	bị mất nước
+hangover	W36	77	n	dư chứng sau uống rượu
+intoxicated	W36	78	adj	say
+sober	W36	78	adj	tỉnh rượu
+teetotal	W36	78	adj	kiêng rượu hoàn toàn
+saute	W36	78	v	áp chảo
+braise	W36	78	v	om
+poach	W36	78	v	chần
+sear	W36	78	v	áp chảo xém mặt
+caramelize	W36	78	v	thắng đường
+garnish	W36	78	v/n	trang trí món ăn
+knead	W36	78	v	nhào bột
+ferment	W36	78	v	lên men
+pickle	W36	78	v/n	muối chua
+infuse	W36	78	v	ngâm chiết vị
+connoisseur	W36	78	n	người sành
+sommelier	W36	78	n	chuyên gia rượu vang
+gastronomy	W36	78	n	nghệ thuật ẩm thực
+chronological	W36	78	adj	theo thứ tự thời gian
+simultaneous	W36	78	adj	đồng thời
+simultaneously	W36	78	adv	đồng thời
+momentary	W36	78	adj	thoáng chốc
+perpetual	W36	78	adj	vĩnh viễn
+transient	W36	78	adj	nhất thời
+interim	W36	78	adj/n	tạm thời
+imminent	W36	78	adj	sắp xảy ra
+preceding	W36	78	adj	trước đó
+succeeding	W36	78	adj	tiếp theo
+consecutive	W36	78	adj	liên tiếp
+hitherto	W36	78	adv	cho đến nay
+henceforth	W36	78	adv	từ nay về sau
+timely	W36	78	adj	kịp thời
+belated	W36	78	adj	muộn màng
+centennial	W36	78	n/adj	kỷ niệm một trăm năm
+bygone	W36	78	adj/n	đã qua
+antiquity	W36	78	n	thời cổ đại (đặc biệt Hy Lạp–La Mã)
+epoch	W36	78	n	kỷ nguyên, giai đoạn lịch sử quan trọng
+meteorology	W36	78	n	khí tượng học
+meteorologist	W36	78	n	nhà khí tượng học
+precipitation	W36	78	n	giáng thủy
+cyclone	W36	78	n	bão xoáy
+avalanche	W36	78	n	tuyết lở
+landslide	W36	78	n	sạt lở đất
+tsunami	W36	78	n	sóng thần
+earthquake	W36	78	n	động đất
+eruption	W36	78	n	sự phun trào
+sweltering	W36	78	adj	nóng ngột ngạt
+torrential	W36	78	adj	như trút nước
+inclement	W36	78	adj	khắc nghiệt
+balmy	W36	78	adj	ấm áp dễ chịu
+temperate	W36	78	adj	ôn hòa
+arid	W36	78	adj	khô cằn
+frosty	W36	78	adj	lạnh giá
+sultry	W36	78	adj	oi nồng
+barometer	W36	78	n	khí áp kế
+terrain	W36	78	n	địa hình
+topography	W36	78	n	địa hình học
+archipelago	W36	78	n	quần đảo
+estuary	W36	78	n	cửa sông
+delta	W36	78	n	châu thổ
+lagoon	W36	78	n	đầm phá
+fjord	W36	78	n	vịnh hẹp
+gorge	W36	78	n	hẻm núi
+ravine	W36	78	n	khe núi sâu
+crater	W36	78	n	miệng núi lửa
+tributary	W36	79	n	phụ lưu
+basin	W36	79	n	cái chậu
+wetland	W36	79	n	đất ngập nước
+tundra	W36	79	n	đài nguyên
+savanna	W36	79	n	thảo nguyên nhiệt đới
+steppe	W36	79	n	thảo nguyên khô
+sediment	W36	79	n	trầm tích
+erosion	W36	79	n	xói mòn
+landmass	W36	79	n	khối đất liền
+coastline	W36	79	n	đường bờ biển
+shoreline	W36	79	n	đường bờ nước
+inland	W36	79	adv/adj	trong đất liền
+offshore	W36	79	adj/v	chuyển sản xuất ra nước ngoài
+mountainous	W36	79	adj	nhiều núi
+hilly	W36	79	adj	nhiều đồi
+rugged	W36	79	adj	gồ ghề
+barren	W36	79	adj	cằn cỗi
+fertile	W36	79	adj	màu mỡ
+lush	W36	79	adj/n	tươi tốt
+panoramic	W36	79	adj	toàn cảnh
+breathtaking	W36	79	adj	ngoạn mục
+primate	W36	79	n	động vật linh trưởng
+rodent	W36	79	n	động vật gặm nhấm
+amphibian	W36	79	n	động vật lưỡng cư
+carnivore	W36	79	n	động vật ăn thịt
+herbivore	W36	79	n	động vật ăn cỏ
+omnivore	W36	79	n	động vật ăn tạp
+invertebrate	W36	79	n	động vật không xương sống
+vertebrate	W36	79	n	động vật có xương sống
+marsupial	W36	79	n	thú có túi
+porcupine	W36	79	n	nhím
+armadillo	W36	79	n	thú tatu
+chameleon	W36	79	n	tắc kè hoa
+iguana	W36	79	n	kỳ nhông
+salamander	W36	79	n	kỳ giông
+lemur	W36	79	n	vượn cáo
+sloth	W36	79	n	con lười
+orangutan	W36	79	n	đười ươi
+chimpanzee	W36	79	n	tinh tinh
+hyena	W36	79	n	linh cẩu
+antelope	W36	79	n	linh dương
+gazelle	W36	79	n	linh dương nhỏ
+walrus	W36	79	n	hải mã
+manatee	W36	79	n	lợn biển
+stingray	W36	79	n	cá đuối gai
+plankton	W36	79	n	sinh vật phù du
+termite	W36	79	n	mối
+larva	W36	79	n	ấu trùng
+cocoon	W36	79	n/v	cái kén
+fauna	W36	79	n	hệ động vật
+poacher	W36	79	n	kẻ săn trộm
+poaching	W36	79	n	săn bắn trộm
+captivity	W36	79	n	tình trạng nuôi nhốt
+extinction	W36	79	n	sự tuyệt chủng; sự tuyệt chủng (loài hoàn toàn biến mất khỏi Trái Đất)
+mating	W36	79	n	giao phối
+offspring	W36	79	n	con cái
+venom	W36	79	n	nọc độc
+venomous	W36	79	adj	có nọc độc
+foliage	W36	79	n	tán lá
+vegetation	W37	79	n	thảm thực vật
+flora	W37	79	n	hệ thực vật
+perennial	W37	79	adj/n	cây lâu năm
+evergreen	W37	79	adj/n	thường xanh
+deciduous	W37	79	adj	rụng lá theo mùa
+photosynthesis	W37	80	n	quang hợp (quá trình cây xanh chuyển ánh sáng thành năng lượng hoá học)
+pollen	W37	80	n	phấn hoa
+pollinate	W37	80	v	thụ phấn
+pollination	W37	80	n	sự thụ phấn
+germinate	W37	80	v	nảy mầm
+cultivate	W37	80	v	trồng trọt
+cultivation	W37	80	n	sự canh tác
+horticulture	W37	80	n	nghề làm vườn
+agriculture	W37	80	n	nông nghiệp
+agricultural	W37	80	adj	thuộc nông nghiệp
+biodiversity	W37	80	n	đa dạng sinh học
+ecology	W37	80	n	sinh thái học
+contamination	W37	80	n	sự ô nhiễm
+contaminate	W37	80	v	làm ô nhiễm
+degradation	W37	80	n	sự suy thoái
+depletion	W37	80	n	sự cạn kiệt
+deplete	W37	80	v	làm cạn kiệt
+desertification	W37	80	n	sa mạc hóa
+acid	W37	80	n/adj	axit
+biodegradable	W37	80	adj	phân hủy sinh học được
+compost	W37	80	n/v	phân hữu cơ
+offset	W37	80	v/n	bù đắp (khí thải)
+mitigate	W37	80	v	giảm nhẹ, giảm bớt
+mitigation	W37	80	n	sự giảm thiểu
+overpopulation	W37	80	n	dân số quá đông
+exploitation	W37	80	n	sự bóc lột
+exploit	W37	80	v/n	bóc lột, khai thác
+hazardous	W37	80	adj	nguy hiểm
+pollutant	W37	80	n	chất gây ô nhiễm
+recyclable	W37	80	adj	có thể tái chế
+renewables	W37	80	n	năng lượng tái tạo
+geothermal	W37	80	adj	thuộc địa nhiệt
+hydroelectric	W37	80	adj	thuộc thủy điện
+irreversible	W37	80	adj	không thể đảo ngược
+catastrophic	W37	80	adj	thảm khốc
+astrophysics	W37	80	n	vật lý thiên văn
+cosmos	W37	80	n	vũ trụ
+nebula	W37	80	n	tinh vân
+constellation	W37	80	n	chòm sao
+eclipse	W37	80	n	hiện tượng che khuất thiên thể
+spectrum	W37	80	n	phổ, dải
+particle	W37	80	n	hạt
+electron	W37	80	n	điện tử
+proton	W37	80	n	proton
+neutron	W37	80	n	nơtron
+quantum	W37	80	n	lượng tử
+isotope	W37	80	n	đồng vị
+radioactive	W37	80	adj	có tính phóng xạ
+catalyst	W37	80	n	chất xúc tác
+synthesis	W37	80	n	sự tổng hợp
+organism	W37	80	n	sinh vật (bất kỳ dạng sống nào, từ vi khuẩn đến động vật phức tạp)
+microorganism	W37	80	n	vi sinh vật
+bacteria	W37	80	n	vi khuẩn
+bacterium	W37	80	n	vi khuẩn
+chromosome	W37	80	n	nhiễm sắc thể
+genome	W37	80	n	bộ gen
+mutation	W37	80	n	đột biến (thay đổi vĩnh viễn trong chuỗi DNA)
+evolution	W37	81	n	tiến hoá (quá trình loài thay đổi qua nhiều thế hệ bằng chọn lọc tự nhiên)
+evolve	W37	81	v	tiến hoá, phát triển
+specimen	W37	81	n/adj	mẫu vật (ví dụ cá thể dùng cho nghiên cứu hoặc trưng bày)
+empirical	W37	81	adj	thực nghiệm (dựa trên quan sát/kinh nghiệm, không chỉ lý thuyết)
+theoretical	W37	81	adj	thuộc lý thuyết
+variable	W37	81	adj/n	biến số (yếu tố có thể thay đổi, kiểm soát, đo lường trong thí nghiệm)
+experimental	W37	81	adj	thuộc thực nghiệm
+phenomena	W37	81	n	các hiện tượng
+verify	W37	81	v	xác minh
+validate	W37	81	v	xác nhận tính đúng
+replicate	W37	81	v	tái lập, lặp lại (lặp lại thí nghiệm để kiểm chứng kết quả)
+calibrate	W37	81	v	hiệu chuẩn
+quantify	W37	81	v	định lượng
+simulation	W37	81	n	mô phỏng
+prototype	W37	81	n	nguyên mẫu
+breakthrough	W37	81	n/adj	bước đột phá; bước đột phá (phát hiện hoặc phát triển quan trọng vượt qua rào cản lớn)
+innovation	W37	81	n	sự đổi mới
+innovative	W37	81	adj	đổi mới, sáng tạo
+metropolis	W37	81	n	đại đô thị
+metropolitan	W37	81	adj/n	thuộc đô thị lớn
+municipality	W37	81	n	đơn vị hành chính đô thị
+conurbation	W37	81	n	chuỗi đô thị
+urbanization	W37	81	n	đô thị hóa
+gentrification	W37	81	n	tái thiết khu vực (đẩy cư dân cũ đi)
+sprawl	W37	81	v/n	sự mở rộng tràn lan
+slum	W37	81	n/v	khu ổ chuột / khu định cư không chính thức
+shantytown	W37	81	n	khu nhà ổ chuột
+thoroughfare	W37	81	n	đường giao thông chính
+boulevard	W37	81	n	đại lộ
+promenade	W37	81	n	đường dạo ven biển
+arcade	W37	81	n	hành lang mua sắm
+precinct	W37	81	n	khu vực cảnh sát
+borough	W37	81	n	quận
+cosmopolitan	W37	81	adj/n	quốc tế / đa văn hoá
+bustling	W37	81	adj	nhộn nhịp
+densely	W37	81	adv	dày đặc
+populated	W37	81	adj	có dân cư
+overcrowded	W37	81	adj	quá đông đúc
+zoning	W37	81	n	quy hoạch phân khu
+edifice	W37	81	n	công trình đồ sộ
+gridlock	W37	81	n/v	tắc nghẽn hoàn toàn / kẹt cứng
+detour	W37	81	n	đường vòng
+diversion	W37	81	n	đường vòng
+convoy	W37	81	n	đoàn xe
+navigate	W37	81	v	điều hướng
+navigation	W37	81	n	sự định hướng
+maneuver	W37	81	n/v	thao tác điều khiển
+collide	W37	81	v	va chạm
+collision	W37	81	n	vụ va chạm
+derail	W37	81	v	làm chệch hướng
+capsize	W37	81	v	lật thuyền
+hijack	W37	81	v	cướp phương tiện
+chauffeur	W37	81	n	tài xế riêng
+chauffeured	W37	81	adj	có tài xế riêng
+locomotive	W37	81	n	đầu máy xe lửa
+carriageway	W37	81	n	phần đường xe chạy
+interchange	W37	81	n/v	nút giao
+viaduct	W37	81	n	cầu cạn
+carpool	W37	81	n/v	đi chung xe
+carpooling	W37	82	n	việc đi chung xe
+getaway	W37	82	n	kỳ nghỉ ngắn
+staycation	W37	82	n	kỳ nghỉ tại nhà
+hospitality	W37	82	n	lòng hiếu khách
+concierge	W37	82	n	nhân viên hỗ trợ khách
+lodging	W37	82	n	chỗ trọ
+ecotourism	W37	82	n	du lịch sinh thái
+wanderlust	W37	82	n	niềm khao khát du lịch
+unspoiled	W37	82	adj	còn hoang sơ
+itinerant	W37	82	adj/n	lưu động
+nomad	W37	82	n	người du mục
+nomadic	W37	82	adj	du mục
+pilgrimage	W37	82	n	cuộc hành hương
+transit	W37	82	n/v	sự vận chuyển
+layover	W37	82	n	thời gian quá cảnh
+stopover	W37	82	n	chặng dừng
+embark	W37	82	v	bắt đầu chuyến đi
+disembark	W37	82	v	xuống tàu xe
+quarantine	W38	82	n/v	cách ly kiểm dịch
+merchandise	W38	82	n/v	hàng hóa
+commodity	W38	82	n	hàng hoá / nguyên liệu thô
+consumerism	W38	82	n	chủ nghĩa tiêu dùng
+materialistic	W38	82	adj	coi trọng vật chất
+impulse	W38	82	n	sự thôi thúc
+splurge	W38	82	v/n	chi tiêu mạnh tay
+extravagant	W38	82	adj	xa hoa
+frugal	W38	82	adj	tiết kiệm
+thrifty	W38	82	adj	tằn tiện
+markup	W38	82	n	phần cộng thêm giá
+markdown	W38	82	n	mức giảm giá
+clearance	W38	82	n	sự cho phép
+rebate	W38	82	n	khoản hoàn tiền
+exorbitant	W38	82	adj	quá đắt
+counterfeit	W38	82	adj/n	giả mạo
+asset	W38	82	n	tài sản
+liability	W38	82	n	nợ phải trả
+dividend	W38	82	n	cổ tức
+equity	W38	82	n	sự công bằng
+shareholder	W38	82	n	cổ đông
+bond	W38	82	n/v	trái phiếu; mối liên kết; gắn kết
+recession	W38	82	n	suy thoái kinh tế
+deficit	W38	82	n	thâm hụt
+surplus	W38	82	n/adj	phần dư
+fiscal	W38	82	adj	thuộc tài khóa
+monetary	W38	82	adj	thuộc tiền tệ
+subsidy	W38	82	n	khoản trợ cấp
+subsidize	W38	82	v	trợ giá
+tariff	W38	82	n	thuế quan
+levy	W38	82	n/v	thuế phụ thu
+overdraft	W38	82	n	khoản thấu chi
+collateral	W38	82	n	tài sản thế chấp
+creditor	W38	82	n	chủ nợ
+debtor	W38	82	n	con nợ
+lucrative	W38	82	adj	sinh lợi
+prosperous	W38	82	adj	thịnh vượng
+prosperity	W38	82	n	sự thịnh vượng
+affluent	W38	83	adj	giàu có
+impoverished	W38	83	adj	nghèo khó
+destitute	W38	83	adj	cùng quẫn
+insolvent	W38	83	adj	mất khả năng thanh toán
+embezzle	W38	83	v	tham ô
+fraud	W38	83	n	lừa đảo
+laundering	W38	83	n	rửa tiền
+pedagogy	W38	83	n	sư phạm
+pedagogical	W38	83	adj	thuộc phương pháp giảng dạy
+compulsory	W38	83	adj	bắt buộc
+mandatory	W38	83	adj	bắt buộc
+optional	W38	83	adj	tuỳ chọn
+elective	W38	83	adj/n	môn tự chọn
+extracurricular	W38	83	adj	ngoại khóa
+tertiary	W38	83	adj	bậc đại học
+alumni	W38	83	n	cựu sinh viên
+alumnus	W38	83	n	nam cựu sinh viên
+dean	W38	83	n	trưởng khoa
+chancellor	W38	83	n	lãnh đạo đại học
+accreditation	W38	83	n	sự công nhận chất lượng
+accredited	W38	83	adj	được kiểm định
+matriculate	W38	83	v	nhập học đại học
+aptitude	W38	83	n	năng khiếu
+proficiency	W38	83	n	trình độ thành thạo
+proficient	W38	83	adj	thành thạo
+rote	W38	83	n	sự học thuộc máy móc
+analytical	W38	83	adj	có tính phân tích
+intellectual	W38	83	adj/n	thuộc trí tuệ
+scholar	W38	83	n	học giả
+scholarly	W38	83	adj	có tính học thuật
+remedial	W38	83	adj	phụ đạo
+gifted	W38	83	adj	có năng khiếu
+dyslexia	W38	83	n	chứng khó đọc
+dyslexic	W38	83	adj/n	mắc chứng khó đọc
+vocation	W38	83	n	thiên hướng nghề nghiệp
+livelihood	W38	83	n	sinh kế
+remuneration	W38	83	n	thù lao / lương thưởng (bao gồm tất cả)
+compensation	W38	83	n	tiền bù đắp
+incentive	W38	83	n	động lực, khuyến khích
+appraisal	W38	83	n	sự đánh giá
+probation	W38	83	n	thời gian thử việc
+tenure	W38	83	n	nhiệm kỳ
+workaholic	W38	83	n	người nghiện công việc
+burnout	W38	83	n	kiệt sức
+delegate	W38	83	n/v	đại biểu
+negotiation	W38	83	n	cuộc đàm phán
+outsource	W38	83	v	thuê ngoài
+telecommute	W38	83	v	làm việc từ xa
+flexitime	W38	83	n	giờ làm linh hoạt
+headhunt	W38	83	v	săn nhân tài
+headhunter	W38	83	n	người săn nhân tài
+downsizing	W38	83	n	việc thu hẹp quy mô
+redundancy	W38	83	n	sự dư thừa nhân sự / cắt giảm nhân sự
+entrepreneurial	W38	83	adj	thuộc kinh doanh khởi nghiệp
+managerial	W38	84	adj	thuộc quản lý
+administrative	W38	84	adj	thuộc hành chính
+clerical	W38	84	adj	văn phòng, thư ký
+subordinate	W38	84	adj/n/v	cấp dưới
+hierarchy	W38	84	n	hệ thống cấp bậc
+mentor	W38	84	n/v	người cố vấn
+productivity	W38	84	n	năng suất
+competence	W38	84	n	năng lực
+competent	W38	84	adj	có năng lực
+stakeholder	W38	84	n	bên liên quan
+acquisition	W38	84	n	sự mua lại
+subsidiary	W38	84	adj/n	công ty con
+conglomerate	W38	84	n	tập đoàn đa ngành
+monopoly	W38	84	n	độc quyền
+franchise	W38	84	n/v	nhượng quyền thương mại
+venture	W38	84	n/v	dự án kinh doanh
+liquidity	W38	84	n	tính thanh khoản
+logistics	W38	84	n	hậu cần / logistics
+procurement	W38	84	n	mua sắm, thu mua
+wholesaler	W38	84	n	nhà bán buôn
+benchmark	W38	84	n/adj/v	mốc chuẩn
+compliance	W38	84	n	sự tuân thủ
+regulation	W38	84	n/adj	quy định
+regulatory	W38	84	adj	thuộc quản lý quy định
+bureaucracy	W38	84	n	bộ máy hành chính
+bureaucratic	W38	84	adj	quan liêu
+memorandum	W38	84	n	bản ghi nhớ
+briefing	W38	84	n	buổi phổ biến thông tin
+consensus	W38	84	n	sự đồng thuận
+feasibility	W38	84	n	tính khả thi
+leverage	W38	84	n/v	đòn bẩy
+synergy	W38	84	n	hiệu quả phối hợp
+peripheral	W39	85	adj/n	thiết bị ngoại vi
+semiconductor	W39	85	n	chất bán dẫn
+analog	W39	85	adj	tương tự
+propaganda	W39	85	n	tuyên truyền
+sensationalism	W39	85	n	lối đưa tin giật gân / phóng đại
+sensational	W39	85	adj	giật gân
+objectivity	W39	85	n	tính khách quan
+subjective	W39	85	adj	chủ quan
+impartial	W39	85	adj	công bằng
+mainstream	W39	85	adj/n/v	chính thống phổ biến
+correspondent	W39	85	n	phóng viên thường trú
+anchor	W39	85	n/v	người dẫn bản tin
+paparazzi	W39	85	n	thợ săn ảnh
+exclusive	W39	85	adj/n	độc quyền
+scoop	W39	85	n	tin độc quyền
+libel	W39	85	n	sự phỉ báng bằng văn bản
+slander	W39	85	n/v	sự vu khống bằng lời
+defamation	W39	85	n	sự phỉ báng
+circulation	W39	85	n	số lượng phát hành / lưu hành
+ratings	W39	85	n	chỉ số người xem
+airtime	W39	85	n	thời lượng phát sóng
+legislation	W39	85	n	pháp luật, luật pháp
+legislative	W39	85	adj	thuộc lập pháp
+constitution	W39	85	n	hiến pháp
+constitutional	W39	85	adj/n	thuộc hiến pháp
+sovereignty	W39	85	n	chủ quyền
+sovereign	W39	85	n/adj	có chủ quyền
+federal	W39	85	adj	liên bang
+regime	W39	85	n	chế độ
+authoritarian	W39	85	adj/n	độc đoán
+totalitarian	W39	85	adj	toàn trị
+diplomacy	W39	85	n	ngoại giao
+diplomat	W39	85	n	nhà ngoại giao
+treaty	W39	85	n	hiệp ước
+sanction	W39	85	n/v	sự cho phép chính thức
+sanctions	W39	85	n	lệnh trừng phạt
+referendum	W39	85	n	cuộc trưng cầu dân ý
+ballot	W39	85	n/v	lá phiếu
+electorate	W39	85	n	toàn thể cử tri
+constituency	W39	85	n	khu vực bầu cử
+coalition	W39	85	n	liên minh
+ministry	W39	85	n	bộ (chính phủ)
+governance	W39	86	n	quản trị, cách điều hành
+corruption	W39	86	n	tham nhũng
+corrupt	W39	86	adj/v	tham nhũng
+bribe	W39	86	v/n	tiền hối lộ
+bribery	W39	86	n	hối lộ
+smuggle	W39	86	v	buôn lậu
+smuggling	W39	86	n	hoạt động buôn lậu
+trafficking	W39	86	n	buôn lậu
+prosecute	W39	86	v	truy tố
+prosecution	W39	86	n	bên truy tố; sự truy tố
+prosecutor	W39	86	n	công tố viên
+defendant	W39	86	n	bị cáo
+plaintiff	W39	86	n	nguyên đơn
+verdict	W39	86	n	phán quyết
+acquit	W39	86	v	tuyên trắng án
+convict	W39	86	v/n	kết tội
+conviction	W39	86	n	bản án kết tội
+parole	W39	86	n/v	tha có điều kiện (ra tù sớm)
+custody	W39	86	n	sự giam giữ
+detain	W39	86	v	tạm giữ
+offense	W39	86	n	hành vi phạm pháp
+offender	W39	86	n	người phạm tội
+felony	W39	86	n	trọng tội
+misdemeanor	W39	86	n	khinh tội
+deterrent	W39	86	n/adj	biện pháp răn đe
+marginalized	W39	86	adj	bị gạt ra ngoài lề
+minorities	W39	86	n	các nhóm thiểu số
+asylum	W39	86	n	sự tị nạn
+deport	W39	86	v	trục xuất
+deportation	W39	86	n	sự trục xuất
+integration	W39	86	n	sự hòa nhập
+multicultural	W39	86	adj	đa văn hoá
+ethnicity	W39	86	n	sắc tộc
+ethnic	W39	86	adj/n	thuộc dân tộc
+segregation	W39	86	n	sự phân biệt cách ly
+activist	W39	86	n	nhà hoạt động
+activism	W39	86	n	hoạt động vận động xã hội
+advocacy	W39	86	n	sự vận động ủng hộ
+advocate	W39	86	v/n	ủng hộ, người ủng hộ
+grassroots	W39	86	n/adj	quần chúng cơ sở
+humanitarian	W39	86	adj	nhân đạo
+philanthropy	W39	86	n	hoạt động từ thiện
+nonprofit	W39	86	adj/n	phi lợi nhuận
+insurgency	W39	86	n	cuộc nổi dậy
+ceasefire	W39	86	n	lệnh ngừng bắn
+genocide	W39	86	n	tội diệt chủng
+warfare	W39	86	n	chiến tranh
+militant	W39	86	adj/n	hiếu chiến
+endurance	W39	86	n/adj	sức bền
+agility	W39	86	n	sự nhanh nhẹn
+adrenaline	W39	86	n	hoóc môn adrenaline
+contender	W39	86	n	ứng viên tranh chức vô địch
+underdog	W39	86	n	đối thủ bị đánh giá yếu
+qualifier	W39	86	n	vòng loại
+elimination	W39	86	n	sự loại bỏ
+relegate	W39	87	v	làm xuống hạng
+relegation	W39	87	n	sự xuống hạng
+sponsorship	W39	87	n	sự tài trợ
+sponsor	W39	87	v/n	nhà tài trợ
+doping	W39	87	n	sử dụng chất cấm
+steroid	W39	87	n	chất steroid
+disqualify	W39	87	v	loại khỏi cuộc thi
+unbeaten	W39	87	adj	chưa bị đánh bại
+undefeated	W39	87	adj	bất bại
+spectate	W39	87	v	xem thi đấu
+podium	W40	87	n	bục nhận giải
+avid	W40	87	adj	say mê
+aficionado	W40	87	n	người sành sỏi đam mê
+novice	W40	87	n	người mới tập
+recreationally	W40	87	adv	để giải trí
+unwind	W40	87	v	thư giãn
+rejuvenate	W40	87	v	làm trẻ khỏe lại
+indulge	W40	87	v	tự chiều chuộng
+indulgence	W40	87	n	sự nuông chiều bản thân
+leisurely	W40	87	adj	thong thả
+symphony	W40	87	n	bản giao hưởng
+concerto	W40	87	n	bản hòa tấu
+sonata	W40	87	n	bản sonata
+aria	W40	87	n	khúc hát đơn opera
+ensemble	W40	87	n	nhóm hòa tấu
+quartet	W40	87	n	nhóm tứ tấu
+virtuoso	W40	87	n	nghệ sĩ bậc thầy
+acoustic	W40	87	adj/n	không khuếch đại điện
+amplifier	W40	87	n	bộ khuếch đại
+improvise	W40	87	v	ứng tác
+improvisation	W40	87	n	sự ứng tác
+choreography	W40	87	n	biên đạo múa
+choreographer	W40	87	n	biên đạo múa
+repertoire	W40	87	n	vốn tiết mục
+renaissance	W40	87	n/adj	thời kỳ Phục hưng (thế kỷ 14–17)
+baroque	W40	87	adj/n	phong cách Baroque
+impressionism	W40	87	n	trường phái ấn tượng
+surrealism	W40	87	n	trường phái siêu thực
+aesthetic	W40	87	adj/n	thẩm mỹ
+aesthetics	W40	87	n	mỹ học
+mural	W40	87	n	tranh tường
+fresco	W40	87	n	bích họa
+mosaic	W40	87	n/adj	tranh khảm
+ceramics	W40	87	n	đồ gốm
+installation	W40	87	n	tác phẩm sắp đặt
+cinematography	W40	87	n	nghệ thuật quay phim
+cinematic	W40	87	adj	thuộc điện ảnh
+protagonist	W40	87	n	nhân vật chính
+antagonist	W40	87	n	nhân vật đối kháng
+narrative	W40	87	n/adj	câu chuyện, lối kể
+adaptation	W40	87	n	sự thích nghi (quá trình hoặc kết quả trở nên phù hợp hơn với môi trường)
+acclaim	W40	87	n/v	sự ca ngợi
+acclaimed	W40	87	adj	được đánh giá cao
+critically	W40	87	adv	theo giới phê bình
+anthology	W40	87	n	tuyển tập
+manuscript	W40	87	n	bản thảo, văn bản cổ viết tay
+memoir	W40	87	n	hồi ký
+prose	W40	87	n	văn xuôi
+verse	W40	87	n	thơ
+stanza	W40	87	n	khổ thơ
+rhyme	W40	88	n/v	vần
+metaphor	W40	88	n	phép ẩn dụ
+simile	W40	88	n	phép so sánh
+irony	W40	88	n	sự mỉa mai
+satire	W40	88	n	văn châm biếm
+allegory	W40	88	n	truyện ngụ ý
+foreword	W40	88	n	lời giới thiệu
+preface	W40	88	n	lời tựa
+epilogue	W40	88	n	phần kết
+prologue	W40	88	n	phần mở đầu
+glossary	W40	88	n	bảng thuật ngữ
+bibliography	W40	88	n	danh mục tài liệu tham khảo
+footnote	W40	88	n	chú thích cuối trang
+appendix	W40	88	n	phụ lục
+linguistics	W40	88	n	ngôn ngữ học
+linguistic	W40	88	adj	thuộc ngôn ngữ học
+etymology	W40	88	n	từ nguyên học
+colloquial	W40	88	adj	mang tính khẩu ngữ
+jargon	W40	88	n	thuật ngữ chuyên ngành
+articulate	W40	88	adj/v	(adj.) lưu loát, rõ ràng; (v.) diễn đạt rõ ràng
+eloquent	W40	88	adj	hùng hồn
+rhetoric	W40	88	n	thuật hùng biện / tu từ
+rhetorical	W40	88	adj	mang tính tu từ
+discourse	W40	88	n/v	diễn ngôn
+connotation	W40	88	n	nghĩa liên tưởng
+ambiguity	W40	88	n	sự mơ hồ / tính đa nghĩa
+ambiguous	W40	88	adj	mơ hồ
+literal	W40	88	adj	theo nghĩa đen
+figurative	W40	88	adj	mang nghĩa bóng
+commemoration	W40	88	n	lễ tưởng niệm
+festivity	W40	88	n	không khí lễ hội
+festivities	W40	88	n	hoạt động lễ hội
+solemn	W40	88	adj	trang nghiêm
+sacred	W40	88	adj	thiêng liêng
+deity	W40	88	n	vị thần
+divine	W40	88	adj	thuộc thần linh
+theology	W40	88	n	thần học
+ancestral	W40	88	adj	thuộc tổ tiên
+rite	W40	88	n	nghi lễ
+ceremonial	W40	88	adj/n	thuộc nghi lễ
+inauguration	W40	88	n	lễ nhậm chức
+jubilee	W40	88	n	lễ kỷ niệm lớn
+procession	W40	88	n	đoàn diễu hành
+pageant	W40	88	n	cuộc trình diễn lớn
+gala	W40	88	n	buổi dạ tiệc
+extravaganza	W40	88	n	màn trình diễn hoành tráng
+observance	W40	88	n	sự cử hành
+multinational	W40	88	adj/n	(tập đoàn) đa quốc gia
+expatriate	W40	88	n/adj/v	người sống ở nước ngoài
+expat	W40	88	n	người sống ở nước ngoài
+emigrate	W40	88	v	di cư ra nước ngoài
+emigrant	W40	88	n	người di cư
+emigration	W40	88	n	sự di cư
+homeland	W40	88	n	quê hương
+motherland	W40	88	n	quê mẹ
+patriotic	W40	88	adj	yêu nước
+patriotism	W40	88	n	lòng yêu nước
+nationalism	W40	88	n	chủ nghĩa dân tộc
+Scandinavia	W40	89	n	vùng Scandinavia
+Scandinavian	W40	89	adj/n	thuộc Scandinavia
+Balkan	W40	89	adj	thuộc Balkan
+Caribbean	W40	89	n/adj	vùng Caribe
+Latin	W40	89	n/adj	tiếng Latinh
+Hispanic	W40	89	adj/n	thuộc văn hóa nói tiếng Tây
+translucent	W40	89	adj	trong mờ
+opaque	W40	89	adj	không xuyên sáng
+iridescent	W40	89	adj	óng ánh đổi màu
+metallic	W40	89	adj	có ánh kim
+matte	W40	89	adj	mờ lì
+glossy	W40	89	adj	bóng láng
+symmetrical	W40	89	adj	đối xứng
+asymmetrical	W40	89	adj	bất đối xứng
+spherical	W40	89	adj	hình cầu
+cylindrical	W40	89	adj	hình trụ
+rectangular	W40	89	adj	hình chữ nhật
+triangular	W40	89	adj	hình tam giác
+circular	W40	89	adj/n	hình tròn
+elliptical	W40	89	adj	hình elip
+hexagon	W40	89	n	hình lục giác
+octagon	W40	89	n	hình bát giác
+polygon	W40	89	n	hình đa giác
+contour	W40	89	n	đường nét
+texture	W40	89	n	kết cấu bề mặt
+coarse	W40	89	adj	thô
+brittle	W40	89	adj	giòn dễ gãy
+malleable	W40	89	adj	dễ uốn nắn
+elastic	W40	89	adj/n	co giãn
+porous	W40	89	adj	xốp
+compact	W40	89	adj/n/v	nhỏ gọn
+intricate	W40	89	adj	phức tạp, tinh xảo
+ornate	W40	89	adj	trang trí cầu kỳ
+aggregate	W41	89	n/adj	tổng cộng
+cumulative	W41	89	adj	tích lũy
+disproportionate	W41	89	adj	không tương xứng
+magnitude	W41	89	n	tầm cỡ
+multitude	W41	89	n	vô số
+marginal	W41	89	adj/n	biên, cận biên, không đáng kể
+marginally	W41	89	adv	đôi chút
+negligible	W41	89	adj	không đáng kể
+substantially	W41	89	adv	đáng kể
+exponential	W41	89	adj	theo cấp số nhân
+exponentially	W41	89	adv	theo cấp số nhân
+plummet	W41	89	v/n	giảm mạnh, lao dốc
+soar	W41	89	v	tăng mạnh, tăng vọt
+surge	W41	89	n/v	tăng vọt, đợt tăng mạnh
+plunge	W41	89	v/n	lao xuống, sụt mạnh
+dwindle	W41	89	v	thu hẹp, teo dần
+escalate	W41	89	v	leo thang, gia tăng
+fluctuation	W41	89	n	sự dao động
+variance	W41	89	n	phương sai
+deviation	W41	89	n	độ lệch
+median	W41	89	n/adj	trung vị
+mode	W41	89	n	mốt thống kê
+percentile	W41	89	n	phân vị phần trăm
+quarterly	W41	89	adj/n/adv	hằng quý
+biannual	W41	89	adj	hai lần mỗi năm
+notwithstanding	W41	90	prep	bất chấp, mặc dù
+thereby	W41	90	adv	qua đó
+therein	W41	90	adv	trong đó
+thereafter	W41	90	adv	sau đó
+whereupon	W41	90	conj	ngay sau đó
+insofar	W41	90	adv	trong chừng mực
+albeit	W41	90	conj	mặc dù
+inasmuch	W41	90	adv	trong chừng mực
+pertaining	W41	90	v	liên quan
+abandon	W41	90	v/n	bỏ rơi
+accommodate	W41	90	v	chứa, cung cấp chỗ ở
+accumulate	W41	90	v	tích lũy
+acknowledge	W41	90	v	thừa nhận, công nhận
+acquire	W41	90	v	tiếp thu, đạt được
+anticipate	W41	90	v	dự đoán
+assert	W41	90	v	khẳng định, tuyên bố
+cease	W41	90	v/n	ngừng
+commence	W41	90	v	bắt đầu
+compensate	W41	90	v	bù đắp, đền bù
+comply	W41	90	v	tuân thủ
+comprise	W41	90	v	bao gồm, chiếm
+conceive	W41	90	v	hình dung ra
+condemn	W41	90	v	lên án
+confront	W41	90	v	đối mặt
+consolidate	W41	90	v	củng cố
+constitute	W41	90	v	cấu thành, tạo nên
+contradict	W41	90	v	mâu thuẫn với
+deduce	W41	90	v	suy luận
+depict	W41	90	v	miêu tả
+derive	W41	90	v	thu được từ
+deteriorate	W41	90	v	xuống cấp
+deviate	W41	90	v	lệch khỏi
+diminish	W41	90	v	suy giảm, thu nhỏ
+discriminate	W41	90	v	phân biệt đối xử
+disregard	W41	90	v/n	phớt lờ
+distinguish	W41	90	v	phân biệt
+distort	W41	90	v	làm méo mó
+dominate	W41	90	v	chi phối, thống trị
+elaborate	W41	90	v	giải thích chi tiết
+emerge	W41	90	v	nổi lên, xuất hiện
+exaggerate	W41	90	v	phóng đại
+exceed	W41	90	v	vượt quá
+foster	W41	91	v/adj	nuôi dưỡng
+hinder	W41	91	v	cản trở
+impose	W41	91	v	áp đặt
+incorporate	W41	91	v	kết hợp, tích hợp
+induce	W41	91	v	gây ra
+inhibit	W41	91	v	kìm hãm
+integrate	W41	91	v	tích hợp
+intervene	W41	91	v	can thiệp
+manipulate	W41	91	v	thao túng
+minimize	W41	91	v	giảm thiểu
+modify	W41	91	v	điều chỉnh
+neglect	W41	91	v/n	bỏ bê
+nurture	W41	91	v/n	nuôi dưỡng
+obstruct	W41	91	v	cản trở
+perceive	W41	91	v	nhận thức, xem là
+persist	W41	91	v	kiên trì, tiếp diễn
+portray	W41	91	v	phác họa, mô tả
+precede	W41	91	v	diễn ra trước
+prioritize	W41	91	v	ưu tiên
+prohibit	W41	91	v	cấm
+pursue	W41	91	v	theo đuổi
+reinforce	W41	91	v	củng cố
+retain	W41	91	v	giữ lại
+sustain	W41	91	v/n	duy trì, chịu đựng
+undermine	W41	91	v	làm suy yếu
+utilize	W41	91	v	sử dụng
+withstand	W41	91	v	chịu đựng
+abundant	W41	91	adj	dồi dào
+adverse	W41	91	adj	bất lợi, xấu
+ample	W41	91	adj	dư dả
+arbitrary	W41	91	adj	tùy tiện
+authentic	W41	91	adj	chính hiệu
+bizarre	W41	91	adj	kỳ quái
+coherent	W41	91	adj	mạch lạc
+compelling	W41	91	adj	thuyết phục, có sức nặng
+comprehensive	W41	91	adj/n	toàn diện
+concise	W41	91	adj	súc tích
+conventional	W41	91	adj	thông thường
+credible	W41	91	adj	đáng tin
+cynical	W41	91	adj	hoài nghi động cơ
+deliberate	W41	91	adj/v	cố ý
+diverse	W41	91	adj	đa dạng
+dubious	W41	91	adj	đáng ngờ
+dynamic	W41	91	adj/n	năng động
+eligible	W41	91	adj	đủ điều kiện
+eminent	W41	91	adj	lỗi lạc
+erratic	W41	91	adj	thất thường
+explicit	W41	91	adj	rõ ràng trực tiếp
+feasible	W41	91	adj	khả thi
+futile	W42	91	adj	vô ích
+hypothetical	W42	91	adj	mang tính giả định
+imperative	W42	91	adj/n	cấp thiết
+implicit	W42	91	adj	ngầm hiểu
+inadequate	W42	91	adj	không đầy đủ
+incompatible	W42	91	adj	không tương thích
+indispensable	W42	92	adj	không thể thiếu
+inherent	W42	92	adj	vốn có
+innate	W42	92	adj	bẩm sinh
+intrinsic	W42	92	adj	nội tại
+irrelevant	W42	92	adj	không liên quan
+legitimate	W42	92	adj/v	hợp pháp, chính đáng
+lenient	W42	92	adj	khoan hồng
+mundane	W42	92	adj	tẻ nhạt thường ngày
+notorious	W42	92	adj	khét tiếng
+obscure	W42	92	adj/v	ít người biết
+overwhelming	W42	92	adj	choáng ngợp
+paramount	W42	92	adj	tối thượng, quan trọng nhất
+plausible	W42	92	adj	hợp lý, có vẻ đúng (nhưng chưa chắc)
+pragmatic	W42	92	adj	thực dụng, thiết thực, thực tế
+predominant	W42	92	adj	chiếm ưu thế
+prevalent	W42	92	adj	phổ biến
+prolific	W42	92	adj	sáng tác nhiều
+robust	W42	92	adj	mạnh mẽ, bền chắc
+rudimentary	W42	92	adj	sơ đẳng
+scarce	W42	92	adj/adv	khan hiếm
+sceptical	W42	92	adj	hoài nghi
+skeptical	W42	92	adj	hoài nghi
+stringent	W42	92	adj	nghiêm ngặt
+subsequent	W42	92	adj	tiếp theo, sau đó
+superficial	W42	92	adj	hời hợt, bề ngoài
+tangible	W42	92	adj/n	hữu hình
+tedious	W42	92	adj	tẻ nhạt
+trivial	W42	92	adj	tầm thường
+ubiquitous	W42	92	adj	có mặt khắp nơi
+unprecedented	W42	92	adj	chưa từng có tiền lệ
+viable	W42	92	adj	khả thi, có thể thực hiện được
+vigorous	W42	92	adj	mạnh mẽ
+volatile	W42	92	adj	dễ biến động
+arguably	W42	92	adv	có thể cho rằng, được cho là
+conversely	W42	92	adv	ngược lại
+explicitly	W42	92	adv	một cách rõ ràng
+implicitly	W42	92	adv	một cách ngầm định
+inevitably	W42	92	adv	không thể tránh khỏi
+invariably	W42	92	adv	luôn luôn
+predominantly	W42	92	adv	chủ yếu
+profoundly	W42	92	adv	sâu sắc
+seemingly	W42	92	adv	có vẻ
+significantly	W42	92	adv	đáng kể
+superficially	W42	92	adv	về bề ngoài
+unduly	W42	92	adv	quá mức
+vastly	W42	92	adv	rất nhiều
+vividly	W42	92	adv	một cách sống động
+wholeheartedly	W42	92	adv	hết lòng
+inadvertently	W42	92	adv	vô tình
+intrinsically	W42	92	adv	về bản chất
+ostensibly	W42	92	adv	bề ngoài có vẻ
+purportedly	W42	92	adv	được cho là
+unequivocally	W42	92	adv	dứt khoát rõ ràng
+abundance	W42	92	n	sự phong phú
+accountability	W42	92	n	trách nhiệm giải trình
+adversity	W42	92	n	nghịch cảnh
+analogy	W42	92	n	sự tương đồng
+anticipation	W42	92	n	sự mong đợi
+autonomy	W42	92	n	quyền tự chủ
+coherence	W42	92	n	sự mạch lạc
+commitment	W42	92	n	sự cam kết
+complexity	W42	92	n	sự phức tạp
+compromise	W42	92	n/v	sự thỏa hiệp
+concession	W42	93	n	sự nhượng bộ
+constraint	W42	93	n	sự ràng buộc
+controversy	W42	93	n	tranh cãi
+credibility	W42	93	n	độ tin cậy
+criterion	W42	93	n	tiêu chí
+criteria	W42	93	n	tiêu chí
+deficiency	W42	93	n	sự thiếu hụt
+dilemma	W42	93	n	tình huống tiến thoái lưỡng nan
+discrepancy	W42	93	n	sự khác biệt
+disposition	W42	93	n	tính khí
+diversity	W42	93	n	sự đa dạng
+dominance	W42	93	n	sự thống trị
+endeavor	W42	93	n/v	sự nỗ lực
+equilibrium	W42	93	n	trạng thái cân bằng
+essence	W42	93	n	bản chất
+ideology	W42	93	n	hệ tư tưởng
+implication	W42	93	n	hàm ý
+inclination	W42	93	n	thiên hướng
+integrity	W42	93	n	chính trực
+misconception	W42	93	n	quan niệm sai
+momentum	W42	93	n	đà
+paradigm	W42	93	n	mô hình
+paradox	W42	93	n	nghịch lý
+premise	W42	93	n	tiền đề
+prerequisite	W42	93	n	điều kiện tiên quyết
+provision	W42	93	n/v	sự cung cấp
+rationale	W42	93	n	cơ sở lý luận
+scrutiny	W42	93	n	sự xem xét kỹ
+stance	W42	93	n	lập trường
+stereotype	W42	93	n	khuôn mẫu định kiến
+transition	W42	93	n/v	sự chuyển đổi
+validity	W42	93	n	tính hợp lệ, độ giá trị (mức độ nghiên cứu đo đúng cái cần đo)
+vulnerability	W42	93	n	tính dễ tổn thương
+persuasive	W42	93	adj	thuyết phục
+dialogue	W42	93	n	đối thoại
+speculate	W42	93	v	suy đoán
+speculation	W42	93	n	sự suy đoán
+infer	W42	93	v	suy ra
+inference	W42	93	n	sự suy luận
+presume	W42	93	v	cho rằng
+comprehend	W42	93	v	hiểu thấu
+comprehension	W42	93	n	khả năng hiểu
+cognitive	W42	93	adj	thuộc nhận thức
+irrational	W42	93	adj	phi lý
+verbose	W42	93	adj	dài dòng
+nuance	W42	93	n	sắc thái / điểm tinh tế
+rapport	W42	93	n	mối quan hệ hoà hợp / sự đồng cảm
+empathy	W42	93	n	sự đồng cảm / thấu cảm
+tact	W42	93	n	sự tế nhị
+mediate	W42	93	v	hòa giải
+mediator	W42	93	n	người hòa giải
+refute	W42	93	v	bác bỏ
+rebut	W42	93	v	phản bác
+concede	W42	93	v	thừa nhận, nhượng bộ
+reiterate	W42	93	v	nhắc lại
+allude	W42	94	v	ám chỉ
+insinuate	W42	94	v	ám chỉ
+self-confident	W42	94	adj	tự tin
+self-centered	W42	94	adj	chỉ biết bản thân
+fuel-efficient	W42	94	adj	tiết kiệm nhiên liệu
+e-commerce	W42	94	n	thương mại điện tử
+e-learning	W42	94	n	học trực tuyến
+cutting-edge	W42	94	adj	tiên tiến nhất
+state-of-the-art	W42	94	adj	hiện đại nhất
+avant-garde	W42	94	adj/n	tiên phong
+Anglo-Saxon	W42	94	n/adj	thuộc người Anglo Saxon
+defense	W43	94	n	phòng thủ
+hearing	W43	94	n/adj	thính giác
+presence	W43	95	n	sự có mặt
+massive	W43	95	adj/n	đồ sộ
+joint	W43	95	adj/n/v	chung
+inspired	W43	95	adj	được truyền cảm hứng
+serving	W43	95	adj/n	phần ăn
+typically	W43	95	adv	thường thì
+offering	W43	95	n	sản phẩm cung cấp
+mining	W43	95	n	khai thác mỏ
+resistance	W43	95	n	sự kháng cự
+shame	W43	95	n/v/interj	sự xấu hổ; điều đáng tiếc
+marine	W43	95	adj/n	thuộc biển
+gang	W43	95	n	băng nhóm
+angel	W43	96	n	thiên thần
+naked	W43	96	adj	trần truồng
+possession	W44	96	n	tài sản
+sword	W44	96	n	thanh kiếm
+occupied	W44	96	adj	đã có người
+favour	W44	96	n/v	ân huệ
+psychology	W44	96	n	tâm lý học
+slave	W44	96	n/v	nô lệ
+ruling	W44	96	n/adj	phán quyết
+slip	W44	97	v/n	trượt chân
+oral	W44	97	adj/n	bằng miệng
+shelter	W44	97	n/v	nơi trú ẩn
+relate	W44	97	v	đồng cảm
+manufacturer	W44	97	n	nhà sản xuất
+negotiations	W44	97	n	cuộc đàm phán
+slavery	W44	97	n	chế độ nô lệ
+coastal	W44	97	adj	ven biển
+partially	W44	97	adv	một phần
+clue	W44	97	n/v	manh mối
+spray	W44	97	n/v	xịt
+shine	W44	97	v/n	chiếu sáng
+ingredients	W44	97	n	nguyên liệu
+revised	W44	97	adj	đã chỉnh sửa
+severely	W44	97	adv	nghiêm trọng
+resistant	W44	98	adj	có khả năng chống chịu
+steep	W44	98	adj/v	dốc
+occupy	W44	98	v	chiếm, ở
+shuttle	W44	98	n/v	xe đưa đón
+tomb	W44	98	n	ngôi mộ
+trademark	W44	98	n/v	nhãn hiệu
+mankind	W44	98	n	nhân loại
+pointless	W44	98	adj	vô ích
+humour	W44	98	n/v	tính hài hước
+overly	W44	98	adv	quá mức
+submarine	W44	98	n/adj	tàu ngầm
+textile	W44	98	n	vải, hàng dệt
+jealousy	W44	99	n	sự ghen tị
+flavour	W45	99	n/v	hương vị
+regain	W45	99	v	lấy lại
+thrill	W45	99	n/v	cảm giác hồi hộp
+downward	W45	99	adj/adv	hướng xuống
+upward	W45	99	adv/adj	hướng lên
+helpless	W45	99	adj	bất lực
+confuse	W45	99	v	làm lẫn lộn
+optimism	W45	99	n	sự lạc quan
+repay	W45	99	v	trả nợ
+graffiti	W45	99	n/v	hình vẽ bậy trên tường
+loneliness	W45	99	n	nỗi cô đơn
+narrowly	W45	99	adv	suýt soát
+onwards	W45	99	adv	trở đi
+grad	W45	99	n	sinh viên tốt nghiệp
+willingly	W45	99	adv	sẵn lòng
+rooftop	W45	99	n/adj	mái nhà
+doubtful	W45	99	adj	nghi ngờ
+questionnaire	W45	100	n	bảng câu hỏi
+lifespan	W45	100	n	tuổi thọ
+motherhood	W45	100	n	thiên chức làm mẹ
+farmland	W45	100	n	đất nông nghiệp
+originality	W45	100	n	tính độc đáo
+shipbuilding	W45	100	n	ngành đóng tàu
+toughness	W45	100	n	sự cứng rắn
+daycare	W45	100	n	nhà trẻ ban ngày
+enthusiastically	W45	100	adv	một cách nhiệt tình
+skydiving	W45	100	n	môn nhảy dù
+nutritionist	W45	101	n	chuyên gia dinh dưỡng
+throwaway	W45	101	adj	dùng một lần
+vlog	W45	101	n/v	nhật ký video
+lawnmower	W45	101	n	máy cắt cỏ
+toughen	W45	101	v	làm cứng rắn hơn
+teriyaki	W45	101	n	món teriyaki
+telehealth	W45	101	n	y tế từ xa
+stepfamily	W45	101	n	gia đình riêng
+snowplough	W45	101	n/v/adj	xe ủi tuyết
+bully	W46	102	n/v	kẻ bắt nạt
+fined	W46	102	v	bị phạt tiền
+flooding	W46	102	n	lũ lụt
+guardian	W46	103	n	người giám hộ
+institution	W46	103	n	tổ chức
+melting	W46	103	adj/n	đang tan
+offensive	W46	103	adj/n	xúc phạm
+organised	W46	103	adj	ngăn nắp
+performer	W46	103	n	nghệ sĩ biểu diễn
+politically	W46	103	adv	về mặt chính trị
+politicians	W46	104	n	chính trị gia
+powered	W46	104	adj	chạy bằng
+ruin	W47	104	v/n	phế tích, tàn tích
+spirit	W47	104	n/v	tinh thần
+unaware	W47	104	adj	không biết
+award-winning	W48	106	adj	từng đoạt giải
+abate	W49	108	v	giảm bớt, lắng xuống
+abolition	W49	108	n	sự bãi bỏ
+acquitted	W49	108	v	tha bổng, tuyên trắng án
+additive	W49	108	n/adj	phụ gia thực phẩm
+administer	W49	108	v	quản lý, điều hành
+adoption	W49	109	n	nhận con nuôi
+adventurous	W49	109	adj	mạo hiểm / thích phiêu lưu
+alleviate	W49	109	v	xoa dịu, làm giảm bớt
+ameliorate	W49	109	v	cải thiện (tình trạng xấu)
+antonym	W49	109	n	từ trái nghĩa
+archaeological	W49	109	adj	thuộc khảo cổ
+archaeology	W49	109	n	khảo cổ học
+arson	W49	109	n	đốt phá (cố ý phóng hoả)
+artefacts	W49	109	n	hiện vật / cổ vật
+assault	W49	109	n/v	hành hung, tấn công
+authoritative	W49	109	adj	có thẩm quyền nhưng ấm áp
+bail	W49	109	n/v	tại ngoại (có bảo lãnh)
+breadwinner	W49	109	n	trụ cột gia đình
+burgeon	W49	109	v	phát triển mạnh mẽ, nở rộ
+caregiver	W49	109	n	người chăm sóc
+causation	W49	109	n	quan hệ nhân quả (A trực tiếp gây ra B)
+charismatic	W49	109	adj	lôi cuốn
+circumstances	W49	109	n	hoàn cảnh, tình huống
+clickbait	W49	109	n	mồi nhấp / tiêu đề câu view
+cohabitation	W49	109	n	sống chung không kết hôn
+colonial	W49	109	adj/n	thuộc địa
+commission	W49	109	v/n	uỷ ban; giao nhiệm vụ; đặt hàng (tác phẩm)
+commit	W49	109	v	cam kết; phạm (tội)
+complement	W49	109	v/n	bổ sung cho nhau
+conducive	W49	109	adj	có lợi cho, thuận lợi cho, tạo điều kiện
+conquer	W49	109	v	chinh phục
+conquest	W49	109	n	sự chinh phục
+consent	W49	109	n/v	sự đồng ý; đồng ý
+constructive	W49	109	adj	mang tính xây dựng
+contend	W49	109	v	khẳng định, tranh luận
+contentious	W49	109	adj	gây tranh cãi
+continuous	W49	109	adj/n	liên tục
+convened	W49	109	v	triệu tập, họp
+convicted	W49	110	adj	kết tội / phạm nhân
+counsel	W49	110	v/n	tư vấn tâm lý
+cyberbullying	W49	110	n	bắt nạt trực tuyến
+debatable	W49	110	adj	còn bàn cãi, chưa ngã ngũ
+decipher	W49	110	v	giải mã
+deemed	W49	110	v	xem là, cho là, coi là
+deleterious	W49	110	adj	có hại (rất formal)
+demise	W49	110	n/v	sự sụp đổ, sự diệt vong
+demographic	W49	110	adj/n	thuộc nhân khẩu học
+demolished	W49	110	v	phá dỡ, phá hủy
+derived	W49	110	adj	lấy từ, bắt nguồn
+descendants	W49	110	n	hậu duệ, con cháu
+determination	W49	110	n	sự quyết tâm
+deterrence	W49	110	n	sự răn đe (khái niệm trừu tượng)
+detrimental	W49	110	adj	bất lợi, có hại
+diaspora	W49	110	n	cộng đồng kiều bào / người xa xứ
+digitalisation	W49	110	n	số hoá
+dip	W49	110	v/n	giảm nhẹ tạm thời
+DIY	W49	110	n/adj	tự làm (do-it-yourself)
+dwindled	W49	110	v	thu hẹp dần, giảm dần
+dynasty	W49	110	n	triều đại
+dysfunctional	W49	110	adj	rối loạn chức năng
+efficacious	W49	110	adj	hiệu nghiệm, có hiệu lực, hiệu quả
+eloquence	W49	110	n	sự hùng biện
+elucidate	W49	110	v	làm sáng tỏ, giải thích rõ ràng
+emancipation	W49	110	n	sự giải phóng
+embargo	W49	110	n/v	cấm vận
+embezzlement	W49	110	n	biển thủ
+employability	W49	110	n	khả năng có việc làm
+enlightenment	W49	110	n	thời kỳ Khai sáng (thế kỷ 18)
+entrepreneurship	W49	110	n	tinh thần khởi nghiệp
+equate	W49	110	v	đánh đồng, tương đương
+euphemism	W49	110	n	uyển ngữ / nói giảm nói tránh
+exacerbate	W49	110	v	làm trầm trọng thêm, làm tồi tệ hơn
+exacerbated	W49	110	v	làm trầm trọng thêm
+excavated	W49	110	v	khai quật
+excavation	W49	110	n	cuộc khai quật
+exposed	W49	110	adj	phơi bày, tiếp xúc
+extensive	W49	111	adj	rộng lớn, bao quát
+feudal	W49	111	adj	phong kiến
+flaw	W49	111	n/v	có sai sót, thiếu sót
+folklore	W49	111	n	văn hoá dân gian
+foresight	W49	111	n	tầm nhìn xa
+gravitational	W49	111	adj	thuộc về trọng lực (liên quan đến hoặc gây ra bởi lực hấp dẫn)
+hindrance	W49	111	n	sự cản trở, trở ngại
+homicide	W49	111	n	giết người
+humankind	W49	111	n	nhân loại, loài người
+immense	W49	111	adj	bao la, vô cùng lớn
+immigrate	W49	111	v	nhập cư
+impediment	W49	111	n	trở ngại (formal)
+imprisonment	W49	111	n	giam giữ, bỏ tù
+incarceration	W49	111	n	sự giam cầm (formal hơn imprisonment)
+industrialisation	W49	111	n	công nghiệp hoá
+inscription	W49	111	n	chữ khắc, văn bia
+insignificant	W49	111	adj	không đáng kể, không quan trọng
+insolvency	W49	111	n	mất khả năng thanh toán
+instigate	W49	111	v	khởi xướng, xúi giục
+institute	W49	111	n/v	viện, học viện; thiết lập
+intergenerational	W49	111	adj	liên thế hệ
+irrefutable	W49	111	adj	không thể bác bỏ
+legislate	W49	111	v	lập pháp
+legislators	W49	111	n	nhà lập pháp
+loanwords	W49	111	n	từ mượn
+localisation	W49	111	n	bản địa hoá
+mandate	W49	111	n/v	ủy quyền, sự uỷ thác
+materialism	W50	111	n	chủ nghĩa vật chất
+medieval	W50	111	adj	trung cổ (thế kỷ 5–15)
+meritocracy	W50	111	n	chế độ nhân tài / chế độ trọng dụng tài năng
+metabolism	W50	111	n	sự trao đổi chất
+methodology	W50	111	n	phương pháp luận
+negate	W50	112	v	phủ nhận, vô hiệu hoá
+neologism	W50	112	n	từ mới
+obstacle	W50	112	n	trở ngại
+outweigh	W50	112	v	vượt trội hơn, lớn hơn
+overconsumption	W50	112	n	tiêu dùng quá mức
+overhaul	W50	112	v/n	đại tu, cải tổ toàn diện
+overprotective	W50	112	adj	quá bảo bọc
+overthrow	W50	112	v/n	lật đổ
+overtourism	W50	112	n	tình trạng quá tải du lịch
+patronage	W50	112	n	sự bảo trợ / tài trợ
+pedestrianisation	W50	112	n	đi bộ hoá (biến khu vực thành khu đi bộ)
+permissive	W50	112	adj	dễ dãi
+pernicious	W50	112	adj	tai hại, có hại một cách ngấm ngầm
+perpetrator	W50	112	n	thủ phạm
+perseverance	W50	112	n	sự kiên trì
+pertinent	W50	112	adj	thích đáng, liên quan, phù hợp
+pervasive	W50	112	adj	lan tỏa khắp nơi, thấm nhuần
+pharmaceutical	W50	112	adj/n	dược phẩm; dược phẩm (liên quan đến sản xuất và bán thuốc)
+phish	W50	112	n	lừa đảo trực tuyến (qua email/tin nhắn giả)
+pivotal	W50	112	adj	mấu chốt, then chốt
+populace	W50	112	n	dân chúng, cư dân
+portfolio	W50	112	n	danh mục đầu tư
+posit	W50	112	v	đưa ra giả thuyết, đề xuất
+preceded	W50	112	v	đứng trước, đi trước
+precipitate	W50	112	v/n/adj	gây ra đột ngột, thúc đẩy (điều xấu)
+prehistoric	W50	112	adj	tiền sử (trước khi có chữ viết)
+preservation	W50	112	n	bảo tồn
+preservative	W50	112	n	chất bảo quản
+privatisation	W50	112	n	tư nhân hoá
+prognosis	W50	112	n	tiên lượng bệnh
+proliferate	W50	112	v	lan rộng, tăng nhanh về số lượng
+prompt	W50	112	v/adj/n/adv	thúc đẩy, khiến phải hành động
+proponent	W50	112	n	người ủng hộ
+protectionism	W50	112	n	chủ nghĩa bảo hộ
+rebellion	W50	112	n	cuộc nổi loạn
+recidivism	W50	112	n	tái phạm (academic term)
+rectify	W50	112	v	sửa chữa, khắc phục, chỉnh sửa
+reintegration	W50	112	n	tái hòa nhập (xã hội)
+relic	W50	112	n	di vật, tàn tích
+remittance	W50	113	n	kiều hối
+remnant	W50	113	n	tàn tích, dấu vết còn sót lại
+renovated	W50	113	v	cải tạo, tu sửa
+reoffend	W50	113	v	tái phạm (verb)
+reside	W50	113	v	cư trú
+restoration	W50	113	n/adj	phục chế / trùng tu
+settlement	W50	113	n	khu định cư
+shareholders	W50	113	n	cổ đông
+shrink	W50	113	v/n	thu hẹp, co lại
+slump	W50	113	v/n	sụt giảm mạnh
+stigma	W50	113	n	kỳ thị
+subsidise	W50	113	v	trợ cấp / tài trợ
+substantiate	W50	113	v	chứng minh, chứng thực
+surveillance	W50	113	n	giám sát
+taxonomy	W50	113	n	phân loại học (ngành khoa học phân loại sinh vật)
+telecommuting	W50	113	n	làm việc từ xa
+telemedicine	W50	113	n	y tế từ xa
+transparency	W50	113	n	sự minh bạch
+trigger	W50	113	n/v	kích hoạt, khởi phát
+trough	W50	113	n/v	điểm thấp nhất, đáy
+undeniable	W50	113	adj	không thể phủ nhận
+underemployment	W50	113	n	thiếu việc làm (làm việc dưới khả năng)
+undergo	W50	113	v	trải qua (quá trình)
+underscore	W50	113	v/n	nhấn mạnh, gạch dưới (nghĩa bóng)
+undertake	W50	113	v	đảm nhận, tiến hành
+unearthed	W50	113	v	khai quật, phát hiện
+upheaval	W50	113	n	biến động lớn, xáo trộn
+uprising	W50	113	n	cuộc nổi dậy
+urbanisation	W50	113	n	đô thị hoá
+wane	W50	113	v/n	suy giảm, yếu đi
+westernisation	W50	113	n	Tây hoá
+whistleblower	W50	114	n	người tố giác sai phạm
+car-pooling	W50	114	n	đi chung xe (tự tổ chức)
+carbon-neutral	W50	114	adj	trung hoà carbon
+child-rearing	W50	114	n	nuôi dạy con cái
+code-switching	W50	114	n	chuyển mã ngôn ngữ
+e-sports	W50	114	n	thể thao điện tử
+e-waste	W50	114	n	rác thải điện tử
+eco-tourism	W50	114	n	du lịch sinh thái
+ground-breaking	W50	114	adj	đột phá, mang tính đổi mới (đưa ra ý tưởng/phương pháp chưa từng có)
+health-conscious	W50	114	adj	quan tâm sức khoẻ
+high-rise	W50	114	n/adj	nhà cao tầng
+laid-back	W50	114	adj	thoải mái
+non-renewable	W50	114	adj/n	không tái tạo được
+nutrient-rich	W50	114	adj	giàu dinh dưỡng
+open-minded	W50	114	adj	cởi mở
+peer-reviewed	W50	114	adj	bình duyệt chuyên gia (được chuyên gia cùng lĩnh vực đánh giá trước khi xuất bản)
+ride-sharing	W50	114	n	đi chung xe (qua ứng dụng)
+self-disciplined	W50	114	adj	tự kỷ luật
+self-esteem	W50	114	n	lòng tự trọng
+tech-savvy	W50	114	adj	am hiểu công nghệ
+well-rounded	W50	114	adj	toàn diện
+trump	W51	114	n/v	con át chủ bài
+grand	W51	114	adj/n	nguy nga, lớn lao
+fellow	W51	114	adj/n	bạn đồng môn
+supreme	W51	114	adj	tối cao
+affairs	W51	114	n	công việc, sự vụ
+assembly	W51	114	n	buổi họp, hội đồng
+dedicated	W51	114	adj	tận tâm
+entitled	W51	114	v/adj	có quyền được
+mount	W51	114	v/n	leo lên, gắn
+accused	W51	114	n	bị cáo
+trail	W51	114	n/v	đường mòn
+alliance	W51	114	n	liên minh
+alleged	W51	114	adj	bị cho là
+honour	W51	114	n/v	danh dự, vinh dự
+extraordinary	W51	114	adj	phi thường
+ambassador	W51	114	n	đại sứ
+breast	W51	114	n	ngực
+blues	W51	114	n	nhạc blues
+commonwealth	W51	114	n	khối thịnh vượng chung
+radical	W51	115	adj/n	triệt để, cấp tiến
+grave	W51	115	n/adj	mộ
+petition	W51	115	n/v	bản kiến nghị
+shield	W51	115	n/v	cái khiên
+default	W51	115	v/n	không trả được nợ
+equipped	W51	115	adj	được trang bị
+composed	W51	115	adj	điềm tĩnh
+corps	W51	115	n	đoàn, quân đoàn
+pit	W51	115	n/v	hố
+encounter	W51	115	n/v	gặp phải
+segment	W51	115	n/v	phần, đoạn
+designated	W51	115	adj	được chỉ định
+tribute	W51	115	n	lời tri ân
+venue	W51	115	n	địa điểm tổ chức
+suspension	W51	115	n	sự đình chỉ
+treasury	W51	115	n	kho bạc
+warrant	W51	115	v/n	lệnh bắt, khám xét
+backing	W51	115	n	sự ủng hộ
+certified	W51	115	adj	có chứng nhận
+controversial	W51	115	adj	gây tranh cãi
+veteran	W51	115	n/adj	cựu chiến binh
+dismissed	W51	115	v	bị sa thải, bị cho về
+distinguished	W51	115	adj	lỗi lạc
+solely	W51	115	adv	chỉ riêng
+mar	W51	115	v	làm hỏng, làm xấu đi
+advisory	W51	115	adj/n	mang tính tư vấn
+devoted	W51	115	adj	tận tụy
+dominated	W51	115	v	chi phối
+artistic	W51	115	adj	có tính nghệ thuật
+aviation	W51	115	n	hàng không
+barrel	W51	115	n/v	thùng tròn
+contrary	W51	115	n/adj	trái ngược
+crush	W51	115	v/n	nghiền nát
+underlying	W51	115	adj	tiềm ẩn, cơ bản
+preliminary	W51	115	adj/n	sơ bộ
+vocal	W51	115	adj/n	lên tiếng mạnh mẽ
+burst	W51	115	v/n	nổ tung
+strain	W51	115	n/v	căng thẳng
+swift	W51	115	adj/n	nhanh chóng
+harsh	W51	116	adj	khắc nghiệt
+inspection	W51	116	n	sự kiểm tra
+judicial	W51	116	adj	thuộc tư pháp
+closure	W51	116	n	sự đóng cửa
+implications	W51	116	n	hệ quả
+surrender	W51	116	v/n	đầu hàng
+lodge	W51	116	v/n	nhà nghỉ nhỏ
+rotation	W51	116	n	sự quay
+altogether	W51	116	adv/n	tổng cộng
+reign	W51	116	v/n	triều đại
+expertise	W51	116	n	chuyên môn
+accomplish	W51	116	v	hoàn thành
+mobility	W51	116	n	khả năng di chuyển
+surgical	W51	116	adj	thuộc phẫu thuật
+aging	W51	116	adj/n	già đi
+cope	W51	116	v	đối phó
+thermal	W52	116	adj/n	thuộc nhiệt
+hype	W52	116	n/v	quảng cáo rùm beng
+lobby	W52	116	v/n	sảnh
+sentiment	W52	116	n	tình cảm, quan điểm
+tribal	W52	116	adj	thuộc bộ lạc
+gauge	W52	116	v/n	đồng hồ đo
+advisor	W52	116	n	cố vấn
+buck	W52	117	n/v	đô la (tiếng lóng)
+harassment	W52	117	n	sự quấy rối
+sheer	W52	117	adj/v	hoàn toàn
+stark	W52	117	adj/adv	rõ rệt
+upside	W52	117	n	mặt tích cực
+void	W52	117	n/adj/v	khoảng trống
+coup	W52	117	n	cuộc đảo chính
+disclosure	W52	117	n	sự tiết lộ
+pledge	W52	117	n/v	lời cam kết
+affiliate	W52	117	v/n	liên kết
+clause	W52	117	n	điều khoản
+outbreak	W52	117	n	sự bùng phát
+probe	W52	117	v/n	điều tra
+spark	W52	117	n/v	tia lửa
+successor	W52	117	n	người kế nhiệm
+bump	W52	117	v/n	va vào
+doctrine	W52	117	n	học thuyết
+hazard	W52	117	n/v	mối nguy
+caution	W52	117	n/v	sự thận trọng
+certification	W52	117	n	chứng chỉ
+determining	W52	117	adj	mang tính quyết định
+grasp	W52	117	v/n	nắm chặt
+scattered	W52	117	adj	rải rác
+architectural	W52	117	adj	thuộc kiến trúc
+dedication	W52	117	n	sự cống hiến
+nominee	W52	117	n	người được đề cử
+reconstruction	W52	117	n	sự xây dựng lại
+renowned	W52	117	adj	nổi tiếng
+spike	W52	117	n/v	sự tăng vọt
+automobile	W52	117	n	ô tô, xe hơi
+leap	W52	117	v/n	bước nhảy vọt
+recipient	W52	117	n	người nhận
+supervision	W52	117	n	sự giám sát
+arise	W52	117	v	nảy sinh
+discharge	W52	117	v/n	cho xuất viện
+dodge	W52	117	v/n	né tránh
+guild	W52	117	n	hội nghề nghiệp
+prone	W52	117	adj/v	dễ bị
+sanctuary	W52	117	n	nơi trú ẩn
+debris	W52	117	n	mảnh vụn
+showcase	W52	117	n/v	trưng bày
+catalogue	W52	117	n/v	danh mục
+hay	W52	117	n	cỏ khô
+territorial	W52	117	adj/n	thuộc lãnh thổ
+aftermath	W52	117	n	hậu quả
+blunt	W52	117	adj/v/n	cùn, thẳng thừng
+cardinal	W52	117	n/adj	hồng y
+elevation	W52	117	n	độ cao
+obsession	W52	117	n	nỗi ám ảnh
+progression	W52	117	n	sự tiến triển
+counseling	W52	117	n	tư vấn tâm lý
+plague	W52	117	v/n	bệnh dịch
+solidarity	W52	117	n	sự đoàn kết
+carved	W52	117	adj	được chạm khắc
+lining	W52	117	n	lớp lót
+tribunal	W52	117	n	tòa án đặc biệt
+forgiveness	W52	117	n	sự tha thứ
+systematic	W52	118	adj	có hệ thống
+congressman	W52	118	n	nghị sĩ
+fade	W52	118	v/n	phai dần
+fellowship	W52	118	n	tình bằng hữu
+fulfill	W52	118	v	thực hiện
+hardy	W52	118	adj	khỏe, chịu được
+prestigious	W52	118	adj	danh giá
+relay	W52	118	v/n	chuyển tiếp
+stunt	W52	118	n/v/adj	pha nguy hiểm
+desirable	W52	118	adj	đáng mong muốn
+devastating	W52	118	adj	tàn phá nặng nề
+ivory	W52	118	n/adj	ngà voi
+spinal	W52	118	adj	thuộc cột sống
+spiral	W52	118	n/v/adj	hình xoắn ốc
+bracket	W52	118	n/v	dấu ngoặc
+cardiac	W52	118	adj/n	thuộc tim
+disclose	W52	118	v	tiết lộ
+promptly	W52	118	adv	ngay lập tức
+decay	W52	118	v/n	mục nát, sâu
+differential	W52	118	n/adj	chênh lệch
+mafia	W52	118	n	mafia
+oversight	W52	118	n	sơ suất
+refined	W52	118	adj	tinh tế
+statute	W52	118	n	đạo luật
+capita	W52	118	n	đầu người
+decree	W52	118	n/v	sắc lệnh
+geological	W52	118	adj	thuộc địa chất
+membrane	W52	118	n	màng
+stimulus	W52	118	n	tác nhân kích thích
+absorb	W52	118	v	hấp thụ
+accord	W52	118	n/v	hiệp định
+advancement	W52	118	n	sự thăng tiến
+doom	W52	118	n/v	vận rủi
+infectious	W52	118	adj	lây nhiễm
+prolonged	W52	118	adj	kéo dài
+respiratory	W52	118	adj	thuộc hô hấp
+constraints	W52	118	n	những hạn chế
+originated	W52	118	v	bắt nguồn
+righteous	W52	118	adj/n	chính trực
+curb	W52	118	v/n	hạn chế
+prejudice	W52	118	n/v	định kiến
+rehab	W52	118	n	trung tâm cai nghiện
+reproduction	W52	118	n/adj	sự sinh sản
+aboriginal	W52	118	n/adj	thuộc thổ dân
+apparatus	W52	118	n	thiết bị
+bodily	W52	118	adj/adv	thuộc cơ thể
+collaborative	W52	118	adj	mang tính hợp tác
+foremost	W52	118	adj	hàng đầu
+questionable	W52	118	adj	đáng ngờ
+respondents	W52	118	n	người trả lời khảo sát
+traction	W52	118	n	độ bám
+algebra	W52	118	n	đại số
+analytics	W52	118	n	phân tích dữ liệu
+fortress	W52	118	n	pháo đài
+ideological	W52	118	adj	thuộc hệ tư tưởng
+insider	W52	119	n	người trong cuộc
+prohibition	W52	119	n	lệnh cấm
+designation	W52	119	n	tên gọi, chức danh
+payroll	W52	119	n	bảng lương
+pinch	W52	119	v/n	cấu, véo
+reckon	W52	119	v	cho rằng
+spatial	W52	119	adj	thuộc không gian
+statutory	W52	119	adj	theo luật định
+cue	W53	119	n/v	tín hiệu
+forensic	W53	119	adj	pháp y
+settlers	W53	119	n	người định cư
+compass	W53	119	n	la bàn
+evacuation	W53	119	n	sự sơ tán
+potent	W53	119	adj	mạnh
+systemic	W53	119	adj	mang tính hệ thống
+bacterial	W53	119	adj	thuộc vi khuẩn
+devotion	W53	119	n	sự tận tâm
+excel	W53	119	v/n	vượt trội
+null	W53	119	adj/n/v	vô hiệu
+pact	W53	119	n	hiệp ước
+revolt	W53	119	v/n	nổi dậy
+shrine	W53	119	n	đền thờ
+termination	W53	119	n	sự chấm dứt
+thrive	W53	119	v	phát triển mạnh
+bilateral	W53	119	adj	song phương
+choke	W53	119	v/n	nghẹn
+intentional	W53	119	adj	có chủ ý
+occupational	W53	119	adj	thuộc nghề nghiệp
+onset	W53	119	n	sự khởi phát
+strive	W53	119	v	nỗ lực
+unlawful	W53	119	adj	bất hợp pháp
+apex	W53	119	n/adj	đỉnh
+coating	W53	119	n	lớp phủ
+consolidation	W53	119	n	sự hợp nhất
+directive	W53	119	n	chỉ thị
+milestone	W53	119	n	cột mốc
+tactic	W53	119	n	chiến thuật
+appoint	W53	119	v	bổ nhiệm
+baseline	W53	119	n	mức cơ sở
+coping	W53	119	n	đối phó
+gaze	W53	119	v/n	nhìn chằm chằm
+indictment	W53	119	n	bản cáo trạng
+premature	W53	119	adj	sớm, non
+tidal	W53	119	adj	thuộc thủy triều
+allegiance	W53	119	n	lòng trung thành
+contingent	W53	119	n/adj	đoàn đại diện
+exodus	W53	119	n	cuộc di cư ồ ạt
+invasive	W53	119	adj	xâm lấn
+takeover	W53	119	n	vụ thâu tóm
+impaired	W53	119	adj	bị suy giảm
+manifest	W53	119	v/adj/n	biểu hiện
+outreach	W53	119	n/adj	hoạt động tiếp cận cộng đồng
+pulp	W53	119	n/v	bột giấy
+rigorous	W53	119	adj	nghiêm ngặt
+sensory	W53	119	adj	thuộc giác quan
+suppression	W53	120	n	sự đàn áp
+theatrical	W53	120	adj	thuộc sân khấu
+unanimous	W53	120	adj	nhất trí
+goodwill	W53	120	n	thiện chí
+harness	W53	120	n/v	dây đai
+stimulate	W53	120	v	kích thích
+susceptible	W53	120	adj	dễ bị ảnh hưởng
+verge	W53	120	n	bờ vực
+absorption	W53	120	n	sự hấp thụ
+backlash	W53	120	n	phản ứng dữ dội
+criticised	W53	120	v	bị chỉ trích
+dire	W53	120	adj	nghiêm trọng
+dominion	W53	120	n	quyền thống trị
+misconduct	W53	120	n/v	hành vi sai trái
+morale	W53	120	n	tinh thần
+prevalence	W53	120	n	tỷ lệ hiện mắc, mức độ phổ biến
+spur	W53	120	v/n	thúc đẩy
+suppress	W53	120	v	đàn áp
+deception	W53	120	n	sự lừa dối
+evenly	W53	120	adv	đều
+indefinitely	W53	120	adv	vô thời hạn
+standpoint	W53	120	n	quan điểm
+sway	W53	120	v/n	đung đưa
+dictatorship	W53	120	n	chế độ độc tài
+mythology	W53	120	n	thần thoại
+query	W53	120	n/v	câu hỏi, thắc mắc
+restraint	W53	120	n	sự kiềm chế
+supremacy	W53	120	n	ưu thế tối cao
+drastic	W53	120	adj	quyết liệt
+gag	W53	120	n/v	trò đùa
+legitimacy	W53	120	n	tính hợp pháp
+reproduce	W53	120	v	sinh sản
+temporal	W53	120	adj	thuộc thời gian
+aquatic	W53	120	adj	dưới nước
+gluten	W53	120	n	gluten
+heavyweight	W53	120	n	hạng nặng
+peasant	W53	120	n	nông dân nghèo
+affinity	W53	120	n	sự yêu thích tự nhiên
+casualty	W53	120	n	người thương vong
+disgust	W53	120	n/v	sự ghê tởm
+dissolution	W53	120	n	sự giải thể
+famine	W53	120	n	nạn đói
+handicap	W53	120	n/v	điều bất lợi
+remembrance	W53	120	n	sự tưởng nhớ
+unrest	W53	120	n	bất ổn
+attendant	W53	120	n/adj	người phục vụ
+climax	W53	120	n/v	đỉnh điểm
+nominal	W53	120	adj	danh nghĩa, không đáng kể
+ventilation	W53	120	n	sự thông gió
+duplicate	W53	120	v/adj/n	sao chép
+exposition	W53	120	n	triển lãm
+marital	W53	120	adj	thuộc hôn nhân
+readiness	W53	120	n	sự sẵn sàng
+cartel	W53	120	n	các-ten
+conveniently	W53	120	adv	một cách tiện lợi
+dictate	W53	121	v/n	ra lệnh, đọc cho viết
+improper	W53	121	adj	không phù hợp
+influx	W53	121	n	dòng người đổ vào
+adhere	W53	121	v	tuân theo
+blockade	W53	121	n/v	sự phong tỏa
+circa	W53	121	prep	khoảng (năm)
+combustion	W53	121	n	sự đốt cháy
+defective	W53	121	adj	bị lỗi
+dwell	W53	121	v	cư trú
+intuitive	W53	121	adj	trực quan
+mastery	W53	121	n	sự thành thạo
+parameter	W53	121	n	tham số
+catastrophe	W53	121	n	thảm họa
+complementary	W53	121	adj	bổ sung cho nhau
+dissent	W53	121	n/v	sự bất đồng
+hardship	W53	121	n	gian khổ
+planetary	W53	121	adj	thuộc hành tinh
+stakeholders	W53	121	n	các bên liên quan
+waterfront	W53	121	n	bờ nước
+amend	W53	121	v	sửa đổi
+cater	W53	121	v	cung cấp thức ăn
+distortion	W53	121	n	sự méo mó
+entitlement	W53	121	n	quyền lợi
+fragment	W53	121	n/v	mảnh vỡ
+fulfil	W53	121	v	thực hiện
+longevity	W53	121	n	tuổi thọ
+obstruction	W53	121	n	vật cản
+rampant	W53	121	adj	tràn lan
+summon	W53	121	v	triệu tập
+turbulence	W53	121	n	sự nhiễu động
+avoidance	W53	121	n	sự tránh né
+covert	W53	121	adj/n	bí mật
+downfall	W53	121	n	sự sụp đổ
+downside	W53	121	n	mặt trái
+ensuing	W54	121	adj	tiếp theo sau đó
+invaluable	W54	121	adj	vô giá
+lax	W54	121	adj/n	lỏng lẻo
+methane	W54	121	n	khí mê-tan
+overwhelmingly	W54	121	adv	áp đảo
+prominence	W54	121	n	sự nổi bật
+radically	W54	121	adv	triệt để
+swiftly	W54	121	adv	nhanh chóng
+backbone	W54	121	n	xương sống
+celestial	W54	121	adj	thuộc thiên thể
+devote	W54	121	v	dành cho
+favourable	W54	121	adj	thuận lợi
+flourish	W54	121	v/n	phát triển tốt
+medicinal	W54	121	adj	có tác dụng chữa bệnh
+overlook	W54	121	v/n	bỏ sót
+rebound	W54	121	v/n	bật lại
+residue	W54	121	n	cặn
+watershed	W54	121	n	bước ngoặt
+endowment	W54	121	n	quỹ hiến tặng
+erect	W54	121	v/adj	dựng lên
+outward	W54	121	adj/adv	bên ngoài
+systematically	W54	121	adv	một cách có hệ thống
+turmoil	W54	121	n	tình trạng hỗn loạn
+tyranny	W54	121	n	chế độ chuyên chế
+uphold	W54	121	v	duy trì
+vita	W54	121	n	bản lý lịch
+acquainted	W54	122	adj	quen biết
+brink	W54	122	n	bờ vực
+carving	W54	122	n	tác phẩm chạm khắc
+dedicate	W54	122	v	cống hiến
+empower	W54	122	v	trao quyền
+fabricated	W54	122	adj	bịa đặt
+mediation	W54	122	n	sự hòa giải
+oversee	W54	122	v	giám sát
+persistence	W54	122	n	sự kiên trì
+speculative	W54	122	adj	mang tính suy đoán
+syndicate	W54	122	n/v	tập đoàn
+wholesome	W54	122	adj	lành mạnh
+equip	W54	122	v	trang bị
+provoke	W54	122	v	khiêu khích
+dissolve	W54	122	v	hòa tan
+noteworthy	W54	122	adj	đáng chú ý
+contradictory	W54	122	adj	mâu thuẫn
+placebo	W54	122	n	giả dược
+propelled	W54	122	v	đẩy tới
+terrestrial	W54	122	adj	trên cạn
+uncover	W54	122	v	phát hiện, khám phá
+upfront	W54	122	adj/adv	thẳng thắn, trả trước
+aggravated	W54	122	adj	bực tức
+apprenticeship	W54	122	n	thời gian học nghề
+aspire	W54	122	v	khao khát
+biomedical	W54	122	adj	y sinh
+cascade	W54	122	n/v	đổ xuống như thác
+existential	W54	122	adj	thuộc hiện sinh
+fluctuations	W54	122	n	sự dao động
+graft	W54	122	n/v	mảnh ghép
+puberty	W54	122	n	tuổi dậy thì
+turbulent	W54	122	adj	hỗn loạn, động
+confinement	W54	122	n	sự giam giữ
+convergence	W54	122	n	sự hội tụ
+groundbreaking	W54	122	adj	đột phá
+intolerance	W54	122	n	sự không khoan dung
+jurors	W54	122	n	bồi thẩm viên
+lineage	W54	122	n	dòng dõi
+manpower	W54	122	n	nhân lực
+raft	W54	122	n/v	bè
+statesman	W54	122	n	chính khách
+endeavour	W54	122	v/n	nỗ lực
+heed	W54	122	v/n	chú ý nghe theo
+imperfect	W54	122	adj/n	không hoàn hảo
+oppressive	W54	122	adj	ngột ngạt, áp bức
+prosper	W54	122	v	thịnh vượng
+reluctantly	W54	122	adv	miễn cưỡng
+specialised	W54	122	adj	chuyên dụng
+artificially	W54	122	adv	một cách nhân tạo
+groundwater	W54	122	n	nước ngầm
+enact	W54	122	v	ban hành
+grit	W54	122	n/v	sự kiên cường
+annexation	W54	123	n	sự thôn tính
+chiefly	W54	123	adv	chủ yếu
+defy	W54	123	v	thách thức
+disparity	W54	123	n	sự chênh lệch
+divert	W54	123	v	chuyển hướng
+filler	W54	123	n	chất độn, từ đệm
+intrusion	W54	123	n	sự xâm nhập
+override	W54	123	v/n	bác bỏ
+plurality	W54	123	n	đa số tương đối
+solitude	W54	123	n	sự cô độc
+carve	W54	123	v	chạm khắc
+coronary	W54	123	adj/n	thuộc mạch vành
+expulsion	W54	123	n	sự trục xuất
+hurdle	W54	123	n/v	rào cản
+irrespective	W54	123	adv	bất kể
+parity	W54	123	n	sự ngang bằng
+proactive	W54	123	adj	chủ động
+prominently	W54	123	adv	một cách nổi bật
+reputable	W54	123	adj	uy tín
+substitution	W54	123	n	sự thay thế
+tumble	W54	123	v/n	ngã nhào
+basal	W54	123	adj	cơ bản
+characterised	W54	123	v	được đặc trưng bởi
+cohort	W54	123	n	nhóm cùng khóa
+culprit	W54	123	n	thủ phạm
+daunting	W54	123	adj	đáng sợ
+diffusion	W54	123	n	sự lan tỏa
+semantic	W54	123	adj	thuộc ngữ nghĩa
+turnaround	W54	123	n/adj	sự xoay chuyển
+anonymity	W54	123	n	sự ẩn danh
+cornerstone	W54	123	n	nền tảng
+magnum	W54	123	n	chai rượu lớn
+melancholy	W54	123	adj/n	u sầu
+obligatory	W54	123	adj	bắt buộc
+repercussions	W54	123	n	hậu quả
+skeletal	W54	123	adj	thuộc xương
+subconscious	W54	123	n/adj	tiềm thức
+elevate	W54	123	v	nâng lên
+gutter	W54	123	n/v	rãnh nước
+manslaughter	W54	123	n	tội ngộ sát
+plainly	W54	123	adv	rõ ràng
+sequencing	W54	123	n	sắp xếp trình tự
+spawn	W54	123	n/v	đẻ trứng
+surrogate	W54	123	adj/n	người thay thế
+designate	W54	123	v/adj	chỉ định
+endemic	W54	123	adj	đặc hữu
+hallmark	W54	123	n/v	dấu hiệu đặc trưng
+inward	W54	123	adj/adv	hướng vào trong
+lessen	W54	123	v	giảm bớt
+notoriously	W54	123	adv	khét tiếng
+setback	W55	124	n	trở ngại
+surpass	W55	124	v	vượt qua
+analogous	W55	124	adj	tương tự
+equitable	W55	124	adj	công bằng
+hefty	W55	124	adj	nặng, lớn
+subsidized	W55	124	adj	được trợ cấp
+understatement	W55	124	n	cách nói giảm nhẹ
+unification	W55	124	n	sự thống nhất
+conjecture	W55	124	n/v	sự phỏng đoán
+improperly	W55	124	adv	không đúng cách
+jab	W55	124	v/n	chọc
+pinpoint	W55	124	v/n/adj	xác định chính xác
+ponder	W55	124	v	cân nhắc
+prowess	W55	124	n	tài năng
+benevolent	W55	124	adj	nhân từ
+bog	W55	124	n	đầm lầy
+deceptive	W55	124	adj	lừa dối
+divisive	W55	124	adj	gây chia rẽ
+fumes	W55	124	n	khói, khí độc
+inflict	W55	124	v	gây ra
+ornamental	W55	124	adj	để trang trí
+sincerity	W55	124	n	sự chân thành
+socioeconomic	W55	124	adj	kinh tế xã hội
+worldly	W55	124	adj	từng trải
+deficient	W55	124	adj	thiếu hụt
+grossly	W55	124	adv	quá mức
+informant	W55	124	n	người cung cấp tin
+invoke	W55	124	v	viện dẫn
+persuasion	W55	124	n	sự thuyết phục
+ultraviolet	W55	124	adj	tia cực tím
+untreated	W55	124	adj	chưa xử lý
+wrongful	W55	124	adj	sai trái
+cautiously	W55	124	adv	thận trọng
+enslaved	W55	124	adj	bị bắt làm nô lệ
+hinge	W55	124	n	bản lề
+preparedness	W55	124	n	sự chuẩn bị sẵn sàng
+supervise	W55	124	v	giám sát
+bolster	W55	124	v/n	củng cố
+engraving	W55	124	n	hình khắc
+filtration	W55	124	n	sự lọc
+proprietor	W55	124	n	chủ cơ sở
+resurgence	W55	124	n	sự hồi sinh
+stagnant	W55	124	adj	tù đọng
+aspiration	W55	124	n	khát vọng
+enrich	W55	124	v	làm giàu thêm
+exaggeration	W55	124	n	sự phóng đại
+illuminate	W55	124	v	chiếu sáng
+peat	W55	124	n	than bùn
+periphery	W55	124	n	vùng ngoại vi
+reassure	W55	124	v	trấn an
+adversary	W55	124	n	đối thủ
+crumble	W55	124	v/n	vỡ vụn
+malfunction	W55	124	v/n	trục trặc
+markedly	W55	124	adv	rõ rệt
+pollutants	W55	124	n	chất ô nhiễm
+ramifications	W55	124	n	hệ quả phức tạp
+regimen	W55	124	n	chế độ
+retrospect	W55	124	n	nhìn lại
+wreckage	W55	124	n	đống đổ nát
+airspace	W55	124	n	không phận
+boldly	W55	124	adv	mạnh dạn
+disapproval	W55	125	n	sự không tán thành
+dwellers	W55	125	n	cư dân
+predicament	W55	125	n	tình thế khó xử
+recital	W55	125	n	buổi biểu diễn nhạc
+refine	W55	125	v	tinh chỉnh
+unintended	W55	125	adj	ngoài ý muốn
+unmanned	W55	125	adj	không người lái
+adversely	W55	125	adv	bất lợi
+competency	W55	125	n	năng lực
+encompass	W55	125	v	bao gồm
+fixation	W55	125	n	sự ám ảnh
+latent	W55	125	adj	tiềm ẩn
+lucid	W55	125	adj	sáng sủa, rõ ràng
+mutiny	W55	125	n/v	cuộc binh biến
+precarious	W55	125	adj	bấp bênh
+restrain	W55	125	v	kiềm chế
+apathy	W55	125	n	sự thờ ơ
+discretionary	W55	125	adj	tùy ý
+excise	W55	125	n/v	thuế tiêu thụ
+hamper	W55	125	v/n	cản trở
+hierarchical	W55	125	adj	có thứ bậc
+hover	W55	125	v	lượn lờ
+inventive	W55	125	adj	sáng tạo
+liquidation	W55	125	n	sự thanh lý
+worldview	W55	125	n	thế giới quan
+wrongdoing	W55	125	n	hành vi sai trái
+guideline	W55	125	n	nguyên tắc hướng dẫn
+psychotherapy	W55	125	n	liệu pháp tâm lý
+uninterrupted	W55	125	adj	không gián đoạn
+dismantle	W55	125	v	tháo dỡ
+forceful	W55	125	adj	mạnh mẽ
+infiltration	W55	125	n	sự xâm nhập
+kayak	W55	125	n	thuyền kayak
+overlay	W55	125	v/n	phủ lên
+revolve	W55	125	v	quay quanh
+tapestry	W55	125	n	tấm thảm treo tường
+culminated	W55	125	v	lên đến đỉnh điểm
+embryonic	W55	125	adj	mới manh nha
+fragmentation	W55	125	n	sự chia nhỏ
+gracefully	W55	125	adv	duyên dáng
+hoard	W55	125	v/n	tích trữ
+ingenuity	W55	125	n	sự khéo léo
+moot	W55	125	v/adj/n	không còn thực tế
+sizeable	W55	125	adj	khá lớn
+transplantation	W55	125	n	sự cấy ghép
+vernacular	W55	125	n/adj	tiếng bản địa
+virtuous	W55	125	adj	đạo đức
+annihilation	W55	125	n	sự tiêu diệt
+calamity	W55	125	n	tai ương
+cripple	W55	125	n/v	làm tê liệt
+erroneous	W55	125	adj	sai sót
+reciprocal	W55	125	adj/n	có đi có lại
+shatter	W55	125	v	vỡ tan
+stewardship	W55	125	n	sự quản lý có trách nhiệm
+stoppage	W55	125	n	sự ngừng việc
+diagnostics	W55	125	n	chẩn đoán
+drawback	W55	125	n	nhược điểm
+entail	W55	125	v	kéo theo
+forensics	W55	125	n	pháp y
+mingle	W55	125	v	hòa nhập
+uniqueness	W55	125	n	tính độc đáo
+affirm	W55	126	v	khẳng định
+downtime	W55	126	n	thời gian ngừng hoạt động
+enlarge	W55	126	v	phóng to
+expanse	W55	126	n	vùng rộng lớn
+organisational	W55	126	adj	thuộc tổ chức
+refinement	W55	126	n	sự cải tiến
+revamp	W55	126	v/n	làm mới
+unparalleled	W55	126	adj	vô song
+devise	W55	126	v/n	nghĩ ra
+perpetuate	W55	126	v	duy trì
+resonate	W55	126	v	gây tiếng vang
+scholastic	W55	126	adj	thuộc nhà trường
+unravel	W55	126	v	tuột ra, gỡ rối
+watchdog	W55	126	n	cơ quan giám sát
+codex	W55	126	n	cổ thư
+concur	W55	126	v	đồng ý
+facet	W55	126	n	khía cạnh
+impunity	W55	126	n	sự không bị trừng phạt
+nag	W55	126	v/n	cằn nhằn
+slant	W55	126	v/n	khuynh hướng
+waterway	W56	126	n	đường thủy
+captivating	W56	126	adj	quyến rũ
+deregulation	W56	126	n	sự bãi bỏ, nới lỏng quy định
+dishonesty	W56	126	n	sự không trung thực
+insurrection	W56	126	n	cuộc nổi loạn
+minimise	W56	126	v	giảm thiểu
+uncharted	W56	126	adj	chưa được khám phá
+amplify	W56	126	v	khuếch đại
+attrition	W56	126	n	sự hao hụt dần
+budgetary	W56	126	adj	thuộc ngân sách
+carers	W56	126	n	người chăm sóc
+opus	W56	126	n	tác phẩm
+procure	W56	126	v	mua được
+singularity	W56	126	n	điểm kỳ dị
+tycoon	W56	126	n	ông trùm
+workflow	W56	126	n	quy trình làm việc
+attainment	W56	126	n	sự đạt được
+buyout	W56	126	n	vụ mua đứt
+fortitude	W56	126	n	sự dũng cảm chịu đựng
+geopolitical	W56	126	adj	địa chính trị
+merchandising	W56	126	n	việc trưng bày bán hàng
+unchecked	W56	126	adj	không kiểm soát
+cram	W56	126	v	học nhồi
+observational	W56	126	adj	dựa trên quan sát
+reclamation	W56	126	n	sự cải tạo đất
+resettlement	W56	126	n	sự tái định cư
+stylistic	W56	126	adj	thuộc phong cách
+touchy	W56	126	adj	dễ tự ái
+antisocial	W56	126	adj	chống đối xã hội
+commotion	W56	126	n	sự náo động
+etching	W56	126	n	bản khắc axit
+hegemony	W56	126	n	quyền bá chủ
+microorganisms	W56	126	n	vi sinh vật
+unmatched	W56	126	adj	vô song
+custodian	W56	126	n	người trông coi
+eradication	W56	126	n	sự xóa sổ
+ethnically	W56	127	adv	về mặt dân tộc
+incite	W56	127	v	kích động
+neonatal	W56	127	adj	sơ sinh
+conversational	W56	127	adj	mang tính đàm thoại
+genomic	W56	127	adj	thuộc hệ gen
+hectare	W56	127	n	héc-ta
+loathe	W56	127	v	ghét cay ghét đắng
+momentous	W56	127	adj	trọng đại
+observable	W56	127	adj	có thể quan sát
+refurbishment	W56	127	n	sự tân trang
+subsistence	W56	127	n	sự sinh tồn
+tenacity	W56	127	n	sự bền bỉ
+unwillingness	W56	127	n	sự không sẵn lòng
+convincingly	W56	127	adv	một cách thuyết phục
+derelict	W56	127	adj/n	bỏ hoang
+fledgling	W56	127	n/adj	non trẻ, mới
+lexicon	W56	127	n	từ vựng
+metaphorical	W56	127	adj	mang tính ẩn dụ
+mismatch	W56	127	v/n	sự không khớp
+multilateral	W56	127	adj	đa phương
+apprehension	W56	127	n	nỗi lo sợ
+gravely	W56	127	adv	nghiêm trọng
+indulgent	W56	127	adj	nuông chiều
+revere	W56	127	v	tôn kính
+subtlety	W56	127	n	sự tinh tế
+amalgamation	W56	127	n	sự hợp nhất
+heterogeneous	W56	127	adj	không đồng nhất
+ingrained	W56	127	adj	ăn sâu
+tirelessly	W56	127	adv	không mệt mỏi
+churn	W56	127	v/n	khuấy
+deliverance	W56	127	n	sự giải thoát
+omit	W56	127	v	bỏ sót
+pathfinder	W56	127	n	người mở đường
+primordial	W56	127	adj	nguyên thủy
+purposeful	W56	127	adj	có mục đích
+deliberation	W56	127	n	sự cân nhắc
+egalitarian	W56	127	adj/n	bình đẳng
+reimburse	W56	127	v	hoàn tiền
+rollout	W56	127	n	đợt triển khai
+arrears	W56	127	n	tiền nợ chưa trả
+contentment	W56	127	n	sự mãn nguyện
+deluge	W56	127	n/v	trận mưa lớn
+melodrama	W56	127	n	kịch giàu cảm xúc
+standstill	W56	127	n	sự đình trệ
+undivided	W56	127	adj	trọn vẹn
+vehicular	W56	127	adj	thuộc xe cộ
+willpower	W56	127	n	ý chí
+coexist	W56	127	v	cùng tồn tại
+coinage	W56	127	n	từ mới đặt
+cramp	W56	127	n/v	chuột rút
+ebb	W56	127	v/n	rút xuống
+impotent	W56	127	adj	bất lực
+intrepid	W56	127	adj	gan dạ
+penicillin	W56	127	n	thuốc pê-ni-xi-lin
+proportionate	W56	127	adj	tương xứng
+assent	W56	127	n/v	sự đồng ý
+authorisation	W56	127	n	sự cho phép
+curate	W56	127	n/v	tuyển chọn trưng bày
+disseminate	W56	127	v	phổ biến
+hydrocarbon	W56	127	n	hy-đrô-các-bon
+incurable	W56	127	adj	không chữa được
+metamorphosis	W56	128	n	sự biến thái
+toil	W56	128	n/v	lao nhọc
+uniformity	W56	128	n	sự đồng nhất
+apprehend	W56	128	v	bắt giữ
+disintegration	W56	128	n	sự tan rã
+photovoltaic	W56	128	adj	quang điện
+shortfall	W56	128	n	khoản thiếu hụt
+silo	W56	128	n/v	kho chứa ngũ cốc
+vapour	W56	128	n	hơi nước
+irreplaceable	W56	128	adj	không thể thay thế
+lingo	W56	128	n	biệt ngữ
+outperform	W56	128	v	làm tốt hơn
+skew	W56	128	v/adj	làm lệch
+unauthorised	W56	128	adj	trái phép
+backer	W56	128	n	người ủng hộ tài chính
+commendation	W56	128	n	lời khen ngợi
+conundrum	W56	128	n	câu đố nan giải
+invalidate	W56	128	v	làm mất hiệu lực
+progeny	W56	128	n	con cháu
+quell	W56	128	v	dập tắt
+rigorously	W56	128	adv	một cách nghiêm ngặt
+stifle	W56	128	v	kìm nén
+tenet	W56	128	n	nguyên tắc
+travesty	W56	128	n	sự nhạo báng công lý
+camaraderie	W56	128	n	tình đồng đội
+forerunner	W56	128	n	tiền thân
+frustrate	W56	128	v	làm bực bội
+infringe	W56	128	v	vi phạm
+sliver	W56	128	n	mảnh nhỏ mỏng
+springboard	W56	128	n	bàn đạp
+buoyant	W56	128	adj	phấn chấn
+caloric	W56	128	adj	thuộc calo
+electrified	W56	128	adj	được điện khí hóa
+flatten	W56	128	v	làm phẳng
+lexical	W56	128	adj	thuộc từ vựng
+offshoot	W56	128	n	nhánh phụ
+taint	W56	128	v/n	làm hoen ố
+deadlock	W56	128	n	bế tắc
+encampment	W56	128	n	khu cắm trại
+fulfilment	W56	128	n	sự mãn nguyện
+tyrannical	W56	128	adj	chuyên chế
+impactful	W56	128	adj	có tác động mạnh
+practicality	W56	128	n	tính thực tế
+procrastination	W56	128	n	sự trì hoãn
+abreast	W56	128	adv	bắt kịp
+audacious	W57	128	adj	táo bạo
+disingenuous	W57	128	adj	không thành thật
+geriatric	W57	128	adj/n	thuộc lão khoa
+hardline	W57	128	adj	cứng rắn
+topple	W57	128	v	làm đổ
+unproven	W57	128	adj	chưa được chứng minh
+cleft	W57	128	n/adj	khe nứt
+conceivably	W57	128	adv	có thể hình dung
+depository	W57	128	n	kho lưu giữ
+mull	W57	128	v	cân nhắc
+oratory	W57	128	n	tài hùng biện
+orbiter	W57	128	n	tàu quỹ đạo
+oust	W57	128	v	lật đổ
+ratify	W57	128	v	phê chuẩn
+sufferer	W57	128	n	người mắc bệnh
+teeming	W57	129	adj	đông nghịt
+hasten	W57	129	v	thúc đẩy nhanh
+impair	W57	129	v	làm suy giảm
+memento	W57	129	n	vật kỷ niệm
+nepotism	W57	129	n	gia đình trị
+painstaking	W57	129	adj	cẩn thận tỉ mỉ
+confine	W57	129	v	giới hạn
+corroborate	W57	129	v	chứng thực
+cursory	W57	129	adj	qua loa
+exemplifies	W57	129	v	là ví dụ điển hình
+falsehood	W57	129	n	lời nói dối
+impersonal	W57	129	adj	lạnh lùng
+seclusion	W57	129	n	sự ẩn dật
+underprivileged	W57	129	adj/n	thiệt thòi
+woefully	W57	129	adv	một cách tệ hại
+countenance	W57	129	n/v	nét mặt
+devaluation	W57	129	n	sự mất giá
+dictatorial	W57	129	adj	độc tài
+downplay	W57	129	v	xem nhẹ
+noxious	W57	129	adj	độc hại
+overbearing	W57	129	adj	hách dịch
+radioactivity	W57	129	n	tính phóng xạ
+recessive	W57	129	adj	lặn
+undervalued	W57	129	adj	bị đánh giá thấp
+autocratic	W57	129	adj	chuyên quyền
+indoctrination	W57	129	n	sự nhồi sọ
+insecticide	W57	129	n	thuốc diệt côn trùng
+larceny	W57	129	n	tội trộm cắp
+pluralism	W57	129	n	đa nguyên
+retort	W57	129	v/n	đáp trả gay gắt
+glutamate	W57	129	n	glutamat
+inflection	W57	129	n	ngữ điệu
+pertain	W57	129	v	liên quan đến
+reorganisation	W57	129	n	sự tái tổ chức
+reprieve	W57	129	n/v	sự hoãn thi hành án
+subside	W57	129	v	dịu xuống
+detest	W57	129	v	ghét cay đắng
+earnestly	W57	129	adv	tha thiết
+impersonation	W57	129	n	sự bắt chước
+vigour	W57	129	n	sức sống
+carer	W57	129	n	người chăm sóc
+encroachment	W57	129	n	sự lấn chiếm
+incitement	W57	129	n	sự kích động
+nadir	W57	129	n	điểm thấp nhất
+figurine	W57	129	n	tượng nhỏ
+indisputable	W57	129	adj	không thể tranh cãi
+nullify	W57	129	v	làm vô hiệu
+overpower	W57	129	v	áp đảo
+retaliatory	W57	129	adj	mang tính trả đũa
+smother	W57	129	v	ngạt, dập tắt
+bequest	W57	129	n	di sản để lại
+bungee	W57	129	n	dây bungee
+cutbacks	W57	129	n	sự cắt giảm
+forego	W57	129	v	từ bỏ
+heighten	W57	130	v	làm tăng
+progenitor	W57	130	n	tiền bối, tổ tiên
+diverge	W57	130	v	rẽ ra
+enhancer	W57	130	n	chất tăng cường
+outlay	W57	130	n/v	khoản chi
+defenceless	W57	130	adj	không thể tự vệ
+esprit	W57	130	n	tinh thần đồng đội
+leniency	W57	130	n	sự khoan dung
+overreact	W57	130	v	phản ứng thái quá
+reconstituted	W57	130	adj	hoàn nguyên
+surety	W57	130	n	người bảo lãnh
+descriptor	W57	130	n	từ mô tả
+effigy	W57	130	n	hình nộm
+factually	W57	130	adv	đúng sự thật
+lengthen	W57	130	v	kéo dài
+radiocarbon	W57	130	n	carbon phóng xạ
+underserved	W57	130	adj/n	thiếu dịch vụ
+admittance	W57	130	n	sự cho vào
+aggravate	W57	130	v	làm trầm trọng thêm
+dramatist	W57	130	n	nhà viết kịch
+livable	W57	130	adj	đáng sống
+multifaceted	W57	130	adj	đa diện
+multiplicity	W57	130	n	sự đa dạng
+conveyance	W57	130	n	phương tiện chuyên chở
+industrious	W57	130	adj	siêng năng
+omnipresent	W57	130	adj	có mặt khắp nơi
+rejuvenation	W57	130	n	sự trẻ hóa
+skyrocket	W57	130	v	tăng vọt
+unfavourable	W57	130	adj	bất lợi
+forthright	W57	130	adj	thẳng thắn
+pamper	W57	130	v	chiều chuộng
+transgenic	W57	130	adj	chuyển gen
+unease	W57	130	n	sự bất an
+hypersensitivity	W57	130	n	sự quá nhạy cảm
+stipulate	W57	130	v	quy định rõ
+sweeten	W57	130	v	làm ngọt
+wilful	W57	130	adj	bướng bỉnh
+candidly	W57	130	adv	thẳng thắn
+heterogeneity	W57	130	n	tính không đồng nhất
+indebtedness	W57	130	n	tình trạng mắc nợ
+insufficiently	W57	130	adv	không đủ
+lingua	W57	130	n	ngôn ngữ chung (lingua franca)
+permanence	W57	130	n	tính lâu dài
+plebiscite	W57	130	n	cuộc trưng cầu dân ý
+transitive	W57	130	adj/n	ngoại động
+walkout	W57	130	n	cuộc bãi công
+wordplay	W57	130	n	chơi chữ
+impersonate	W57	130	v	mạo danh
+marginalised	W57	130	adj	bị gạt ra lề
+shanty	W57	130	n	túp lều
+subprime	W57	130	adj	rủi ro cao
+waver	W57	130	v	dao động
+pejorative	W57	130	adj	xúc phạm
+premarital	W57	130	adj	trước hôn nhân
+biome	W57	130	n	quần xã sinh vật
+exemplify	W57	130	v	minh họa
+subjugation	W57	131	n	sự khuất phục
+bulimia	W57	131	n	chứng ăn nhiều rồi nôn
+demeanour	W57	131	n	phong thái
+disengagement	W57	131	n	sự rút lui
+outdo	W57	131	v	vượt trội hơn
+trailblazer	W57	131	n	người tiên phong
+disbursement	W57	131	n	sự giải ngân
+gregarious	W57	131	adj	thích giao du
+primeval	W57	131	adj	nguyên sơ
+homeownership	W58	131	n	việc sở hữu nhà
+disorientation	W58	131	n	sự mất phương hướng
+domineering	W58	131	adj	độc đoán
+impurity	W58	131	n	tạp chất
+inalienable	W58	131	adj	không thể tước đoạt
+interdependence	W58	131	n	sự phụ thuộc lẫn nhau
+exemplar	W58	131	n	mẫu mực
+supersede	W58	131	v	thay thế
+upsurge	W58	131	n	sự tăng vọt
+depose	W58	131	v	phế truất
+overstate	W58	131	v	nói quá
+rigour	W58	131	n	sự nghiêm ngặt
+stratum	W58	131	n	tầng lớp
+swindle	W58	131	v/n	lừa đảo
+underpin	W58	131	v	làm nền tảng
+alarmingly	W58	131	adv	đáng lo ngại
+fallback	W58	131	adj/n	phương án dự phòng
+franca	W58	131	n	ngôn ngữ chung (lingua franca)
+industrialised	W58	131	adj	đã công nghiệp hóa
+inoculation	W58	131	n	sự tiêm chủng
+launchpad	W58	131	n	bệ phóng
+participle	W58	131	n	phân từ
+upswing	W58	131	n	sự tăng lên
+veganism	W58	131	n	chủ nghĩa ăn chay trường
+matriculation	W58	131	n	việc nhập học đại học
+proportionately	W58	131	adv	tương ứng
+typology	W58	131	n	phân loại học
+aspirational	W58	131	adj	đầy khát vọng
+overreach	W58	131	v/n	làm quá sức
+pliable	W58	131	adj	dẻo, dễ uốn
+timbre	W58	131	n	âm sắc
+corporeal	W58	131	adj	thuộc thể xác
+dutiful	W58	131	adj	biết bổn phận
+reticent	W58	131	adj	kín tiếng
+unquestionable	W58	131	adj	không thể nghi ngờ
+vanquish	W58	131	v	đánh bại
+connectedness	W58	131	n	sự gắn kết
+exonerate	W58	131	v	minh oan
+jaunt	W58	131	n/v	chuyến đi chơi ngắn
+misappropriation	W58	131	n	sự biển thủ
+postulate	W58	131	v/n	đặt giả thuyết
+quandary	W58	131	n	tình thế khó xử
+subordination	W58	132	n	sự phụ thuộc cấp dưới
+marque	W58	132	n	hãng xe
+prophylactic	W58	132	adj/n	phòng ngừa bệnh
+stratospheric	W58	132	adj	cao ngất ngưởng
+unpretentious	W58	132	adj	giản dị
+bursary	W58	132	n	học bổng
+specialisation	W58	132	n	chuyên môn hóa
+vagueness	W58	132	n	sự mơ hồ
+constriction	W58	132	n	sự thắt lại
+despotic	W58	132	adj	chuyên chế
+inexhaustible	W58	132	adj	vô tận
+pluralistic	W58	132	adj	đa nguyên
+shortcoming	W58	132	n	khuyết điểm
+systematics	W58	132	n	phân loại học
+soundness	W58	132	n	sự vững chắc
+supplant	W58	132	v	thay thế
+wordy	W58	132	adj	dài dòng
+bioengineering	W58	132	n	kỹ thuật sinh học
+squatter	W58	132	n	người ở chui
+appraise	W58	132	v	đánh giá
+inventiveness	W58	132	n	tính sáng tạo
+vestige	W58	132	n	dấu vết
+vindicate	W58	132	v	minh oan
+objector	W58	132	n	người phản đối
+choosy	W58	132	adj	kén chọn
+raze	W58	132	v	san bằng
+cosmonaut	W58	132	n	phi hành gia Nga
+gruelling	W58	132	adj	mệt nhoài
+patrimony	W58	132	n	di sản của cha ông
+trophic	W58	132	adj	thuộc dinh dưỡng
+radiometric	W58	132	adj	đo phóng xạ
+standardisation	W58	132	n	sự tiêu chuẩn hóa
+popularised	W58	132	v	được phổ biến
+stagnate	W58	132	v	trì trệ
+undifferentiated	W58	132	adj	chưa phân biệt
+directness	W58	132	n	sự thẳng thắn
+idolize	W58	132	v	thần tượng hóa
+microgravity	W58	132	n	vi trọng lực
+upturn	W58	132	n	sự khởi sắc
+forethought	W58	132	n	sự tính trước
+gastronomic	W58	132	adj	thuộc ẩm thực
+resettle	W58	132	v	tái định cư
+subjugate	W58	132	v	khuất phục
+supermassive	W58	132	adj	siêu khối lượng
+unrefined	W58	132	adj	chưa tinh chế
+candour	W58	132	n	sự thẳng thắn
+incontrovertible	W58	132	adj	không thể chối cãi
+inundation	W58	132	n	sự ngập lụt
+customisation	W58	133	n	sự tùy biến
+multicellular	W58	133	adj	đa bào
+perfunctory	W58	133	adj	qua loa
+commercialism	W58	133	n	tính thương mại hóa
+destitution	W58	133	n	cảnh bần cùng
+homesickness	W58	133	n	nỗi nhớ nhà
+oscillate	W58	133	v	dao động
+outpace	W58	133	v	vượt nhanh hơn
+fetishism	W58	133	n	sự sùng bái vật
+jeopardise	W58	133	v	gây nguy hiểm cho
+repurpose	W58	133	v	dùng cho mục đích mới
+suss	W58	133	v	nhận ra (khẩu ngữ)
+absolutist	W58	133	adj/n	độc đoán tuyệt đối
+disincentive	W58	133	n	yếu tố cản trở
+convalescence	W58	133	n	thời gian dưỡng bệnh
+instil	W58	133	v	truyền dần
+polyglot	W58	133	adj/n	người nói nhiều thứ tiếng
+rationalisation	W58	133	n	sự biện minh
+retrenchment	W58	133	n	sự cắt giảm chi tiêu
+acculturation	W58	133	n	sự thích nghi văn hóa
+nosedive	W58	133	n/v	sự lao dốc
+aeolian	W58	133	adj	do gió tạo ra
+dethrone	W58	133	v	truất ngôi
+flavouring	W58	133	n	chất tạo hương vị
+partiality	W58	133	n	sự thiên vị
+rationalise	W58	133	v	biện minh
+transpire	W58	133	v	xảy ra
+exhumation	W58	133	n	sự khai quật mộ
+patois	W58	133	n	tiếng địa phương
+undervalue	W58	133	v	đánh giá thấp
+oversimplified	W58	133	adj	đơn giản hóa quá mức
+reputational	W58	133	adj	liên quan danh tiếng
+germane	W58	133	adj	liên quan trực tiếp
+coddle	W58	133	v/n	nuông chiều
+construe	W58	133	v	hiểu theo nghĩa
+extortionate	W58	133	adj	cắt cổ
+subcontract	W58	133	v/n	giao thầu lại
+tipster	W58	133	n	người mách nước
+expressiveness	W58	133	n	tính biểu cảm
+fatness	W58	133	n	sự béo phì
+interconnectedness	W59	133	n	sự kết nối lẫn nhau
+onlooker	W59	133	n	người xem
+outstrip	W59	133	v	vượt qua
+paneer	W59	133	n	phô mai Ấn Độ
+equivocation	W59	133	n	lời nói nước đôi
+practicum	W59	133	n	kỳ thực tập
+favelas	W59	133	n	khu ổ chuột Brazil
+multiethnic	W59	133	adj	đa sắc tộc
+officialdom	W59	133	n	bộ máy quan chức
+tailpipe	W59	133	n	ống xả
+trendsetter	W59	133	n	người dẫn đầu xu hướng
+expunge	W59	133	v	xóa sạch
+circumnavigate	W59	133	v	đi vòng quanh
+expansionary	W59	133	adj	mở rộng
+harmonise	W59	133	v	hòa hợp
+repercussion	W59	133	n	hậu quả
+spyglass	W59	133	n	ống nhòm nhỏ
+scrutinise	W59	133	v	xem xét kỹ
+generalise	W59	133	v	khái quát hóa
+manorial	W59	133	adj	thuộc thái ấp
+despondency	W59	134	n	sự chán nản
+destabilise	W59	134	v	gây bất ổn
+reorganise	W59	134	v	tổ chức lại
+exhume	W59	134	v	khai quật
+joblessness	W59	134	n	nạn thất nghiệp
+misdemeanour	W59	134	n	tội nhẹ
+trailblazing	W59	134	adj/n	mở đường
+apportion	W59	134	v	phân chia
+epigraph	W59	134	n	đề từ
+debenture	W59	134	n	trái phiếu công ty
+rectitude	W59	134	n	sự chính trực
+stabiliser	W59	134	n	bộ ổn định
+adulteration	W59	134	n	sự pha tạp
+assiduous	W59	134	adj	cần cù
+mercantilism	W59	134	n	chủ nghĩa trọng thương
+determiner	W59	134	n	hạn định từ
+overstretched	W59	134	adj	quá tải
+maladjusted	W59	134	adj	khó thích nghi
+reparative	W59	134	adj	mang tính phục hồi
+underrate	W59	134	v	đánh giá thấp
+afforestation	W59	134	n	trồng rừng
+gatekeeping	W59	134	n	sự kiểm soát cửa ngõ
+multifarious	W59	134	adj	muôn hình vạn trạng
+prescience	W59	134	n	sự biết trước
+presuppose	W59	134	v	giả định trước
+synchronise	W59	134	v	đồng bộ hóa
+logjam	W59	134	n	tình trạng ách tắc
+mechanisation	W59	134	n	cơ giới hóa
+pilfer	W59	134	v	ăn cắp vặt
+quantifier	W59	134	n	lượng từ
+misconstrue	W59	134	v	hiểu sai
+traineeship	W59	134	n	chương trình thực tập
+worldliness	W59	134	n	sự từng trải
+gerund	W59	134	n	danh động từ
+ambassadorship	W59	134	n	chức đại sứ
+colloquialism	W59	134	n	khẩu ngữ
+reabsorption	W59	134	n	sự tái hấp thụ
+dedicatory	W59	134	adj	để đề tặng
+forefather	W59	134	n	tổ tiên
+housebreaking	W59	134	n	tội đột nhập nhà
+malnourishment	W59	134	n	suy dinh dưỡng
+reawaken	W59	134	v	đánh thức lại
+monosodium	W59	134	adj	mono-natri
+mistranslated	W59	134	v	dịch sai
+transcultural	W59	134	adj	xuyên văn hóa
+dramatisation	W59	134	n	bản dựng kịch
+contestation	W59	135	n	sự tranh cãi
+interethnic	W59	135	adj	giữa các dân tộc
+wrongdoer	W59	135	n	kẻ làm điều sai
+muckraking	W59	135	n	việc phanh phui
+imprecision	W59	135	n	sự thiếu chính xác
+orderliness	W59	135	n	sự ngăn nắp
+planetoid	W59	135	n	tiểu hành tinh
+macrocosm	W59	135	n	vũ trụ lớn
+childrearing	W59	135	n	việc nuôi dạy trẻ
+cognisant	W59	135	adj	nhận thức được
+uprightness	W59	135	n	sự ngay thẳng
+acclimatisation	W59	135	n	sự thích nghi
+defacement	W59	135	n	sự làm hỏng bề mặt
+detractor	W59	135	n	người chê bai
+forebear	W59	135	n	tổ tiên
+contestable	W59	135	adj	có thể tranh cãi
+unprejudiced	W59	135	adj	không thiên kiến
+attributive	W59	135	adj	đứng trước danh từ
+deoxyribonucleic	W59	135	adj	(axit) đê-ô-xi-ri-bô-nu-clê-ic
+representativeness	W59	135	n	tính đại diện
+retrench	W59	135	v	cắt giảm
+overindulge	W59	135	v	ăn uống quá độ
+agrochemical	W59	135	n	hóa chất nông nghiệp
+acclimatise	W59	135	v	thích nghi
+breadline	W59	135	n	ranh giới nghèo đói
+industriousness	W59	135	n	sự siêng năng
+benefaction	W59	135	n	sự ban tặng
+listenership	W59	135	n	lượng thính giả
+biodata	W59	135	n	lý lịch
+memorisation	W59	135	n	sự ghi nhớ
+computerisation	W59	135	n	sự tin học hóa
+bioengineer	W59	135	v/n	tạo bằng kỹ thuật sinh học
+doggedness	W59	135	n	sự bền bỉ
+undernourishment	W59	135	n	tình trạng thiếu dinh dưỡng
+seigneurial	W59	135	adj	thuộc lãnh chúa
+corpulence	W59	135	n	sự béo phệ
+unilingual	W59	135	adj	đơn ngữ
+dissuasion	W59	135	n	sự can ngăn
+slacktivism	W59	135	n	hoạt động mạng cho có
+dockless	W59	135	adj	không cần bến
+speechmaking	W59	135	n	việc diễn thuyết
+imperviousness	W59	135	n	tính không thấm
+disinterment	W59	135	n	sự khai quật mộ
+acquisitiveness	W59	135	n	tính ham sở hữu
+requalification	W59	135	n	việc học lại lấy bằng
+calque	W59	135	n	từ dịch sát
+preselect	W59	135	v	chọn trước
+exhaustible	W59	135	adj	có thể cạn kiệt
+natality	W59	135	n	tỷ lệ sinh
+unhesitating	W59	135	adj	không do dự
+interculturalism	W59	135	n	chủ nghĩa liên văn hóa
+worklessness	W59	135	n	tình trạng thất nghiệp
+misconstruction	W59	135	n	sự hiểu sai
+articulacy	W59	135	n	sự lưu loát
+replenishable	W59	135	adj	có thể bổ sung
+answerability	W59	136	n	trách nhiệm giải trình
+all-time	W59	136	adj	cao nhất mọi thời đại

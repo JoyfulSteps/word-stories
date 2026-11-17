@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word Stories</title>
+<style>
+  :root { --fg:#222; --muted:#777; --line:#e3e3e3; --hl:#1565c0; --hlbg:#e8f0fe; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#fbfaf6; color:var(--fg); font:18px/1.75 Georgia, "Times New Roman", serif; }
+  header { position:sticky; top:0; z-index:3; background:#fff; border-bottom:1px solid var(--line);
+           display:flex; flex-wrap:wrap; gap:6px; align-items:center; padding:8px 12px;
+           font:14px system-ui, "Segoe UI", sans-serif; }
+  header .grow { flex:1; }
+  select, button { font:inherit; padding:5px 10px; border:1px solid #ccc; border-radius:6px; background:#fff; cursor:pointer; }
+  button.on { background:var(--hl); color:#fff; border-color:var(--hl); }
+  main { max-width:720px; margin:0 auto; padding:20px 18px 120px; }
+  h1 { font-size:28px; line-height:1.25; margin:6px 0 4px; }
+  .meta { font:13px system-ui, sans-serif; color:var(--muted); margin-bottom:18px; }
+  p { margin:0 0 14px; }
+  blockquote { margin:0 0 14px; padding:2px 0 2px 16px; border-left:3px solid #d6c9a8; font-style:italic; }
+  blockquote p { margin:0; }
+  .nw { color:var(--hl); font-weight:700; cursor:pointer; border-radius:3px; position:relative; }
+  .s { cursor:pointer; border-radius:3px; }
+  .s.speaking { background:#ffec99; }
+  @media (hover:hover) { .s:hover { background:#f3f0e4; } .s.speaking:hover { background:#ffec99; } }
+  .tip { position:absolute; left:0; top:1.6em; z-index:2; white-space:nowrap; background:#333; color:#fff;
+         font:14px/1.4 system-ui, sans-serif; padding:4px 8px; border-radius:5px; font-weight:400; }
+  body.review .nw { color:transparent; background:#eef1f6; border-bottom:2px solid var(--hl); }
+  body.review .nw::before { content:attr(data-first); color:var(--hl); position:absolute; left:2px; }
+  body.review .nw.shown { color:var(--hl); background:var(--hlbg); }
+  body.review .nw.shown::before { content:""; }
+  h2 { font:600 16px system-ui, sans-serif; margin:34px 0 8px; border-top:1px solid var(--line); padding-top:18px; }
+  table { border-collapse:collapse; width:100%; font:15px/1.5 system-ui, sans-serif; }
+  td { border-bottom:1px solid var(--line); padding:5px 6px; vertical-align:top; }
+  td.w { font-weight:600; color:var(--hl); white-space:nowrap; cursor:pointer; }
+  td.p { color:var(--muted); width:60px; }
+  body.hidevi td.vi span { visibility:hidden; }
+  body.hidevi td.vi { background:#f3f3f3; cursor:pointer; }
+  td.vi.peek span { visibility:visible !important; }
+  .nav { display:flex; justify-content:space-between; margin-top:30px; font:14px system-ui, sans-serif; }
+  .help { font:13px/1.6 system-ui, sans-serif; color:var(--muted); margin-top:26px; }
+</style>
+</head>
+<body>
+<header>
+  <button id="prev" title="Previous story">◀</button>
+  <select id="pick"></select>
+  <button id="next" title="Next story">▶</button>
+  <span class="grow"></span>
+  <button id="modeRead" class="on" title="Read: new words in blue, tap to see Vietnamese">Read</button>
+  <button id="modeReview" title="Review: new words hidden, tap to show">Review</button>
+  <button id="listen" title="Listen with the computer voice">▶ Listen</button>
+  <select id="voiceSel" title="Voice" style="max-width:220px"></select>
+  <select id="rate" title="Speed"><option value="0.75">0.75×</option><option value="0.9" selected>0.9×</option><option value="1">1×</option></select>
+</header>
+<main id="main"></main>
+<script>
+const STORIES = [{"id": "W08-1", "title": "A New Family", "body": "Minh was nineteen when he left Vietnam to study in a small town in England. He was not a kid anymore, but he did not really feel like an adult. For one year, he was going to live with the Parker family as a guest.\n\nAt the station, a lady and a gentleman were waiting for him. \"Are you Minh?\" the gentleman asked.\n\n\"Yes, sir,\" Minh said.\n\nThe man laughed. \"Please don't call me sir or Mister Parker. I'm Tom. And this is my wife, Anna.\"\n\nAnna smiled. \"And nobody calls me madam here. Welcome!\"\n\nIn the car, Tom told him about everybody in the house. Tom was American, and Anna was English. They were a happy couple. They got married twenty years ago, in America, and then they moved to England. They had twins, Leo and Mia. The twins were teenagers now, fifteen years old. Leo was born ten minutes before Mia, so he always said, \"I'm the big brother.\" Leo had a girlfriend at school. Mia said she did not want a boyfriend. \"Boys are boring,\" she said.\n\nTom's mother, Grandma Rose, lived with them too. Her husband died many years ago. \"My father is dead, but my mother is very much alive,\" Tom said. \"She is eighty, and she is busier than all of us.\" Grandma Rose had five grandchildren. Leo was her only grandson, and Mia was her favorite granddaughter. \"But she says that to every grandchild,\" Anna laughed.\n\nGrandma Rose also had a lot of relatives in the town. Her **nephew** owned a small café, and her **niece** was a nurse at the hospital. Tom's business partner, Mr. Lee, was also their neighbor. \"So you will meet a lot of people,\" Tom said. \"Don't worry. Here, nobody is a stranger for long.\"\n\nWhen they arrived, somebody opened the door before they knocked. It was Grandma Rose. She was small and thin, with white hair. She put her hands on Minh's shoulders and kissed him on the **cheek**. \"Now you are a member of this family,\" she said. Minh felt warm inside. He missed his parents, but this was a good start.\n\nThe next morning, at seven o'clock, Minh looked out of the window. Grandma Rose was in the garden, doing her morning exercise. She saw him and waved. \"Come down! Anybody can do this!\"\n\nSo Minh went outside. \"First, hands on your **hips**,\" Grandma said. \"Now turn your **waist** to the left, and to the right. Good! Lift your **chin**. Open your **chest** and breathe.\"\n\nThen she showed him more. \"Make circles with your wrist. Bend your **elbow**. Stand on your toes... now on your **heels**.\" Minh lost his balance and almost fell. Grandma Rose laughed.\n\n\"Be careful with your **ankle**,\" she said. \"Last year I hurt my ankle, and I could not walk for a month.\"\n\nAt the end, she held up her hand and showed him her **nails**. They were painted bright pink. Then she gave him a thumbs-up with her thumb. \"You are not bad for a single day,\" she said. \"Same time tomorrow?\"\n\nMinh smiled and nodded. He did not have a choice, and he did not want one.", "words": 528, "new": [{"w": "nephew", "p": "n", "vi": "cháu trai (con anh chị em)"}, {"w": "niece", "p": "n", "vi": "cháu gái (con anh chị em)"}, {"w": "elbow", "p": "n", "vi": "khuỷu tay"}, {"w": "nail", "p": "n", "vi": "móng tay"}, {"w": "ankle", "p": "n", "vi": "mắt cá chân"}, {"w": "heel", "p": "n", "vi": "gót chân"}, {"w": "chest", "p": "n", "vi": "ngực"}, {"w": "hip", "p": "n", "vi": "hông"}, {"w": "waist", "p": "n", "vi": "eo"}, {"w": "chin", "p": "n/v", "vi": "cằm"}, {"w": "cheek", "p": "n", "vi": "má"}]}, {"id": "W08-2", "title": "A Bad Week", "body": "In his second week in England, Minh got sick. On Monday, his throat was sore and he had a headache. On Tuesday, he had a fever and a bad cough. His whole body had an ache, even his muscles. When he tried to speak, his voice was very small.\n\nAnna put her hand on his **forehead**. \"You're hot,\" she said. She checked his temperature. It was 38.5. \"I think it's the flu. Everybody at Leo's school has it.\"\n\n\"Is it a serious illness?\" Minh asked.\n\n\"No, it's not a dangerous disease. But you need to rest. Stay in bed, drink a lot of water, and take these.\" She tore open a box of pills. \"One tablet every six hours.\"\n\nTom came in with a cup of tea. \"In America, we go to the drugstore for medicine,\" he said.\n\n\"In England, we say chemist,\" Grandma Rose said from the door. \"Or pharmacy,\" Anna added. Minh was too tired to learn three words for one shop.\n\nOn Wednesday, Minh was still sick, so Anna made an appointment at the clinic. The doctor was a tall man with a big grey **beard** and a **mustache**. He had thick black **eyebrows** that went up and down when he talked. He listened to Minh's **lungs**. \"Take a deep breath,\" he said. \"Now breathe out slowly.\" Minh tried, but he started to cough. The doctor nodded. \"Your lungs are OK. It's just the flu. Rest for a few days and you will be fine.\"\n\nThere were many patients in the waiting room. A little boy had a toothache, and his mother was looking for a dentist. A girl had a stomachache. An old man had an earache. Minh felt lucky. His problem was small.\n\nThen, on the way home, something bad happened. Leo was riding his bike home from football, and he had an accident. A car turned without looking. Leo fell off his bike and hit the road. Somebody called an ambulance. It was not a big emergency, but Leo had an injury on his arm and his leg. Anna's face went white. \"Is he badly injured?\" she asked on the phone. Her hands were shaking.\n\nAt the hospital, the nurse cleaned Leo's leg and put a bandage on it. She put a small plaster on his face. \"He doesn't need an operation,\" she said. \"He was very lucky.\"\n\nAt home that night, Leo lay on the couch. He tried to look brave, but there was a little tear in his eye. Mia gave him ice cream. \"This is medicine too,\" she said.\n\nGrandma Rose talked to everybody about health. \"Too much sugar is unhealthy,\" she said. \"You all need a better diet and more exercise.\" Then she ate a piece of chocolate cake.\n\nWhen Minh finally felt better, he looked in the mirror. His face was pale, and there was sweat on his forehead. Even his **eyelashes** looked tired. But he smiled. \"Next time, I'll be more careful,\" he thought. \"I'll wear a coat.\"\n\nMia waved to him from the door. \"Hey, sick boy! Do you want some ice cream too?\"", "words": 516, "new": [{"w": "forehead", "p": "n", "vi": "trán"}, {"w": "eyebrow", "p": "n", "vi": "lông mày"}, {"w": "eyelash", "p": "n", "vi": "lông mi"}, {"w": "beard", "p": "n", "vi": "râu"}, {"w": "mustache", "p": "n", "vi": "ria mép"}, {"w": "lung", "p": "n", "vi": "phổi"}]}, {"id": "W08-3", "title": "A Letter to Mom", "body": "After two weeks, Leo began to recover. His arm was not broken, and the treatment at the hospital worked well. His leg did not bleed anymore. Minh was also well again, so he sat down and wrote a long email to his mother in Vietnam.\n\n> Dear Mom,\n\n> Don't worry, I am fine now. I was sick, but I didn't faint or anything. Let me tell you about my new family.\n\n> Tom is tall and a little overweight, because he loves pizza. He is going bald, so he always wears a hat. He doesn't care about his looks. His shirts are very **plain**, and his room is untidy. But he is honest, cheerful and very generous. He is always helpful when I have a problem.\n\n> Anna is slim and **elegant**. She cares about her appearance and always looks smart. Her desk is very neat. She is a teacher, so she is a little strict, but she is fair. She is calm and **sensible**. When there is a problem, she thinks first and then acts.\n\n> Grandma Rose is the oldest, but in many ways she is the youngest! She has a lot of **wrinkles**, and her hands are **wrinkled** too, but her eyes are bright. She is very **wise**. When I am sad, she says something small, and I feel better. She is gentle, but she is also brave. Last year she went up a mountain!\n\n> The twins are fifteen. They are the same height, but they are very different.\n\n> Mia has **wavy** red hair and **freckles** on her nose. She is cute, but don't tell her I said that! She is very talented. She plays the piano and draws beautiful pictures. She is confident and not shy at all. But she is **impatient**. When the bus is late, she gets angry. Her room is messy, with clothes everywhere.\n\n> Leo is quiet and **sensitive**. He is a little shy with new people, and he worries about his weight because he wants to be a football player. He is not stupid, but he can be careless with his homework. When he was little, he was very naughty, Grandma says.\n\n> Some people in the town are rude to foreigners, but most are very kind. Mia says the boys at school think she is attractive, but she says those boys are silly. Tom says she is crazy about drawing and has no time for boys.\n\n> Yesterday, Leo was a bit selfish and ate all the cake. Mia was angry. But Grandma Rose said, \"Life is too short to be serious about cake.\" Everybody laughed, even Mia.\n\n> I think I am lucky, Mom. Please don't work too hard. Give my love to Dad.\n\n> Your son,\n> Minh\n\nMinh read the email again before he sent it. He thought about his own family. His mother was like Anna, he thought, and his father was a bit like Tom. Then he pressed \"Send\" and went downstairs. Somebody was making pancakes.", "words": 491, "new": [{"w": "wavy", "p": "adj", "vi": "gợn sóng"}, {"w": "freckles", "p": "n", "vi": "tàn nhang"}, {"w": "wrinkle", "p": "n/v", "vi": "nếp nhăn"}, {"w": "wrinkled", "p": "adj", "vi": "nhăn nheo"}, {"w": "elegant", "p": "adj", "vi": "thanh lịch"}, {"w": "plain", "p": "adj/n/adv", "vi": "đơn giản; trơn"}, {"w": "impatient", "p": "adj", "vi": "thiếu kiên nhẫn"}, {"w": "sensible", "p": "adj", "vi": "biết điều, hợp lý"}, {"w": "sensitive", "p": "adj", "vi": "nhạy cảm"}, {"w": "wise", "p": "adj", "vi": "khôn ngoan"}]}, {"id": "W09-1", "title": "The First Day", "body": "On Monday, Minh started college. The night before, he could not sleep. He was nervous and a little worried. \"What if nobody talks to me?\" he asked Mia.\n\n\"Don't worry,\" she said. \"You're friendly. People will like you.\"\n\nIn the morning, he took off his **pajamas** and put on jeans and a **hoodie**. He looked in the mirror. He felt uncomfortable. \"Is this OK?\" he asked.\n\nTom looked at him. \"In America, students wear sneakers and a hoodie every day. You look fine.\"\n\n\"In England, we say trainers, not sneakers,\" said Grandma Rose. She was sitting in her **slippers** with a cup of tea. \"And you need a scarf and gloves. It's cold.\"\n\nSo Minh wore a scarf, a **cardigan** from Grandma, a coat, and one glove. He could not find the other glove.\n\nAt college, there was a big surprise. In his first class, the teacher asked everybody to stand up and talk about their country. Minh's face went red. He was **embarrassed**, and his voice was shaking. But when he finished, the class clapped. One student, a tall boy from Spain, said, \"That was amazing. I want to visit Vietnam!\" His name was Sam. Minh was surprised and pleased. Suddenly he did not feel lonely.\n\nAfter class, Sam and Minh had lunch together. Sam was very bright. He was intelligent and creative. He studied design. But he was also modest. He never talked about his good grades.\n\nIn the afternoon, it started to rain. Minh had no **raincoat**. He was wet and cold, and his mood went down. \"What an awful day,\" he thought. \"What horrible weather.\" But Sam was laughing in the rain. \"In Spain, rain is lucky!\" he said. Their laughter made Minh feel better.\n\nOn Saturday, Mia took Minh shopping for winter clothes. They went to a big shop. Minh tried on a **vest** and some **underwear**, because he did not bring enough from Vietnam. Mia tried on a blouse and a belt. In the shop window, there was a man's suit with a red tie. \"You need that for parties,\" Mia said.\n\n\"No, I'm a student,\" Minh said. \"I am not interested in suits.\"\n\nNear the door, they saw summer clothes: **sandals** and a **swimsuit**, on sale. \"Who buys a swimsuit in November?\" Minh asked. Mia laughed.\n\nThen Mia saw her friend Chloe. Chloe was with Leo's girlfriend. They talked and laughed, and Minh waited. Mia came back looking unhappy.\n\n\"What's wrong? You look upset,\" Minh said.\n\n\"Chloe has a new phone. I wish I had one,\" Mia said. \"I'm a bit **jealous**. My phone is old.\"\n\n\"Are you mad at her?\"\n\n\"No, not cross. Just disappointed in myself, I think. It's a silly feeling.\"\n\nOn the way home, a big dog ran out and barked at them. Mia was **frightened**. She held Minh's arm. For a moment she showed real fear. Then she laughed. \"That was unlucky,\" she said. \"First Chloe, then a dog!\"\n\nAt home, Leo was wearing his football **uniform**. He was proud. He was back in the team. \"Look,\" he said. \"I'm not worried about my leg anymore.\" Everyone felt relaxed and comfortable. It was a good end to a long week.", "words": 532, "new": [{"w": "jealous", "p": "adj", "vi": "ghen tị"}, {"w": "embarrassed", "p": "adj", "vi": "ngượng ngùng"}, {"w": "frightened", "p": "adj", "vi": "hoảng sợ"}, {"w": "sandals", "p": "n", "vi": "dép quai hậu, xăng-đan"}, {"w": "slippers", "p": "n", "vi": "dép đi trong nhà"}, {"w": "pajamas", "p": "n", "vi": "đồ ngủ"}, {"w": "uniform", "p": "n/adj", "vi": "đồng phục"}, {"w": "raincoat", "p": "n", "vi": "áo mưa"}, {"w": "swimsuit", "p": "n", "vi": "đồ bơi"}, {"w": "underwear", "p": "n", "vi": "đồ lót"}, {"w": "vest", "p": "n", "vi": "áo gi-lê, áo ba lỗ"}, {"w": "hoodie", "p": "n", "vi": "áo hoodie"}, {"w": "cardigan", "p": "n", "vi": "áo len cài khuy"}]}, {"id": "W09-2", "title": "The Box in the Attic", "body": "One rainy Sunday, Grandma Rose said, \"Minh, can you help me? I need a box from the **attic**.\"\n\nThe house was old and big. Downstairs there was a long **hall** with photos on the walls. Upstairs, a narrow **hallway** went past all the bedrooms. At the end of it, there was a small door and some steps up to the attic. Under the house, there was a dark **basement**, and Tom kept wine in an old **cellar** there. \"This house is like a hotel,\" Minh said. \"It even has a **corridor**.\"\n\nThe attic was dusty and full of boxes. Minh found the right one and carried it down to the **lounge**. Mia came to look.\n\nGrandma Rose opened the box slowly. Inside, there were old clothes and many small things. First, she took out a blue **jumper**. \"I wore this when I was twenty,\" she said. \"It's pure **wool**. My mother made it.\" It had big white **buttons** and a small **pocket** on the front.\n\nThen she took out a dress. It was made of **silk**, soft and shiny. It had a high **collar** and long **sleeves**. \"This was my best dress,\" Grandma said. \"In 1965, it was the height of **fashion**.\" Mia held it up. \"Grandma, this is beautiful. You had great **style**!\"\n\nThere was also a **leather** jacket with a **zip**. \"In America we say **zipper**,\" said Tom from the door. \"We know, Dad,\" said Mia.\n\nAt the bottom of the box, they found a small **handbag** and an old **purse**. Inside the purse was a little box. And inside that box was **jewelry**: a gold **necklace**, two pearl **earrings**, a silver **bracelet**, and a **ring**.\n\nGrandma Rose went quiet. She took the ring and held it in her hand. \"My husband gave me this ring,\" she said softly. \"I lost it thirty years ago. I looked for it everywhere. And it was in my purse, in the attic, all this time.\"\n\nShe put the ring on her finger. There was a tear in her eye, but she was smiling.\n\n\"Tell us the story,\" Mia said.\n\n\"Well,\" said Grandma, \"it was summer. I was on the beach in a **cotton** dress and **sunglasses**. Your grandfather came to me, very nervous, and he dropped his **wallet** in the sand. All his money went everywhere. I helped him pick it up, and we laughed. A year later, we were married.\"\n\nMia was quiet. Then she said, \"That's the best story I've ever heard.\"\n\nLater, Minh went upstairs. He started to **undress** for bed. He put his jeans on the chair and his **backpack** on the floor. He thought about Grandma's ring, and about his own grandmother in Vietnam. Then he picked up his phone and called her.", "words": 456, "new": [{"w": "jumper", "p": "n", "vi": "áo len (Anh)"}, {"w": "button", "p": "n/v", "vi": "cúc áo; nút bấm"}, {"w": "pocket", "p": "n", "vi": "túi áo, túi quần"}, {"w": "zip", "p": "n/v", "vi": "khoá kéo (Anh)"}, {"w": "zipper", "p": "n", "vi": "khoá kéo"}, {"w": "collar", "p": "n/v", "vi": "cổ áo"}, {"w": "sleeve", "p": "n", "vi": "tay áo"}, {"w": "wallet", "p": "n", "vi": "ví"}, {"w": "purse", "p": "n", "vi": "ví nữ"}, {"w": "handbag", "p": "n", "vi": "túi xách tay"}, {"w": "backpack", "p": "n", "vi": "ba lô"}, {"w": "jewelry", "p": "n", "vi": "đồ trang sức"}, {"w": "ring", "p": "n/v", "vi": "nhẫn; reo, gọi"}, {"w": "necklace", "p": "n", "vi": "vòng cổ"}, {"w": "earring", "p": "n", "vi": "khuyên tai"}, {"w": "bracelet", "p": "n", "vi": "vòng tay"}, {"w": "sunglasses", "p": "n", "vi": "kính râm"}, {"w": "cotton", "p": "n", "vi": "vải cotton"}, {"w": "wool", "p": "n", "vi": "len"}, {"w": "leather", "p": "n", "vi": "da thuộc"}, {"w": "silk", "p": "n", "vi": "lụa"}, {"w": "fashion", "p": "n/v", "vi": "thời trang"}, {"w": "style", "p": "n/v", "vi": "phong cách"}, {"w": "undress", "p": "v", "vi": "cởi quần áo"}, {"w": "hall", "p": "n", "vi": "sảnh; hội trường"}, {"w": "hallway", "p": "n", "vi": "hành lang"}, {"w": "corridor", "p": "n", "vi": "hành lang"}, {"w": "lounge", "p": "n", "vi": "phòng khách, sảnh chờ"}, {"w": "cellar", "p": "n", "vi": "hầm chứa"}, {"w": "basement", "p": "n", "vi": "tầng hầm"}, {"w": "attic", "p": "n", "vi": "gác mái"}]}, {"id": "W09-3", "title": "Sam Needs a Home", "body": "Sam, Minh's friend from college, had a problem. He lived in a small room in a student block, but it was noisy and expensive. \"I need a new place,\" he said. \"Can you help me look?\"\n\nSo on Saturday, they walked around the town together. First, they looked at a flat on the fourth floor of an old building. There was no **lift**. \"In America we call it an **elevator**,\" Minh said. \"Tom taught me.\" They walked up the stairs. The flat was small, and there was a big brown spot on the **ceiling**. \"I think water comes in when it rains,\" said Sam. \"No, thank you.\"\n\nNext, they saw a little **cottage** at the edge of town. It was very pretty. It had a red door with a **doorbell**, a small **porch** with a chair, and a **chimney** on the roof. There was a wooden **fence** around the yard, and a green **lawn** in front. \"It's like a picture,\" Minh said. But the **rent** was too high. \"I'm a student, not a king,\" Sam said.\n\nThe third place was a **studio** flat near the college. It had one room, a tiny kitchen and a **balcony**. From the balcony, you could see the whole **neighborhood**: the park, the river, and the old **castle** on the hill. The **landlord** was a friendly old man named Mr. Patel. He showed them the **entrance** and the fire exit. He gave Sam a key. \"This key is for the front door. You have to **lock** the door every night, and you **unlock** it with this key in the morning. It's a bit old, so be patient.\"\n\nThere was already some furniture: an old **armchair**, a **couch**, and a small **bookcase**. \"And from the **terrace** on the roof, you can watch the sunset,\" said Mr. Patel.\n\nSam smiled. \"I'll take it.\"\n\nThey walked home through the town. On the way, Sam told Minh about his family's summer house in Spain. \"It's not a **villa**. It's more like a **hut** by the sea. No electricity, just a **tent** in the garden for my cousins, and a small cabin for my grandmother. But I love it.\"\n\nMinh told him about his town in Vietnam. \"My house is very different,\" he said. \"We have a lot of **steps** up to the front door, because of the floods.\"\n\nThey passed the castle. It was nine hundred years old. \"Did a king live there?\" Minh asked.\n\n\"No,\" said Sam. \"Kings live in a **palace**. A castle is for war.\"\n\nAt home, Minh wrote Sam's new address in his phone: *Flat 2, 14 River Street*. Then he asked Tom a question. \"Tom, what does 'address' mean in this sentence? 'The college will address the problem.'\"\n\n\"It means they will deal with it,\" Tom said. \"Same word, different meaning. English is crazy.\"", "words": 468, "new": [{"w": "balcony", "p": "n", "vi": "ban công"}, {"w": "ceiling", "p": "n", "vi": "trần nhà"}, {"w": "chimney", "p": "n", "vi": "ống khói"}, {"w": "fence", "p": "n", "vi": "hàng rào"}, {"w": "lawn", "p": "n", "vi": "bãi cỏ"}, {"w": "lift", "p": "v/n", "vi": "nâng"}, {"w": "elevator", "p": "n", "vi": "thang máy"}, {"w": "steps", "p": "n", "vi": "bậc thềm"}, {"w": "entrance", "p": "n/v", "vi": "lối vào"}, {"w": "cottage", "p": "n", "vi": "nhà tranh"}, {"w": "villa", "p": "n", "vi": "biệt thự"}, {"w": "palace", "p": "n", "vi": "cung điện"}, {"w": "castle", "p": "n/v", "vi": "lâu đài"}, {"w": "tent", "p": "n", "vi": "lều"}, {"w": "hut", "p": "n", "vi": "túp lều"}, {"w": "neighborhood", "p": "n", "vi": "khu phố"}, {"w": "landlord", "p": "n", "vi": "chủ nhà"}, {"w": "rent", "p": "n/v", "vi": "tiền thuê nhà; thuê"}, {"w": "lock", "p": "n/v", "vi": "khoá"}, {"w": "unlock", "p": "v", "vi": "mở khoá"}, {"w": "doorbell", "p": "n", "vi": "chuông cửa"}, {"w": "porch", "p": "n", "vi": "hiên nhà"}, {"w": "terrace", "p": "n", "vi": "sân hiên"}, {"w": "studio", "p": "n", "vi": "căn hộ một phòng; xưởng"}, {"w": "armchair", "p": "n", "vi": "ghế bành"}, {"w": "couch", "p": "n", "vi": "ghế dài"}, {"w": "bookcase", "p": "n", "vi": "tủ sách"}]}, {"id": "W09-4", "title": "Moving Day", "body": "Sam moved into his new studio on a cold Saturday. Minh and Leo came to help. The room was empty except for the old armchair and the couch. \"I need everything,\" Sam said. \"A bed, a table... everything.\"\n\nThey went to a second-hand furniture shop. It was big and full of old things. Sam bought a **mattress** for his bed, a **bookshelf** for his books, and a **wardrobe** for his clothes. \"I don't need a **closet**,\" he said. \"The wardrobe is enough.\" He also found a small kitchen **cabinet** with a **drawer** for forks and knives.\n\n\"You need something on the floor,\" Leo said. \"It's cold.\" So Sam bought a big **carpet** for the room and a small **rug** for the bathroom.\n\nThere was only one window, and it had no **curtains**. \"I can't sleep in the light,\" Sam said. He bought a long blue **curtain**. The shop also had a **blind** for the kitchen window. \"One curtain is enough for me,\" said Sam. \"I'm poor.\"\n\nThen Minh's phone rang. It was Anna. \"If you're at the second-hand shop, can you look for a baby's bed? My sister is having a baby next month.\"\n\n\"Do you mean a **crib**?\" asked Minh.\n\n\"Yes. Or in England we say a **cot**,\" Anna said.\n\nThey found a white wooden crib. It was perfect. Leo also saw a **bunk** bed. \"I always wanted a bunk bed when I was a kid,\" he said. \"Mia and I wanted to sleep on the top bunk.\"\n\nBack in the studio, they carried everything up. Sam put a **sheet** on the mattress and a warm **blanket** on top. His mother sent him a **duvet** from Spain, and he put two **pillows** on the bed. On the old couch, he put a red **cushion**. \"Now it feels like home,\" he said.\n\nIn the kitchen, there was not much. There was an old **fridge** and a very small **freezer** for ice. There was an old **cooker** too. \"Is that a **stove** or an **oven**?\" asked Leo.\n\n\"Both,\" said Sam. \"You cook on the top, and you bake in the bottom.\"\n\n\"In America, they call a fridge a **refrigerator**,\" Minh said. \"It's the same thing, but a longer word.\"\n\nThere was no **microwave** and no **dishwasher**. \"So I wash everything in the **sink**,\" Sam said. \"It's good exercise.\"\n\nAt the end of the day, they were very tired. There were only two chairs, so Leo sat on a **stool** and Minh sat on an old wooden **bench** by the window. They ate pizza from the box. Outside, it started to snow.\n\n\"Thank you, guys,\" Sam said. \"This is the best room in the world.\"\n\nMinh looked around. The room was small and the furniture was old, but it was warm and full of laughter. He agreed.", "words": 465, "new": [{"w": "bookshelf", "p": "n", "vi": "giá sách"}, {"w": "drawer", "p": "n", "vi": "ngăn kéo"}, {"w": "wardrobe", "p": "n", "vi": "tủ quần áo"}, {"w": "closet", "p": "n", "vi": "tủ âm tường"}, {"w": "cabinet", "p": "n", "vi": "tủ, tủ bếp"}, {"w": "carpet", "p": "n", "vi": "thảm trải sàn"}, {"w": "rug", "p": "n", "vi": "tấm thảm nhỏ"}, {"w": "curtain", "p": "n", "vi": "rèm cửa"}, {"w": "curtains", "p": "n", "vi": "rèm cửa"}, {"w": "blind", "p": "n/adj", "vi": "mành cửa; mù"}, {"w": "pillow", "p": "n", "vi": "gối"}, {"w": "cushion", "p": "n/v", "vi": "gối tựa, nệm"}, {"w": "blanket", "p": "n", "vi": "chăn"}, {"w": "sheet", "p": "n/v", "vi": "tờ giấy; tấm ga"}, {"w": "duvet", "p": "n", "vi": "chăn lông"}, {"w": "mattress", "p": "n", "vi": "nệm"}, {"w": "stool", "p": "n", "vi": "ghế đẩu"}, {"w": "bench", "p": "n", "vi": "ghế băng"}, {"w": "bunk", "p": "n", "vi": "giường tầng"}, {"w": "crib", "p": "n", "vi": "nôi, cũi trẻ em"}, {"w": "cot", "p": "n", "vi": "cũi trẻ em (Anh)"}, {"w": "fridge", "p": "n/v", "vi": "tủ lạnh"}, {"w": "refrigerator", "p": "n", "vi": "tủ lạnh"}, {"w": "freezer", "p": "n", "vi": "tủ đông"}, {"w": "cooker", "p": "n", "vi": "bếp nấu (Anh)"}, {"w": "stove", "p": "n", "vi": "bếp lò"}, {"w": "oven", "p": "n", "vi": "lò nướng"}, {"w": "microwave", "p": "n/v", "vi": "lò vi sóng"}, {"w": "dishwasher", "p": "n", "vi": "máy rửa bát"}, {"w": "sink", "p": "v/n", "vi": "bồn rửa; chìm"}]}, {"id": "W10-1", "title": "The Night the Lights Went Out", "body": "In December, a big storm came. The wind was very strong, and the rain hit the windows all evening. At eight o'clock, there was a loud noise, and suddenly all the lights went out. The TV went off. The **heater** stopped. The whole house was dark.\n\n\"Don't worry,\" said Tom. \"Where are the **candles**?\"\n\nAnna found some candles in a kitchen drawer. She put them on the table in old **jars** and a small glass **vase**. The room looked beautiful in the yellow light.\n\nTom tried the light **switch**. Nothing. He checked the **bulb** in the lamp. It was fine. He took out the **plug** and put it in another **socket**. Nothing. \"It's not our house,\" he said. \"It's the whole street.\"\n\nThe house got cold quickly. In Vietnam, Minh had a **fan** in his room to stay cool, not a heater. Now he wanted a heater more than anything. \"The **radiators** are getting cold,\" Mia said.\n\n\"Then we use the old way,\" said Grandma Rose. She went to the **fireplace** in the living room. Nobody used it anymore. Above it, there was an old **poster** of London and a family photo in a gold **frame**. Grandma Rose put some wood in the fireplace and lit a fire. Soon the room was warm.\n\n\"Now, tea,\" said Grandma Rose. But there was no electricity for the kettle. So she filled a big **pot** with water from the **tap**.\n\n\"We call it a **faucet** in America,\" said Tom.\n\n\"Not in my house,\" Grandma said. She put a **lid** on the pot and hung it over the fire, like in the old days.\n\nWhile the water got hot, Anna found some food. There was no light in the kitchen, so she brought a **tray** with everything on it: bread, cheese, a **tin** of fish, and a **jug** of milk. Leo found an old **pan** and tried to cook eggs on the fire. The first egg fell into the fire. Everybody laughed.\n\nWhen the tea was ready, Grandma Rose made it the English way. She gave Minh a cup on a small **saucer**. \"A real cup, not a **mug**,\" she said. \"This is a special night.\"\n\nThey sat around the fire and told stories. Tom told them about the big storm in America when he was a boy. Grandma told them about the war. Minh told them about the rainy season in Vietnam. \"Sometimes the water comes into the house,\" he said, \"and we put all the **furniture** up high.\"\n\nAt midnight, the lights came back on. The TV started talking, and the heater made a noise. \"Oh no,\" said Mia. \"I liked it better in the dark.\"\n\nThen the fire **alarm** in the hall started to beep, because of the smoke from the fireplace. Tom ran to stop it.\n\nThe next morning, there were dirty **dishes** everywhere. Minh washed every **dish** in the kitchen, and then he washed his face in the small **washbasin** in the bathroom. He was tired, but happy. It was the best night since he came to England.", "words": 509, "new": [{"w": "tap", "p": "v/n", "vi": "vòi nước"}, {"w": "faucet", "p": "n", "vi": "vòi nước (Mỹ)"}, {"w": "washbasin", "p": "n", "vi": "bồn rửa mặt"}, {"w": "heater", "p": "n", "vi": "máy sưởi"}, {"w": "fan", "p": "n/v", "vi": "quạt; người hâm mộ"}, {"w": "radiator", "p": "n", "vi": "lò sưởi"}, {"w": "fireplace", "p": "n", "vi": "lò sưởi"}, {"w": "vase", "p": "n", "vi": "lọ hoa"}, {"w": "poster", "p": "n", "vi": "áp phích"}, {"w": "frame", "p": "n/v", "vi": "khung"}, {"w": "alarm", "p": "n/v", "vi": "báo thức; chuông báo"}, {"w": "socket", "p": "n", "vi": "ổ cắm"}, {"w": "plug", "p": "n/v", "vi": "phích cắm"}, {"w": "switch", "p": "n/v", "vi": "công tắc"}, {"w": "bulb", "p": "n", "vi": "bóng đèn"}, {"w": "candle", "p": "n", "vi": "cây nến"}, {"w": "furniture", "p": "n", "vi": "đồ nội thất"}, {"w": "mug", "p": "n/v", "vi": "cái cốc"}, {"w": "saucer", "p": "n", "vi": "đĩa lót tách"}, {"w": "dish", "p": "n/v", "vi": "đĩa; món ăn"}, {"w": "dishes", "p": "n", "vi": "bát đĩa"}, {"w": "tray", "p": "n", "vi": "khay"}, {"w": "jug", "p": "n", "vi": "bình rót"}, {"w": "pot", "p": "n/v", "vi": "nồi"}, {"w": "pan", "p": "n/v/adj", "vi": "cái chảo"}, {"w": "lid", "p": "n", "vi": "nắp"}, {"w": "jar", "p": "n", "vi": "lọ, hũ"}, {"w": "tin", "p": "n", "vi": "hộp thiếc; thiếc"}]}, {"id": "W10-2", "title": "Minh Cooks Dinner", "body": "After the storm, there was water in the basement. On Sunday morning, everybody helped to clean it. Tom carried a **bucket** of dirty water up the stairs. Anna used a **mop** on the floor. Mia used a **broom** to push the water out of the door. Leo cleaned the walls with a big **sponge**. Later, when everything was dry, Grandma Rose used the **vacuum** to clean the carpets.\n\nThere was a lot of **rubbish** in the basement: old boxes, wet paper and broken things. \"Put the garbage in the black bags,\" Tom said.\n\n\"In England, we call it rubbish, and it goes in the **dustbin**,\" said Grandma Rose.\n\n\"In America, it's trash, and it goes in the trash can,\" said Tom.\n\n\"Just put it in the bin,\" said Anna. \"I don't care what you call it.\"\n\nIn the evening, Minh had a surprise for them. \"Tonight I will cook dinner,\" he said. \"Vietnamese food.\"\n\nHe made spring rolls and a big bowl of beef soup. The kitchen smelled wonderful. He gave everyone a pair of **chopsticks**. Leo held them like two pencils. Mia dropped her noodles three times. Tom gave up and used a fork. But Grandma Rose was very good. \"I learned in Hong Kong in 1970,\" she said proudly.\n\nThe soup was hot and Leo's nose started to run. Anna gave him a **tissue**. Minh put a paper **napkin** next to every bowl. After dinner, Grandma made tea in her old **teapot**, and Minh boiled more water in the **kettle**.\n\n\"This was the best dinner this year,\" Tom said. Minh felt very proud.\n\nAfter dinner, Mia had a school project. She had to make a model house. She needed a lot of things. \"Where are the **scissors**?\" she shouted. \"And the **glue**? And the **tape**?\"\n\nAnna found them in a drawer. In the same drawer, there was a lot of other stuff: some **string**, a long piece of **rope**, a small box with a **needle** and **thread**, and a **pin** with a flower on it.\n\n\"I need a light for the house,\" Mia said. Leo found a small **torch** in the cupboard.\n\n\"A **flashlight**,\" said Tom.\n\n\"A torch!\" said Grandma Rose.\n\nLeo tried it, but it did not work. \"We need a new **battery**,\" he said. Minh found one in his backpack.\n\nThen Mia wanted a real fire in her model fireplace. \"No!\" said Anna. \"No **matches**, and no **lighter**. You will burn the house down.\"\n\n\"OK, OK,\" Mia said. She used a small red light instead.\n\nAt eleven o'clock, the model was finished. It had tiny chairs, a tiny table and a tiny family. There was even a tiny person with black hair, cooking in the kitchen.\n\n\"Who is that?\" Minh asked.\n\nMia smiled. \"That's you. Every house needs a good cook.\"", "words": 464, "new": [{"w": "kettle", "p": "n", "vi": "ấm đun nước"}, {"w": "teapot", "p": "n", "vi": "ấm trà"}, {"w": "chopsticks", "p": "n", "vi": "đũa"}, {"w": "napkin", "p": "n", "vi": "khăn ăn"}, {"w": "tissue", "p": "n", "vi": "khăn giấy"}, {"w": "sponge", "p": "n", "vi": "miếng bọt biển"}, {"w": "bucket", "p": "n", "vi": "cái xô"}, {"w": "mop", "p": "n/v", "vi": "cây lau nhà; lau"}, {"w": "broom", "p": "n", "vi": "cái chổi"}, {"w": "vacuum", "p": "v/n", "vi": "hút bụi"}, {"w": "rubbish", "p": "n/v/adj/interj", "vi": "rác"}, {"w": "dustbin", "p": "n", "vi": "thùng rác (Anh)"}, {"w": "scissors", "p": "n", "vi": "cái kéo"}, {"w": "glue", "p": "n/v", "vi": "keo dán"}, {"w": "tape", "p": "n/v", "vi": "băng dính"}, {"w": "string", "p": "n", "vi": "sợi dây"}, {"w": "rope", "p": "n", "vi": "dây thừng"}, {"w": "needle", "p": "n", "vi": "cây kim"}, {"w": "thread", "p": "n", "vi": "sợi chỉ"}, {"w": "pin", "p": "n/v", "vi": "ghim; mã PIN"}, {"w": "battery", "p": "n/adj", "vi": "pin"}, {"w": "torch", "p": "n", "vi": "đèn pin (Anh)"}, {"w": "flashlight", "p": "n", "vi": "đèn pin"}, {"w": "matches", "p": "n", "vi": "diêm"}, {"w": "lighter", "p": "n", "vi": "bật lửa"}]}, {"id": "W10-3", "title": "A Parcel from Home", "body": "One morning, the doorbell rang. It was the postman with a big **parcel**. \"It's for you, Minh,\" Anna said. \"From Vietnam!\"\n\n\"In America, we say package,\" said Tom.\n\nMinh opened it on the kitchen table. His mother sent him many things. There was a packet of green tea, a plastic bag of dried mango, and a metal box of Vietnamese coffee. There was also a little wooden box. Minh opened it. It was made of dark wood, and inside there was a photo of his family.\n\nAt the bottom, there was an **envelope** with a Vietnamese **stamp** on it. Inside, his mother wrote: \"Eat well. Keep warm. Write in your **diary** every day, like your father did when he was a student.\" There was also a small **calendar** with photos of Hanoi, and a new **notebook** for his diary.\n\nMinh's mother also sent things for the family. For Grandma Rose, a basket with Vietnamese sweets. For Anna, a bottle of **perfume**. For Mia, a **lipstick** and some **makeup**. For Leo, a football shirt. For Tom, a big container of fish sauce. Tom smelled it and his face changed. \"Wow,\" he said. \"That's... strong.\"\n\nMia was very happy with her gift. She ran to the bathroom to try the lipstick. When she came back, Grandma Rose looked at her and said, \"Very pretty. But you're fifteen. A little less, please.\"\n\nThen Minh found a small bag at the bottom of the box. Inside, there was **shampoo** and **conditioner**, a **razor**, a **hairbrush**, and a **deodorant**. Minh laughed. \"My mother thinks England has no shops!\"\n\n\"Mothers are the same everywhere,\" Anna said.\n\nIn the afternoon, it was cleaning day. Every Saturday, everybody helped to tidy the house. Grandma Rose gave everyone a job, like a teacher.\n\nMinh had to **sweep** the kitchen floor. Then he had to **wipe** the table and **dust** the shelves in the living room. Leo had to **scrub** the bathroom. \"This is the worst job,\" he said. Mia had to wash the dishes, **rinse** them in clean water and put them away. Tom had to **iron** the shirts. He was very slow. Anna said, \"Tom, you **iron** like a man who is afraid of the shirts.\"\n\nGrandma Rose did the most important job. She sat in her armchair and used a soft cloth to **polish** the old silver spoons. \"This is a job for an expert,\" she said with a smile.\n\nAt the end, they had to **hang** the wet clothes in the garden. Mia's **hairdryer** was on the table, and she wanted to dry her clothes with it. \"No,\" said Anna. \"The sun is free.\"\n\nThat evening, Minh sat in his room and opened the new notebook. He began to write in his diary. \"Today a piece of Vietnam came to England,\" he wrote. \"Everybody liked it, except Tom and the fish sauce.\"", "words": 476, "new": [{"w": "shampoo", "p": "n/v", "vi": "dầu gội"}, {"w": "conditioner", "p": "n", "vi": "dầu xả"}, {"w": "razor", "p": "n/v", "vi": "dao cạo"}, {"w": "hairbrush", "p": "n", "vi": "lược chải tóc"}, {"w": "hairdryer", "p": "n", "vi": "máy sấy tóc"}, {"w": "perfume", "p": "n", "vi": "nước hoa"}, {"w": "deodorant", "p": "n", "vi": "lăn khử mùi"}, {"w": "makeup", "p": "n", "vi": "đồ trang điểm"}, {"w": "lipstick", "p": "n", "vi": "son môi"}, {"w": "diary", "p": "n", "vi": "nhật ký"}, {"w": "calendar", "p": "n", "vi": "lịch"}, {"w": "notebook", "p": "n", "vi": "quyển vở"}, {"w": "envelope", "p": "n", "vi": "phong bì"}, {"w": "stamp", "p": "n/v", "vi": "tem"}, {"w": "parcel", "p": "n", "vi": "bưu kiện"}, {"w": "sweep", "p": "v/n", "vi": "quét"}, {"w": "dust", "p": "n/v", "vi": "bụi; lau bụi"}, {"w": "iron", "p": "n/v/adj", "vi": "sắt; bàn là"}, {"w": "polish", "p": "v/n/adj", "vi": "đánh bóng"}, {"w": "wipe", "p": "v", "vi": "lau"}, {"w": "scrub", "p": "v", "vi": "cọ rửa"}, {"w": "rinse", "p": "v", "vi": "tráng, xả nước"}, {"w": "hang", "p": "v/n", "vi": "treo"}]}];
+(function () {
+  "use strict";
+  const $ = id => document.getElementById(id);
+  const main = $("main");
+  let cur = Math.min(+(localStorage.getItem("stories-cur") || 0), STORIES.length - 1);
+
+  STORIES.forEach((s, i) => {
+    const o = document.createElement("option");
+    o.value = i; o.textContent = (i + 1) + ". " + s.title + " (" + s.new.length + " new)";
+    $("pick").appendChild(o);
+  });
+
+  const esc = t => t.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  function viFor(s, word) {
+    const w = word.toLowerCase();
+    let best = null;
+    for (const n of s.new) {
+      const b = n.w.toLowerCase();
+      if (w === b) return n;
+      if (!best && (w.startsWith(b.slice(0, Math.max(3, b.length - 2))) || b.startsWith(w))) best = n;
+    }
+    return best;
+  }
+
+  function render() {
+    const s = STORIES[cur];
+    localStorage.setItem("stories-cur", cur);
+    $("pick").value = cur;
+    stopSpeak();
+    let h = "<h1>" + esc(s.title) + "</h1><div class='meta'>Story " + (cur + 1) + " of " + STORIES.length +
+            " · " + s.id + " · " + s.words + " words · " + s.new.length + " new words</div>";
+    const blocks = s.body.split(/\n\s*\n/);
+    for (const b of blocks) {
+      const quote = /^>/.test(b);
+      const raw = b.replace(/^> ?/gm, "");
+      let t = splitSentences(raw).map(sen => {
+        let x = esc(sen).replace(/\n/g, "<br>");
+        x = x.replace(/\*\*(.+?)\*\*/g, (m, w) => {
+          const n = viFor(s, w);
+          return "<span class='nw' data-first='" + esc(w[0]) + "' data-vi='" + esc(n ? n.w + " · " + n.vi : "") + "'>" + w + "</span>";
+        });
+        return "<span class='s'>" + x + "</span>";
+      }).join("");
+      h += quote ? "<blockquote><p>" + t + "</p></blockquote>" : "<p>" + t + "</p>";
+    }
+    h += "<h2>New words (" + s.new.length + ") <button id='viBtn' style='float:right;font-size:13px'>Hide Vietnamese</button></h2><table>";
+    for (const n of s.new) h += "<tr><td class='w'>" + esc(n.w) + "</td><td class='p'>" + esc(n.p) + "</td><td class='vi'><span>" + esc(n.vi) + "</span></td></tr>";
+    h += "</table>";
+    h += "<div class='nav'><button id='prev2'>◀ Previous</button><button id='next2'>Next ▶</button></div>";
+    h += "<div class='help'>Tap a sentence to listen from there. Read: tap a blue word to see its meaning. Review: the new words are hidden, try to remember them, tap to check. Tap a word in the list to hear it.</div>";
+    main.innerHTML = h;
+    $("prev2").onclick = () => go(-1);
+    $("next2").onclick = () => go(1);
+    $("viBtn").onclick = () => {
+      document.body.classList.toggle("hidevi");
+      $("viBtn").textContent = document.body.classList.contains("hidevi") ? "Show Vietnamese" : "Hide Vietnamese";
+    };
+    window.scrollTo(0, 0);
+  }
+
+  function go(d) { const n = cur + d; if (n >= 0 && n < STORIES.length) { cur = n; render(); } }
+  $("prev").onclick = () => go(-1);
+  $("next").onclick = () => go(1);
+  $("pick").onchange = () => { cur = +$("pick").value; render(); };
+
+  function setMode(review) {
+    document.body.classList.toggle("review", review);
+    $("modeRead").classList.toggle("on", !review);
+    $("modeReview").classList.toggle("on", review);
+    main.querySelectorAll(".nw.shown").forEach(x => x.classList.remove("shown"));
+    closeTips();
+  }
+  $("modeRead").onclick = () => setMode(false);
+  $("modeReview").onclick = () => setMode(true);
+
+  function closeTips() { main.querySelectorAll(".tip").forEach(t => t.remove()); }
+  main.addEventListener("click", ev => {
+    const nw = ev.target.closest(".nw");
+    const td = ev.target.closest("td");
+    if (nw) {
+      if (document.body.classList.contains("review") && !nw.classList.contains("shown")) { nw.classList.add("shown"); return; }
+      const had = nw.querySelector(".tip"); closeTips();
+      if (!had && nw.dataset.vi) { const t = document.createElement("span"); t.className = "tip"; t.textContent = nw.dataset.vi; nw.appendChild(t); }
+      say(nw.firstChild.textContent);
+      return;
+    }
+    closeTips();
+    const sen = ev.target.closest(".s");
+    if (sen) { playFrom([...main.querySelectorAll(".s")].indexOf(sen)); return; }
+    if (td && td.classList.contains("vi")) td.classList.toggle("peek");
+    if (td && td.classList.contains("w")) say(td.textContent);
+  });
+
+  // computer voice (free). Real audio can replace this later.
+  let speaking = false;
+  // best first: Edge "Natural" voices, then Google voices, then the rest
+  const score = v => (/natural/i.test(v.name) ? 0 : /google/i.test(v.name) ? 1 : /online/i.test(v.name) ? 2 : 3) +
+                     (/en[-_](GB|US)/i.test(v.lang) ? 0 : 0.5);
+  function englishVoices() {
+    return window.speechSynthesis ? speechSynthesis.getVoices().filter(v => /^en[-_]/i.test(v.lang))
+      .sort((a, b) => score(a) - score(b) || a.name.localeCompare(b.name)) : [];
+  }
+  // the voice the first version of this page used: first Natural/Online voice in the browser's own order
+  function firstDefault() {
+    const vs = window.speechSynthesis ? speechSynthesis.getVoices().filter(v => /^en[-_]/i.test(v.lang)) : [];
+    return vs.find(v => /natural|online/i.test(v.name) && /en[-_](GB|US)/i.test(v.lang)) ||
+           vs.find(v => /en[-_]GB/i.test(v.lang)) || vs[0];
+  }
+  function fillVoices() {
+    const vs = englishVoices(), sel = $("voiceSel");
+    if (!vs.length) { sel.style.display = "none"; return; }
+    sel.style.display = "";
+    const saved = localStorage.getItem("stories-voice");
+    const def = firstDefault();
+    sel.innerHTML = "";
+    const best = document.createElement("optgroup"); best.label = "Natural (best)";
+    const other = document.createElement("optgroup"); other.label = "Other voices";
+    vs.forEach(v => {
+      const o = document.createElement("option");
+      o.value = v.name;
+      o.textContent = (v === def ? "★ " : "") + v.name.replace(/^Microsoft /, "").replace(/ Online \(Natural\)/, "")
+        .replace(/ - English \((.+)\)/, (m, c) => " · " + c.replace("United Kingdom", "UK").replace("United States", "US"));
+      (score(v) < 1 ? best : other).appendChild(o);
+    });
+    if (best.children.length) sel.appendChild(best);
+    if (other.children.length) sel.appendChild(other);
+    sel.value = vs.some(v => v.name === saved) ? saved : (def || vs[0]).name;
+  }
+  if (window.speechSynthesis) { fillVoices(); speechSynthesis.onvoiceschanged = fillVoices; }
+  $("voiceSel").onchange = () => { localStorage.setItem("stories-voice", $("voiceSel").value); say("Hello. This is my voice."); };
+  function voice() {
+    const vs = englishVoices();
+    return vs.find(v => v.name === $("voiceSel").value) || vs[0];
+  }
+  // each sentence is its own span, so a tap can start reading there
+  function splitSentences(text) {
+    const parts = text.match(/[^.!?]+(?:[.!?]+["'’)\]]*\s*|$)/g) || [text];
+    const out = [];
+    for (const p of parts) {
+      if (out.length && /\b(Mr|Mrs|Ms|Dr)\.\s*$/.test(out[out.length - 1])) out[out.length - 1] += p;
+      else out.push(p);
+    }
+    return out;
+  }
+  function say(text) {
+    if (!window.speechSynthesis) return;
+    stopSpeak();
+    const v = voice() || null;
+    const u = new SpeechSynthesisUtterance(text); u.lang = v ? v.lang : "en-GB"; u.voice = v; u.rate = +$("rate").value;
+    speechSynthesis.speak(u);
+  }
+  let token = 0;
+  function stopSpeak() {
+    token++;
+    clearInterval(keepAlive);
+    if (window.speechSynthesis) speechSynthesis.cancel();
+    speaking = false; $("listen").textContent = "▶ Listen"; $("listen").classList.remove("on");
+    const at = main.querySelector(".s.speaking");          // remember where we stopped
+    if (at) { main.querySelectorAll(".s.last").forEach(x => x.classList.remove("last")); at.classList.add("last"); }
+    main.querySelectorAll(".speaking").forEach(x => x.classList.remove("speaking"));
+  }
+  let keepAlive = 0;
+  function cleanText(el) {
+    const c = el.cloneNode(true);
+    c.querySelectorAll(".tip").forEach(t => t.remove());
+    c.querySelectorAll("br").forEach(b => b.replaceWith(" "));
+    return c.textContent.replace(/\b(Mr|Mrs|Ms|Dr)\./g, "$1").replace(/\s+/g, " ").trim();
+  }
+  function mark(el) {
+    main.querySelectorAll(".speaking").forEach(x => x.classList.remove("speaking"));
+    if (!el) return;
+    el.classList.add("speaking");
+    const r = el.getBoundingClientRect();
+    if (r.top < 60 || r.bottom > innerHeight - 40) el.scrollIntoView({ block: "center", behavior: "smooth" });
+  }
+  // Start at sentence k. Read the rest of that paragraph as one piece, then whole paragraphs,
+  // so the voice sounds natural. The yellow mark follows the voice when the browser reports its position.
+  function playFrom(k) {
+    if (!window.speechSynthesis) return;
+    stopSpeak();
+    const sents = [...main.querySelectorAll(".s")];
+    if (k < 0 || k >= sents.length) return;
+    const chunks = [];
+    let para = null;
+    for (let i = k; i < sents.length; i++) {
+      if (sents[i].parentElement !== para) { para = sents[i].parentElement; chunks.push([]); }
+      chunks[chunks.length - 1].push(sents[i]);
+    }
+    const my = ++token;
+    speaking = true; $("listen").textContent = "■ Stop"; $("listen").classList.add("on");
+    const v = voice() || null, rate = +$("rate").value;
+    // Google voices on desktop Chrome stop after ~15 s of one text; a pause/resume every 10 s prevents it
+    if (v && !v.localService && /google/i.test(v.name) && !/android/i.test(navigator.userAgent)) {
+      keepAlive = setInterval(() => { if (speechSynthesis.speaking) { speechSynthesis.pause(); speechSynthesis.resume(); } }, 10000);
+    }
+    const play = c => {
+      if (my !== token) return;
+      if (c >= chunks.length) { stopSpeak(); main.querySelectorAll(".s.last").forEach(x => x.classList.remove("last")); return; }
+      const items = chunks[c], starts = [];
+      let text = "";
+      for (const el of items) { starts.push(text.length); text += cleanText(el) + " "; }
+      mark(items[0]);
+      const u = new SpeechSynthesisUtterance(text.trim());
+      u.lang = v ? v.lang : "en-GB"; u.voice = v; u.rate = rate;
+      u.onboundary = e => {
+        if (my !== token) return;
+        let j = 0;
+        while (j + 1 < starts.length && starts[j + 1] <= e.charIndex) j++;
+        if (!items[j].classList.contains("speaking")) mark(items[j]);
+      };
+      u.onend = () => play(c + 1);
+      u.onerror = e => { if (my === token && e.error !== "interrupted" && e.error !== "canceled") play(c + 1); };
+      speechSynthesis.speak(u);
+    };
+    play(0);
+  }
+  $("listen").onclick = () => {
+    if (speaking) { stopSpeak(); return; }
+    const sents = [...main.querySelectorAll(".s")];
+    const last = sents.findIndex(x => x.classList.contains("last"));
+    playFrom(last > 0 ? last : 0);
+  };
+
+  render();
+})();
+</script>
+</body>
+</html>
