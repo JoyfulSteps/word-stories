@@ -21,6 +21,7 @@
   blockquote { margin:0 0 14px; padding:2px 0 2px 16px; border-left:3px solid #d6c9a8; font-style:italic; }
   blockquote p { margin:0; }
   .nw { color:var(--hl); font-weight:700; cursor:pointer; border-radius:3px; position:relative; }
+  .nw:focus { outline:none; } .nw:focus-visible { outline:2px solid var(--hl); }
   .s { cursor:pointer; border-radius:3px; }
   .s.speaking { background:#ffec99; }
   @media (hover:hover) { .s:hover { background:#f3f0e4; } .s.speaking:hover { background:#ffec99; } }
@@ -97,7 +98,8 @@ const STORIES = /*DATA*/null;
         let x = esc(sen).replace(/\n/g, "<br>");
         x = x.replace(/\*\*(.+?)\*\*/g, (m, w) => {
           const n = viFor(s, w);
-          return "<span class='nw' data-first='" + esc(w[0]) + "' data-vi='" + esc(n ? n.w + " · " + n.vi : "") + "'>" + w + "</span>";
+          // role/tabindex: Vimium's "f" hints and the Tab key can reach the word
+          return "<span class='nw' role='button' tabindex='0' data-first='" + esc(w[0]) + "' data-vi='" + esc(n ? n.w + " · " + n.vi : "") + "'>" + w + "</span>";
         });
         return "<span class='s'>" + x + "</span>";
       }).join("");
@@ -134,6 +136,12 @@ const STORIES = /*DATA*/null;
   $("modeReview").onclick = () => setMode(true);
 
   function closeTips() { main.querySelectorAll(".tip").forEach(t => t.remove()); }
+  document.addEventListener("keydown", ev => {
+    if (ev.key === "Escape") closeTips();
+    if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList && ev.target.classList.contains("nw")) {
+      ev.preventDefault(); ev.target.click();
+    }
+  });
   main.addEventListener("click", ev => {
     const nw = ev.target.closest(".nw");
     const td = ev.target.closest("td");
