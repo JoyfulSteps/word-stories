@@ -58,6 +58,8 @@ Thị trấn: **Riverford**, một thị trấn nhỏ ở Anh, có sông, lâu �
 
 (Kế hoạch cũ:) **Phần 3: W34–W42, Minh thực tập ở báo *The Riverford Gazette*.** Biên tập viên: bà Grace Okafor (nghiêm, giỏi). Mỗi truyện là một vụ việc hoặc phóng sự: bệnh viện, thời tiết và môi trường, khoa học ở trường đại học, công ty phá sản, phiên tòa, triển lãm nghệ thuật, ngôn ngữ. Có yếu tố điều tra và bí ẩn.
 
+**Đã viết thực tế ở phần 3 (W34–W42):** Minh ở Tokyo, làm cho báo tiếng Anh rồi trang độc lập Open Tokyo (biên tập Yuko; đồng nghiệp Ben, Aiko, Min-ji, Pierre); Margaret mất (W34-5), để lại căn nhà ở Scotland cho Grandma Rose; Lan sang Tokyo học sư phạm; Leo đi Borneo (đười ươi); Minh cầu hôn Hana (W40-4), ba đám cưới: Nhật (W42-2), Việt Nam (W42-3), Scotland (W42-4); W42-5 hai người về Riverford, Minh làm podcast *Riverford Talks* với Gazette.
+
 **Phần 4: W43–W60, bài báo và podcast *Riverford Talks* do Minh dẫn.** Dạng phỏng vấn, tranh luận, bài báo về đề tài IELTS (giáo dục, môi trường, tội phạm, toàn cầu hóa, công nghệ, sức khỏe, nhà ở, việc làm). Khách mời là các nhân vật cũ và chuyên gia. 550–700 từ, câu rõ ràng. Có thể có bài dạng "bài báo" hoặc "lá thư gửi tòa soạn".
 
 Quy tắc chung: mỗi truyện có tiêu đề, tự đứng được (đọc riêng vẫn hiểu), nhưng nối tiếp mạch chung. Từ mới đặt trong ngữ cảnh đủ rõ để đoán nghĩa. Không dùng từ trong danh sách sai nghĩa với cột `vi` khi có thể.
