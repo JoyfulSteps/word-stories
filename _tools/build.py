@@ -18,6 +18,31 @@ IRREG = {
 }
 
 
+_IRR = """be was were been being am is are|go went gone goes|come came|take took taken|give gave given|do did does done|
+have had has|drink drank drunk|bring brought|meet met|make made|get got gotten|see saw seen|say said|tell told|
+think thought|know knew known|find found|leave left|eat ate eaten|buy bought|sell sold|teach taught|catch caught|
+fight fought|run ran|swim swam swum|sing sang sung|begin began begun|write wrote written|ride rode ridden|
+drive drove driven|speak spoke spoken|break broke broken|choose chose chosen|forget forgot forgotten|
+freeze froze frozen|steal stole stolen|wake woke woken|hide hid hidden|bite bit bitten|fall fell fallen|
+feel felt|keep kept|sleep slept|sweep swept|weep wept|lend lent|send sent|spend spent|build built|
+lose lost|hold held|stand stood|understand understood|sit sat|win won|hang hung|dig dug|stick stuck|
+strike struck|sting stung|swing swung|light lit|lead led|feed fed|bleed bled|flee fled|shoot shot|
+pay paid|lay laid|lie lay lain|hear heard|mean meant|draw drew drawn|grow grew grown|throw threw thrown|
+blow blew blown|fly flew flown flies|show showed shown|wear wore worn|tear tore torn|bear bore born borne|
+shake shook shaken|rise rose risen|arise arose arisen|seek sought|bind bound|grind ground|
+deal dealt|dream dreamt dreamed|burn burnt|learn learnt|spell spelt|spill spilt|smell smelt|
+child children|man men|woman women|tooth teeth|foot feet|mouse mice|person people|wife wives|knife knives|
+life lives|leaf leaves|thief thieves|half halves|shelf shelves|ox oxen|goose geese|crisis crises|
+analysis analyses|phenomenon phenomena|criterion criteria|medium media|datum data|stimulus stimuli|
+fungus fungi|cactus cacti|nucleus nuclei|thesis theses|hypothesis hypotheses|index indices indexes|
+good better best|bad worse worst|far further farther|little less least|many more most"""
+IRREG_ALL = {}
+for grp in _IRR.replace("\n", "").split("|"):
+    ws = grp.split()
+    if ws:
+        IRREG_ALL.setdefault(ws[0], set()).update(ws[1:])
+
+
 def forms(w):
     w = w.lower()
     out = {w, w + "s", w + "es", w + "ed", w + "d", w + "ing", w + "'s"}
@@ -32,6 +57,7 @@ def forms(w):
     if w.endswith("fe"):
         out.add(w[:-2] + "ves")
     out |= set(IRREG.get(w, []))
+    out |= IRREG_ALL.get(w, set())
     return out
 
 
