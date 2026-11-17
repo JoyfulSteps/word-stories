@@ -154,7 +154,8 @@ const STORIES = [{"id": "W08-1", "title": "A New Family", "body": "Minh was nine
   // computer voice (free). Real audio can replace this later.
   let speaking = false;
   // best first: Edge "Natural" voices, then Google voices, then the rest
-  const score = v => (/natural/i.test(v.name) ? 0 : /google/i.test(v.name) ? 1 : /online/i.test(v.name) ? 2 : 3) +
+  // iPhone: "Enhanced"/"Premium" voices are the good ones (downloaded in Settings)
+  const score = v => (/natural|premium|enhanced/i.test(v.name) ? 0 : /google/i.test(v.name) ? 1 : /online/i.test(v.name) ? 2 : 3) +
                      (/en[-_](GB|US)/i.test(v.lang) ? 0 : 0.5);
   function englishVoices() {
     return window.speechSynthesis ? speechSynthesis.getVoices().filter(v => /^en[-_]/i.test(v.lang))
@@ -168,7 +169,9 @@ const STORIES = [{"id": "W08-1", "title": "A New Family", "body": "Minh was nine
   }
   function fillVoices() {
     const vs = englishVoices(), sel = $("voiceSel");
-    if (!vs.length) { sel.style.display = "none"; return; }
+    if (!vs.length) {   // keep the box visible, so it is clear the phone's own voice is used
+      sel.innerHTML = "<option value=''>Phone voice</option>"; sel.style.display = ""; return;
+    }
     sel.style.display = "";
     const saved = localStorage.getItem("stories-voice");
     const def = firstDefault();
@@ -186,7 +189,21 @@ const STORIES = [{"id": "W08-1", "title": "A New Family", "body": "Minh was nine
     if (other.children.length) sel.appendChild(other);
     sel.value = vs.some(v => v.name === saved) ? saved : (def || vs[0]).name;
   }
-  if (window.speechSynthesis) { fillVoices(); speechSynthesis.onvoiceschanged = fillVoices; }
+  // Phones (iOS, Android) load the voice list late and often never fire "voiceschanged":
+  // ask again a few times, and again when the list or Listen is tapped.
+  let voiceCount = -1;
+  function refreshVoices() {
+    const n = englishVoices().length;
+    if (n !== voiceCount) { voiceCount = n; fillVoices(); }
+  }
+  if (window.speechSynthesis) {
+    refreshVoices();
+    speechSynthesis.onvoiceschanged = refreshVoices;
+    let tries = 0;
+    const t = setInterval(() => { refreshVoices(); if (++tries > 20) clearInterval(t); }, 500);
+    $("voiceSel").addEventListener("focus", refreshVoices);
+    $("listen").addEventListener("pointerdown", refreshVoices);
+  }
   $("voiceSel").onchange = () => { localStorage.setItem("stories-voice", $("voiceSel").value); say("Hello. This is my voice."); };
   function voice() {
     const vs = englishVoices();
