@@ -230,13 +230,15 @@ const STORIES = [{"id": "W08-1", "title": "A New Family", "body": "Minh was nine
   function stopSpeak() {
     token++;
     clearInterval(keepAlive);
+    clearInterval(guessTimer);
     if (window.speechSynthesis) speechSynthesis.cancel();
     speaking = false; $("listen").textContent = "▶ Listen"; $("listen").classList.remove("on");
     const at = main.querySelector(".s.speaking");          // remember where we stopped
     if (at) { main.querySelectorAll(".s.last").forEach(x => x.classList.remove("last")); at.classList.add("last"); }
     main.querySelectorAll(".speaking").forEach(x => x.classList.remove("speaking"));
   }
-  let keepAlive = 0;
+  let keepAlive = 0, guessTimer = 0;
+  let charsPerSec = 14;   // ~150 words a minute at 1×; adjusted while reading
   function cleanText(el) {
     const c = el.cloneNode(true);
     c.querySelectorAll(".tip").forEach(t => t.remove());
@@ -279,14 +281,32 @@ const STORIES = [{"id": "W08-1", "title": "A New Family", "body": "Minh was nine
       mark(items[0]);
       const u = new SpeechSynthesisUtterance(text.trim());
       u.lang = v ? v.lang : "en-GB"; u.voice = v; u.rate = rate;
-      u.onboundary = e => {
-        if (my !== token) return;
+      const markAt = ch => {
         let j = 0;
-        while (j + 1 < starts.length && starts[j + 1] <= e.charIndex) j++;
+        while (j + 1 < starts.length && starts[j + 1] <= ch) j++;
         if (!items[j].classList.contains("speaking")) mark(items[j]);
       };
-      u.onend = () => play(c + 1);
-      u.onerror = e => { if (my === token && e.error !== "interrupted" && e.error !== "canceled") play(c + 1); };
+      // Some voices (many Android TTS apps) never say where they are. Then guess from the time
+      // and the reading speed, learned from the paragraphs already read.
+      let t0 = performance.now(), gotBoundary = false;
+      clearInterval(guessTimer);
+      guessTimer = setInterval(() => {
+        if (my !== token || gotBoundary) return;
+        markAt((performance.now() - t0) / 1000 * charsPerSec * rate);
+      }, 250);
+      u.onstart = () => { t0 = performance.now(); };
+      u.onboundary = e => {
+        if (my !== token) return;
+        gotBoundary = true;
+        markAt(e.charIndex);
+      };
+      u.onend = () => {
+        clearInterval(guessTimer);
+        const sec = (performance.now() - t0) / 1000;
+        if (!gotBoundary && sec > 2) charsPerSec = (charsPerSec + text.length / sec / rate) / 2;
+        play(c + 1);
+      };
+      u.onerror = e => { clearInterval(guessTimer); if (my === token && e.error !== "interrupted" && e.error !== "canceled") play(c + 1); };
       speechSynthesis.speak(u);
     };
     play(0);
