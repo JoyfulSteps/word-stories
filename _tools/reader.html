@@ -135,7 +135,8 @@ const STORIES = /*DATA*/null;
   $("modeRead").onclick = () => setMode(false);
   $("modeReview").onclick = () => setMode(true);
 
-  function closeTips() { main.querySelectorAll(".tip").forEach(t => t.remove()); }
+  let tipTimer = 0;
+  function closeTips() { clearTimeout(tipTimer); main.querySelectorAll(".tip").forEach(t => t.remove()); }
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape") closeTips();
     if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList && ev.target.classList.contains("nw")) {
@@ -148,7 +149,11 @@ const STORIES = /*DATA*/null;
     if (nw) {
       if (document.body.classList.contains("review") && !nw.classList.contains("shown")) { nw.classList.add("shown"); return; }
       const had = nw.querySelector(".tip"); closeTips();
-      if (!had && nw.dataset.vi) { const t = document.createElement("span"); t.className = "tip"; t.textContent = nw.dataset.vi; nw.appendChild(t); }
+      if (!had && nw.dataset.vi) {
+        const t = document.createElement("span"); t.className = "tip"; t.textContent = nw.dataset.vi; nw.appendChild(t);
+        clearTimeout(tipTimer);
+        tipTimer = setTimeout(() => t.remove(), 2500);   // hides by itself
+      }
       say(nw.firstChild.textContent);
       return;
     }
