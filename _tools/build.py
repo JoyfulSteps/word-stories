@@ -46,8 +46,9 @@ for grp in _IRR.replace("\n", "").split("|"):
 def forms(w):
     w = w.lower()
     out = {w, w + "s", w + "es", w + "ed", w + "d", w + "ing", w + "'s"}
+    out |= {w + "er", w + "est", w + "r", w + "st", w + "ly"}
     if w.endswith("y"):
-        out |= {w[:-1] + "ies", w[:-1] + "ied"}
+        out |= {w[:-1] + "ies", w[:-1] + "ied", w[:-1] + "ier", w[:-1] + "iest", w[:-1] + "ily"}
     if w.endswith("e"):
         out.add(w[:-1] + "ing")
     if re.search(r"[^aeiou][aeiou][bdgklmnprt]$", w):
