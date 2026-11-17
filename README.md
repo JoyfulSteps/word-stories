@@ -60,6 +60,8 @@ Thị trấn: **Riverford**, một thị trấn nhỏ ở Anh, có sông, lâu �
 
 **Đã viết thực tế ở phần 3 (W34–W42):** Minh ở Tokyo, làm cho báo tiếng Anh rồi trang độc lập Open Tokyo (biên tập Yuko; đồng nghiệp Ben, Aiko, Min-ji, Pierre); Margaret mất (W34-5), để lại căn nhà ở Scotland cho Grandma Rose; Lan sang Tokyo học sư phạm; Leo đi Borneo (đười ươi); Minh cầu hôn Hana (W40-4), ba đám cưới: Nhật (W42-2), Việt Nam (W42-3), Scotland (W42-4); W42-5 hai người về Riverford, Minh làm podcast *Riverford Talks* với Gazette.
 
+**Đã viết thực tế ở phần 4 (W43–W60):** các tập podcast *Riverford Talks* và bản tin "This Week in Riverford"; Minh thành tổng biên tập Gazette (W52-1, Grace nghỉ hưu); Rose Mai ra đời (W50-4); Tom bị nhồi máu cơ tim (W54-4); cá hồi trở lại sông (W54-5); Grandma Rose mất ở tuổi 95 (W59-3); W60-3 là truyện kết thúc. Ngày 17/11/2026: **đã viết đủ 225 truyện, phủ 8.662/8.662 từ**.
+
 **Phần 4: W43–W60, bài báo và podcast *Riverford Talks* do Minh dẫn.** Dạng phỏng vấn, tranh luận, bài báo về đề tài IELTS (giáo dục, môi trường, tội phạm, toàn cầu hóa, công nghệ, sức khỏe, nhà ở, việc làm). Khách mời là các nhân vật cũ và chuyên gia. 550–700 từ, câu rõ ràng. Có thể có bài dạng "bài báo" hoặc "lá thư gửi tòa soạn".
 
 Quy tắc chung: mỗi truyện có tiêu đề, tự đứng được (đọc riêng vẫn hiểu), nhưng nối tiếp mạch chung. Từ mới đặt trong ngữ cảnh đủ rõ để đoán nghĩa. Không dùng từ trong danh sách sai nghĩa với cột `vi` khi có thể.
