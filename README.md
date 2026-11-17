@@ -52,7 +52,11 @@ Thị trấn: **Riverford**, một thị trấn nhỏ ở Anh, có sông, lâu �
 
 **Phần 2: W20–W33, phần còn lại của năm thứ hai và năm thứ ba (lên đại học ở thành phố gần đó).** Minh làm ở The Blue Cup; bạn mới Hana (sinh viên Nhật học điều dưỡng), có tình cảm nhẹ với Minh. Leo chấn thương đầu gối, phải bỏ bóng đá rồi tìm đam mê mới. Grandma Rose ngã, nằm viện, hồi phục. Quán The Blue Cup gặp khó về tiền và cả nhóm cứu quán. Sam mở công ty thiết kế nhỏ. Mia muốn học trường nghệ thuật nhưng Tom muốn con học luật; cuối cùng Tom đồng ý. Có mâu thuẫn và kịch tính, nhưng kết ấm áp.
 
-**Phần 3: W34–W42, Minh thực tập ở báo *The Riverford Gazette*.** Biên tập viên: bà Grace Okafor (nghiêm, giỏi). Mỗi truyện là một vụ việc hoặc phóng sự: bệnh viện, thời tiết và môi trường, khoa học ở trường đại học, công ty phá sản, phiên tòa, triển lãm nghệ thuật, ngôn ngữ. Có yếu tố điều tra và bí ẩn.
+**Đã viết thực tế ở phần 2:** Minh làm ở The Blue Cup, cứu quán (cổ phần cộng đồng, W26), thực tập rồi thành phóng viên Gazette (W27–W33; biên tập Grace Okafor là con gái chủ nhà Mr. Okafor), Leo chấn thương → muốn làm bác sĩ thú y, Mia học nghệ thuật ở London, Minh viết tiểu thuyết *Two Rivers* (agent Diana Ross, được xuất bản), W33-3 Minh và Hana sang Tokyo (Hana làm y tá; Minh viết loạt bài "Two Small Towns" từ xa cho Gazette, hợp đồng 1 năm).
+
+**Phần 3 (đã điều chỉnh): W34–W42, Minh là phóng viên viết từ Nhật, Việt Nam và Riverford.** Mỗi truyện là một phóng sự hoặc vụ việc theo chủ đề từ của đơn vị.
+
+(Kế hoạch cũ:) **Phần 3: W34–W42, Minh thực tập ở báo *The Riverford Gazette*.** Biên tập viên: bà Grace Okafor (nghiêm, giỏi). Mỗi truyện là một vụ việc hoặc phóng sự: bệnh viện, thời tiết và môi trường, khoa học ở trường đại học, công ty phá sản, phiên tòa, triển lãm nghệ thuật, ngôn ngữ. Có yếu tố điều tra và bí ẩn.
 
 **Phần 4: W43–W60, bài báo và podcast *Riverford Talks* do Minh dẫn.** Dạng phỏng vấn, tranh luận, bài báo về đề tài IELTS (giáo dục, môi trường, tội phạm, toàn cầu hóa, công nghệ, sức khỏe, nhà ở, việc làm). Khách mời là các nhân vật cũ và chuyên gia. 550–700 từ, câu rõ ràng. Có thể có bài dạng "bài báo" hoặc "lá thư gửi tòa soạn".
 
