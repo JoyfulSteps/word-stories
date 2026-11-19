@@ -11,6 +11,8 @@ git add -A && git commit -m "Add stories ..." && git push
 ```
 Trang thật cập nhật sau khoảng 1–2 phút. Trên điện thoại, kéo xuống để tải lại trang.
 
+Link tới một truyện: `…/word-stories/#W02-1` (mở đúng truyện đó; địa chỉ luôn đổi theo truyện đang đọc). Trang thẻ ngữ pháp dùng link này cho mục "In Minh's story" (xem `D:\English\ielts-grammar\_web\README.md`). Nếu sửa câu trong truyện, chạy lại `python _web/build_site.py` bên ielts-grammar: nó báo lỗi khi câu đã gắn vào thẻ không còn đúng nguyên văn.
+
 ## Kế hoạch
 
 - **8.662 từ** trong từ điển (cả từ đã biết và chưa biết), mỗi từ có trong ít nhất 1 truyện.

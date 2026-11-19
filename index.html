@@ -63,6 +63,9 @@ const STORIES = [{"id": "W01-1", "title": "Little Minh", "body": "Before England
   const $ = id => document.getElementById(id);
   const main = $("main");
   let cur = Math.min(+(localStorage.getItem("stories-cur") || 0), STORIES.length - 1);
+  // A link like …/word-stories/#W02-1 opens that story (the grammar cards link here).
+  const fromHash = () => STORIES.findIndex(s => s.id === decodeURIComponent(location.hash.slice(1)).toUpperCase());
+  if (fromHash() >= 0) cur = fromHash();
 
   STORIES.forEach((s, i) => {
     const o = document.createElement("option");
@@ -86,6 +89,7 @@ const STORIES = [{"id": "W01-1", "title": "Little Minh", "body": "Before England
   function render() {
     const s = STORIES[cur];
     localStorage.setItem("stories-cur", cur);
+    history.replaceState(null, "", "#" + s.id);
     $("pick").value = cur;
     stopSpeak();
     let h = "<h1>" + esc(s.title) + "</h1><div class='meta'>Story " + (cur + 1) + " of " + STORIES.length +
@@ -124,6 +128,7 @@ const STORIES = [{"id": "W01-1", "title": "Little Minh", "body": "Before England
   $("prev").onclick = () => go(-1);
   $("next").onclick = () => go(1);
   $("pick").onchange = () => { cur = +$("pick").value; render(); };
+  addEventListener("hashchange", () => { const i = fromHash(); if (i >= 0 && i !== cur) { cur = i; render(); } });
 
   function setMode(review) {
     document.body.classList.toggle("review", review);
