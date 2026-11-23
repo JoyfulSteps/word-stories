@@ -14,33 +14,94 @@
   header .grow { flex:1; }
   select, button { font:inherit; padding:5px 10px; border:1px solid #ccc; border-radius:6px; background:#fff; cursor:pointer; }
   button.on { background:var(--hl); color:#fff; border-color:var(--hl); }
+  #pick { max-width:min(100%, 330px); }
+  /* phone: ◀ story ▶ on the first line, the buttons on the second; voice and speed only in listen mode */
+  @media (max-width:600px) {
+    header { gap:5px; padding:6px 8px; }
+    header .grow { display:none; }
+    #pick { flex:1 1 calc(100% - 90px); min-width:0; max-width:none; }
+    header button { padding:5px 9px; }
+    body:not(.listen) #voiceSel, body:not(.listen) #rate { display:none; }
+  }
   main { max-width:720px; margin:0 auto; padding:20px 18px 120px; }
+  body.sheet-open main { padding-bottom:62vh; }
   h1 { font-size:28px; line-height:1.25; margin:6px 0 4px; }
   .meta { font:13px system-ui, sans-serif; color:var(--muted); margin-bottom:18px; }
   p { margin:0 0 14px; }
   blockquote { margin:0 0 14px; padding:2px 0 2px 16px; border-left:3px solid #d6c9a8; font-style:italic; }
   blockquote p { margin:0; }
+  /* every English word is a .w span: tap it to look it up. .uw = a word you don't know yet (from your word list) */
+  .w { cursor:pointer; border-radius:3px; }
+  .uw { color:var(--hl); border-bottom:1px dotted var(--hl); }
   .nw { color:var(--hl); font-weight:700; cursor:pointer; border-radius:3px; position:relative; }
   .nw:focus { outline:none; } .nw:focus-visible { outline:2px solid var(--hl); }
-  .s { cursor:pointer; border-radius:3px; }
+  .w.picked, .nw.picked { background:#ffe58a; }
+  .w.flash, .nw.flash { animation:flash 2.4s ease-out; }
+  @keyframes flash { 0%, 40% { background:#ffd54f; } 100% { background:transparent; } }
+  .s { border-radius:3px; }
   .s.speaking { background:#ffec99; }
-  @media (hover:hover) { .s:hover { background:#f3f0e4; } .s.speaking:hover { background:#ffec99; } }
-  .tip { position:absolute; left:0; top:1.6em; z-index:2; white-space:nowrap; background:#333; color:#fff;
-         font:14px/1.4 system-ui, sans-serif; padding:4px 8px; border-radius:5px; font-weight:400; }
+  /* a link like #W02-1?s=12&w=coat: that sentence gets a soft band, the word a yellow mark */
+  .s.target { background:#fff6d1; box-shadow:0 0 0 3px #fff6d1; }
+  mark.hit { background:#ffd54f; color:inherit; border-radius:2px; padding:0 1px; }
+  @media (hover:hover) {
+    body:not(.listen) .w:hover { background:#f0ede2; }
+    body.listen .s { cursor:pointer; }
+    body.listen .s:hover { background:#f3f0e4; } .s.speaking:hover { background:#ffec99; }
+  }
+  /* listen mode: a tap plays the sentence, a long press looks the word up, so the phone must not select text */
+  body.listen main p, body.listen main blockquote { -webkit-user-select:none; user-select:none; -webkit-touch-callout:none; }
   body.review .nw { color:transparent; background:#eef1f6; border-bottom:2px solid var(--hl); }
   body.review .nw::before { content:attr(data-first); color:var(--hl); position:absolute; left:2px; }
   body.review .nw.shown { color:var(--hl); background:var(--hlbg); }
   body.review .nw.shown::before { content:""; }
+  .vib { font:600 11px system-ui, sans-serif; padding:1px 6px; margin-left:6px; color:var(--muted); vertical-align:2px; }
+  .pvi { font:15px/1.6 system-ui, sans-serif; color:#555; background:#f4f1e8; border-radius:6px; padding:8px 12px; margin:-6px 0 16px; }
   h2 { font:600 16px system-ui, sans-serif; margin:34px 0 8px; border-top:1px solid var(--line); padding-top:18px; }
+  ul.say { list-style:none; padding:0; margin:0; font:16px/1.5 system-ui, sans-serif; }
+  ul.say li { padding:7px 0; border-bottom:1px solid var(--line); }
+  .say-en { cursor:pointer; font-weight:600; }
+  .say-en::before { content:"🔊 "; font-size:13px; }
+  .say-vi { display:block; color:var(--muted); font-size:14px; }
+  .task { font:16px/1.55 system-ui, sans-serif; background:#eef5ee; border-radius:8px; padding:10px 14px; margin-top:12px; }
   table { border-collapse:collapse; width:100%; font:15px/1.5 system-ui, sans-serif; }
   td { border-bottom:1px solid var(--line); padding:5px 6px; vertical-align:top; }
   td.w { font-weight:600; color:var(--hl); white-space:nowrap; cursor:pointer; }
   td.p { color:var(--muted); width:60px; }
-  body.hidevi td.vi span { visibility:hidden; }
+  body.hidevi td.vi span, body.hidevi .say-vi { visibility:hidden; }
   body.hidevi td.vi { background:#f3f3f3; cursor:pointer; }
   td.vi.peek span { visibility:visible !important; }
   .nav { display:flex; justify-content:space-between; margin-top:30px; font:14px system-ui, sans-serif; }
   .help { font:13px/1.6 system-ui, sans-serif; color:var(--muted); margin-top:26px; }
+  .help button { font-size:12px; padding:1px 8px; }
+  /* the look-up sheet at the bottom of the screen */
+  #sheet { position:fixed; left:0; right:0; bottom:0; z-index:5; max-height:60vh; overflow:auto; background:#fff;
+           border-top:1px solid #ccc; box-shadow:0 -6px 24px rgba(0,0,0,.12); border-radius:14px 14px 0 0;
+           font:15px/1.5 system-ui, "Segoe UI", sans-serif; }
+  #sheet[hidden] { display:none; }
+  #sheet .in { max-width:720px; margin:0 auto; padding:12px 18px 18px; position:relative; }
+  #sheet .x { position:absolute; right:10px; top:8px; border:none; font-size:22px; line-height:1; padding:4px 10px; background:none; color:#888; }
+  .ent { padding:4px 0 10px; }
+  .ent + .ent { border-top:1px solid var(--line); padding-top:10px; }
+  .ent .hd { display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 10px; padding-right:36px; }
+  .ent .hw { font-size:21px; font-weight:700; color:var(--hl); }
+  .ent .ipa { color:#555; }
+  .ent .pos { color:var(--muted); font-size:13px; }
+  .ent .from { color:var(--muted); font-size:13px; }
+  .ent .play { font-size:15px; padding:2px 10px; }
+  .ent .play.playing { background:var(--hlbg); }
+  .ent .vi { font-size:17px; font-weight:600; margin:2px 0; }
+  .ent .def { color:#333; }
+  .ent .ex { color:#555; font-style:italic; }
+  .ent .more, .sen .more { display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px; margin-top:4px; color:var(--muted); }
+  #sheet a { color:var(--hl); }
+  .alt { font-size:14px; color:#444; margin:2px 0; }
+  .alt button { font-size:13px; padding:1px 8px; }
+  .seen { font-size:13px; color:var(--muted); margin-top:6px; }
+  .seen button { font-size:12px; padding:1px 7px; margin:2px 3px 0 0; }
+  .sen { border-top:1px solid var(--line); margin-top:8px; padding-top:8px; }
+  .sen q { display:block; color:#444; font-family:Georgia, serif; }
+  .sen .vi-para { margin-top:6px; background:#f4f1e8; border-radius:6px; padding:6px 10px; }
+  .none { padding:6px 36px 4px 0; }
 </style>
 </head>
 <body>
@@ -49,31 +110,61 @@
   <select id="pick"></select>
   <button id="next" title="Next story">▶</button>
   <span class="grow"></span>
-  <button id="modeRead" class="on" title="Read: new words in blue, tap to see Vietnamese">Read</button>
+  <button id="modeRead" class="on" title="Read: tap any word to look it up">Read</button>
   <button id="modeReview" title="Review: new words hidden, tap to show">Review</button>
-  <button id="listen" title="Listen with the computer voice">▶ Listen</button>
+  <button id="tapMode" title="What a tap on the story does">Tap: look up</button>
+  <button id="listen" title="Listen to the whole story with the computer voice">▶ Listen</button>
   <select id="voiceSel" title="Voice" style="max-width:220px"></select>
   <select id="rate" title="Speed"><option value="0.75">0.75×</option><option value="0.9" selected>0.9×</option><option value="1">1×</option></select>
 </header>
 <main id="main"></main>
+<div id="sheet" hidden><div class="in"><button class="x" id="sheetX" title="Close (Esc)">×</button><div id="sheetBody"></div></div></div>
 <script>
 const STORIES = /*DATA*/null;
+const WORDS = /*WORDS*/null;   // look-up index from build.py: lex (form -> headwords), unk (unknown forms), seen (word -> stories)
+const SERIES = /*SERIES*/null;
 (function () {
   "use strict";
   const $ = id => document.getElementById(id);
   const main = $("main");
-  let cur = Math.min(+(localStorage.getItem("stories-cur") || 0), STORIES.length - 1);
-  // A link like …/word-stories/#W02-1 opens that story (the grammar cards link here).
-  const fromHash = () => STORIES.findIndex(s => s.id === decodeURIComponent(location.hash.slice(1)).toUpperCase());
-  if (fromHash() >= 0) cur = fromHash();
+  const LEX = WORDS.lex, UNK = new Set(WORDS.unk), SEEN = WORDS.seen;
+  const byId = id => STORIES.findIndex(s => s.id === id);
+  // older versions saved a number; Minh's stories still come first, so that number still points at the same story
+  let cur = byId(localStorage.getItem("stories-cur-id") || "");
+  if (cur < 0) cur = Math.min(+(localStorage.getItem("stories-cur") || 0), STORIES.length - 1);
+  // Links: #W02-1 opens a story; #W02-1?s=12&w=coat also scrolls to sentence 12 and marks "coat"
+  // (s=12-13 marks a range). The dictionary and the grammar cards link here; sentence numbers come from build.py.
+  function readHash() {
+    const h = decodeURIComponent(location.hash.slice(1));
+    const q = h.indexOf("?");
+    const id = (q < 0 ? h : h.slice(0, q)).toUpperCase();
+    const p = new URLSearchParams(q < 0 ? "" : h.slice(q + 1));
+    const m = /^(\d+)(?:-(\d+))?$/.exec(p.get("s") || "");
+    return { i: STORIES.findIndex(s => s.id === id), s: m ? +m[1] : 0, e: m ? +(m[2] || m[1]) : 0, w: p.get("w") || "" };
+  }
+  let target = readHash();
+  if (target.i >= 0) cur = target.i; else target = null;
+  // the page decides where to scroll (top of a story, or the linked sentence); a reload must not restore an old place
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 
-  STORIES.forEach((s, i) => {
-    const o = document.createElement("option");
-    o.value = i; o.textContent = (i + 1) + ". " + s.title + " (" + s.new.length + " new)";
-    $("pick").appendChild(o);
+  const seriesName = id => (SERIES.find(x => x.id === id) || { name: id }).name;
+  const inSeries = s => STORIES.filter(x => x.series === s.series);
+  SERIES.forEach(se => {
+    const list = STORIES.map((s, i) => [s, i]).filter(([s]) => s.series === se.id);
+    if (!list.length) return;
+    const g = document.createElement("optgroup");
+    g.label = se.name + " (" + list.length + ")";
+    list.forEach(([s, i], j) => {
+      const o = document.createElement("option");
+      o.value = i; o.textContent = (j + 1) + ". " + s.title + " (" + s.new.length + " new)";
+      g.appendChild(o);
+    });
+    $("pick").appendChild(g);
   });
 
-  const esc = t => t.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const norm = w => w.toLowerCase().replace(/[’‘]/g, "'");
+  const cands = k => LEX[k] || [k];
 
   function viFor(s, word) {
     const w = word.toLowerCase();
@@ -86,34 +177,72 @@ const STORIES = /*DATA*/null;
     return best;
   }
 
+  // ---------- story text: every English word becomes a tappable span ----------
+  const WORD_RE = /\p{L}+(?:['’-]\p{L}+)*/gu;
+  // st.first: no word of this sentence yet. A capital letter after that is a name (Rose, Bit): not blue.
+  function wordsHtml(text, st) {
+    let out = "", last = 0;
+    for (const m of text.matchAll(WORD_RE)) {
+      out += esc(text.slice(last, m.index)).replace(/\n/g, "<br>");
+      const w = m[0];
+      const name = !st.first && /^[A-Z]/.test(w) && !/^I(?:'|’|$)/.test(w);
+      st.first = false;
+      out += /^[A-Za-z'’-]+$/.test(w)          // Vietnamese words with tone marks stay plain text
+        ? "<span class='w" + (!name && UNK.has(norm(w)) ? " uw" : "") + "'>" + esc(w) + "</span>" : esc(w);
+      last = m.index + w.length;
+    }
+    return out + esc(text.slice(last)).replace(/\n/g, "<br>");
+  }
+  function sentenceHtml(sen) {
+    const st = { first: true };
+    // **word** = a new word of this story (blue, bold, hidden in Review)
+    return sen.split(/\*\*(.+?)\*\*/).map((part, i) => {
+      if (i % 2 === 0) return wordsHtml(part, st);
+      st.first = false;
+      // role/tabindex: Vimium's "f" hints and the Tab key can reach the word
+      return "<span class='nw' role='button' tabindex='0' data-first='" + esc(part[0]) + "'>" + esc(part) + "</span>";
+    }).join("");
+  }
+
   function render() {
     const s = STORIES[cur];
+    localStorage.setItem("stories-cur-id", s.id);
     localStorage.setItem("stories-cur", cur);
-    history.replaceState(null, "", "#" + s.id);
+    // keep ?s=…&w=… in the address while it points at this story, so a reload marks the sentence again
+    if (!target || target.i !== cur) history.replaceState(null, "", "#" + s.id);
     $("pick").value = cur;
     stopSpeak();
-    let h = "<h1>" + esc(s.title) + "</h1><div class='meta'>Story " + (cur + 1) + " of " + STORIES.length +
-            " · " + s.id + " · " + s.words + " words · " + s.new.length + " new words</div>";
-    const blocks = s.body.split(/\n\s*\n/);
-    for (const b of blocks) {
-      const quote = /^>/.test(b);
-      const raw = b.replace(/^> ?/gm, "");
-      let t = splitSentences(raw).map(sen => {
-        let x = esc(sen).replace(/\n/g, "<br>");
-        x = x.replace(/\*\*(.+?)\*\*/g, (m, w) => {
-          const n = viFor(s, w);
-          // role/tabindex: Vimium's "f" hints and the Tab key can reach the word
-          return "<span class='nw' role='button' tabindex='0' data-first='" + esc(w[0]) + "' data-vi='" + esc(n ? n.w + " · " + n.vi : "") + "'>" + w + "</span>";
-        });
-        return "<span class='s'>" + x + "</span>";
-      }).join("");
-      h += quote ? "<blockquote><p>" + t + "</p></blockquote>" : "<p>" + t + "</p>";
+    closeSheet();
+    const list = inSeries(s), day = s.series === "day";
+    let h = "<h1>" + esc(s.title) + "</h1><div class='meta'>" + esc(seriesName(s.series)) + " · story " + (list.indexOf(s) + 1) +
+            " of " + list.length + " · " + s.id + " · " + s.words + " words · " + s.new.length + " new words</div>";
+    let n = 0;   // sentence number, 1-based, the same numbers build.py writes to stories.json
+    s.p.forEach(([quote, sents, vi], pi) => {
+      const t = sents.map(sen => "<span class='s' data-n='" + (++n) + "'>" + sentenceHtml(sen) + "</span>").join("") +
+                (vi ? "<button class='vib' data-p='" + pi + "' title='Vietnamese for this paragraph'>VI</button>" : "");
+      h += (quote ? "<blockquote><p data-p='" + pi + "'>" + t + "</p></blockquote>" : "<p data-p='" + pi + "'>" + t + "</p>") +
+           (vi ? "<div class='pvi' id='pvi" + pi + "' hidden>" + esc(vi) + "</div>" : "");
+    });
+    if (s.say && s.say.length) {
+      h += "<h2>Say it yourself</h2><ul class='say'>";
+      for (const [en, vi] of s.say) h += "<li><span class='say-en' role='button'>" + esc(en) + "</span><span class='say-vi'>" + esc(vi) + "</span></li>";
+      h += "</ul>";
+      if (s.task) h += "<div class='task'><b>Your turn:</b> " + esc(s.task[0]) + (s.task[1] ? "<span class='say-vi'>" + esc(s.task[1]) + "</span>" : "") + "</div>";
     }
-    h += "<h2>New words (" + s.new.length + ") <button id='viBtn' style='float:right;font-size:13px'>Hide Vietnamese</button></h2><table>";
+    h += "<h2>New words (" + s.new.length + ") <button id='viBtn' style='float:right;font-size:13px'>" +
+         (document.body.classList.contains("hidevi") ? "Show" : "Hide") + " Vietnamese</button></h2><table>";
     for (const n of s.new) h += "<tr><td class='w'>" + esc(n.w) + "</td><td class='p'>" + esc(n.p) + "</td><td class='vi'><span>" + esc(n.vi) + "</span></td></tr>";
     h += "</table>";
+    if (s.extra && s.extra.length) {
+      h += "<h2>Other words in this story</h2><table>";
+      for (const n of s.extra) h += "<tr><td class='w'>" + esc(n.w) + "</td><td class='p'>" + esc(n.p) + "</td><td class='vi'><span>" + esc(n.vi) + "</span></td></tr>";
+      h += "</table>";
+    }
     h += "<div class='nav'><button id='prev2'>◀ Previous</button><button id='next2'>Next ▶</button></div>";
-    h += "<div class='help'>Tap a sentence to listen from there. Read: tap a blue word to see its meaning. Review: the new words are hidden, try to remember them, tap to check. Tap a word in the list to hear it.</div>";
+    h += "<div class='help'>Tap any word to look it up. Blue words are words you don't know yet; bold blue words are the new words of this story." +
+         " <b>Tap: listen</b> (top bar): tap a sentence to hear it, hold a word to look it up. ▶ Listen reads the whole story." +
+         " Review: the new words are hidden, try to remember them, tap to check." + (day ? " VI: the paragraph in Vietnamese." : "") +
+         missingNote() + "</div>";
     main.innerHTML = h;
     $("prev2").onclick = () => go(-1);
     $("next2").onclick = () => go(1);
@@ -121,52 +250,336 @@ const STORIES = /*DATA*/null;
       document.body.classList.toggle("hidevi");
       $("viBtn").textContent = document.body.classList.contains("hidevi") ? "Show Vietnamese" : "Hide Vietnamese";
     };
+    const mb = $("missBtn");
+    if (mb) mb.onclick = showMissing;
     window.scrollTo(0, 0);
+    if (target && target.i === cur) showTarget(target);
   }
 
-  function go(d) { const n = cur + d; if (n >= 0 && n < STORIES.length) { cur = n; render(); } }
+  // Mark the linked sentence(s) and the word in it, then scroll there. If the story was edited after the link was
+  // made and sentence s no longer has the word, the nearest sentence that has it is used instead.
+  function showTarget(t) {
+    const sents = [...main.querySelectorAll(".s")];
+    if (!sents.length || !t.s) return;
+    const words = t.w ? t.w.toLowerCase().split(/\s+/).filter(Boolean) : [];
+    const re = words.length ? new RegExp("(^|[^a-z'’-])(" + words.map(x => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("\\s+") + ")(?![a-z'’-])", "i") : null;
+    let a = Math.min(t.s, sents.length) - 1, b = Math.min(Math.max(t.e, t.s), sents.length) - 1;
+    if (re && !sents.slice(a, b + 1).some(x => re.test(x.textContent))) {
+      let best = -1;
+      sents.forEach((x, k) => { if (re.test(x.textContent) && (best < 0 || Math.abs(k - a) < Math.abs(best - a))) best = k; });
+      if (best >= 0) { a = b = best; }
+    }
+    for (let k = a; k <= b; k++) {
+      sents[k].classList.add("target");
+      if (re) markWord(sents[k], re);
+    }
+    requestAnimationFrame(() => sents[a].scrollIntoView({ block: "center" }));
+  }
+  // wrap the first match inside one text node in <mark class="hit"> (the word may sit inside a word span)
+  function markWord(el, re) {
+    const walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    for (let node = walk.nextNode(); node; node = walk.nextNode()) {
+      const m = re.exec(node.nodeValue);
+      if (!m) continue;
+      const start = m.index + m[1].length;
+      const hit = node.splitText(start);
+      hit.splitText(m[2].length);
+      const mk = document.createElement("mark");
+      mk.className = "hit";
+      hit.replaceWith(mk);
+      mk.appendChild(hit);
+      return;
+    }
+  }
+  // after "Also in W12-3": scroll to the first place the word is used and let it blink
+  function focusWord(head) {
+    const el = [...main.querySelectorAll(".w, .nw")].find(x => cands(norm(x.textContent)).includes(head) || norm(x.textContent) === head);
+    if (!el) return;
+    requestAnimationFrame(() => { el.scrollIntoView({ block: "center" }); el.classList.add("flash"); });
+  }
+
+  // previous / next story inside the same series
+  function go(d) {
+    const list = inSeries(STORIES[cur]), k = list.indexOf(STORIES[cur]) + d;
+    if (k >= 0 && k < list.length) { cur = STORIES.indexOf(list[k]); target = null; render(); }
+  }
   $("prev").onclick = () => go(-1);
   $("next").onclick = () => go(1);
-  $("pick").onchange = () => { cur = +$("pick").value; render(); };
-  addEventListener("hashchange", () => { const i = fromHash(); if (i >= 0 && i !== cur) { cur = i; render(); } });
+  $("pick").onchange = () => { cur = +$("pick").value; target = null; render(); };
+  addEventListener("hashchange", () => {
+    const t = readHash();
+    if (t.i < 0) return;
+    if (t.i === cur && !t.s) return;   // our own replaceState, or a plain link to the story already open
+    target = t; cur = t.i; render();
+  });
 
   function setMode(review) {
     document.body.classList.toggle("review", review);
     $("modeRead").classList.toggle("on", !review);
     $("modeReview").classList.toggle("on", review);
     main.querySelectorAll(".nw.shown").forEach(x => x.classList.remove("shown"));
-    closeTips();
+    closeSheet();
   }
   $("modeRead").onclick = () => setMode(false);
   $("modeReview").onclick = () => setMode(true);
 
-  let tipTimer = 0;
-  function closeTips() { clearTimeout(tipTimer); main.querySelectorAll(".tip").forEach(t => t.remove()); }
+  // ---------- tap mode: "look up" (default) or "listen" ----------
+  let listenMode = localStorage.getItem("stories-tap") === "listen";
+  function setTap(listen) {
+    listenMode = listen;
+    localStorage.setItem("stories-tap", listen ? "listen" : "lookup");
+    document.body.classList.toggle("listen", listen);
+    $("tapMode").textContent = listen ? "Tap: listen 🎧" : "Tap: look up";
+    $("tapMode").classList.toggle("on", listen);
+    if (!listen) stopSpeak();
+  }
+  $("tapMode").onclick = () => setTap(!listenMode);
+
+  // ---------- the dictionary: its data.js and its audio (Jon's voice) ----------
+  // On the web both sites live on joyfulsteps.github.io, so this page can also read the audio the dictionary saved on
+  // the phone ("Save all"). On the computer the page is opened as a file next to typing-app.
+  const ON_WEB = /github\.io$/.test(location.hostname);
+  const DICT_BASE = ON_WEB ? "/english-words-dictionary/" : "../typing-app/exports/dictionary/site/";
+  const DICT_PAGE = ON_WEB ? "/english-words-dictionary/" : DICT_BASE + "index.html";
+  const AUDIO_CACHE = "dict-audio-v1";   // the dictionary's own audio cache
+  let dict = null, dictState = "loading";
+  function loadDict() {
+    const sc = document.createElement("script");
+    sc.src = DICT_BASE + "data.js";
+    sc.onload = () => {
+      dict = new Map();
+      for (const e of (window.DICT && window.DICT.e) || []) {
+        const k = e.w.toLowerCase();
+        if (!dict.has(k)) dict.set(k, []);
+        dict.get(k).push(e);
+      }
+      dictState = dict.size ? "ok" : "failed";
+      if (sheetWord) showWord(sheetWord.text, sheetWord.el, false);
+    };
+    sc.onerror = () => { dictState = "failed"; if (sheetWord) showWord(sheetWord.text, sheetWord.el, false); };
+    document.head.appendChild(sc);
+  }
+
+  const player = new Audio();
+  let blobUrl = null, playingBtn = null;
+  const markPlaying = b => { if (playingBtn) playingBtn.classList.remove("playing"); playingBtn = b; if (b) b.classList.add("playing"); };
+  player.addEventListener("ended", () => markPlaying(null));
+  async function playEntry(e, btn) {
+    stopSpeak();
+    player.pause();
+    if (!e.s) { say(e.w); return; }
+    markPlaying(btn);
+    const url = new URL(DICT_BASE + "audio/" + e.s + ".mp3", location.href).href;
+    let src = url;
+    if (window.caches && location.protocol.startsWith("http")) {
+      try {
+        let res = await caches.match(url);             // saved by the dictionary's "Save all", or by this page before
+        if (!res) {
+          const r = await fetch(url);
+          if (r.ok) { res = r.clone(); caches.open(AUDIO_CACHE).then(c => c.put(url, r)).catch(() => {}); }
+        }
+        if (res) {
+          if (blobUrl) URL.revokeObjectURL(blobUrl);
+          blobUrl = URL.createObjectURL(await res.blob());
+          src = blobUrl;
+        }
+      } catch (err) { /* offline and not saved: the computer voice below */ }
+    }
+    player.onerror = () => { markPlaying(null); say(e.w); };
+    player.src = src;
+    player.play().catch(() => { markPlaying(null); say(e.w); });
+  }
+
+  // ---------- the look-up sheet ----------
+  const sheet = $("sheet"), sheetBody = $("sheetBody");
+  let sheetWord = null, sheetEntries = [];
+  function closeSheet() {
+    sheet.hidden = true;
+    document.body.classList.remove("sheet-open");
+    main.querySelectorAll(".picked").forEach(x => x.classList.remove("picked"));
+    sheetWord = null;
+  }
+  $("sheetX").onclick = closeSheet;
+  function openSheet(html) {
+    sheetBody.innerHTML = html;
+    sheet.hidden = false;
+    sheet.scrollTop = 0;
+    document.body.classList.add("sheet-open");
+  }
+  // keep the tapped word visible above the sheet
+  function keepVisible(el) {
+    if (!el) return;
+    requestAnimationFrame(() => {
+      const r = el.getBoundingClientRect(), top = innerHeight - sheet.offsetHeight;
+      const head = document.querySelector("header").offsetHeight;
+      if (r.bottom > top - 12) window.scrollBy(0, r.bottom - top + 60);
+      else if (r.top < head + 10) window.scrollBy(0, r.top - head - 40);
+    });
+  }
+  const gtUrl = t => "https://translate.google.com/?sl=en&tl=vi&op=translate&text=" + encodeURIComponent(t);
+  const camUrl = w => "https://dictionary.cambridge.org/dictionary/english/" + encodeURIComponent(w.trim().toLowerCase().replace(/\s+/g, "-"));
+  const aiUrl = sen => "https://claude.ai/new?q=" + encodeURIComponent(
+    "Giải thích câu tiếng Anh này cho người học trình độ A2–B1, trả lời bằng tiếng Việt: nghĩa cả câu, cấu trúc ngữ pháp, các cụm từ đáng học.\n\n\"" + sen + "\"");
+  const ext = (href, label) => "<a href='" + esc(href) + "' target='_blank' rel='noopener'>" + esc(label) + "</a>";
+
+  function entryHtml(e, i, tapped) {
+    const from = tapped && tapped !== e.w.toLowerCase() ? "<span class='from'>" + esc(tapped) + " → " + esc(e.w) + "</span>" : "";
+    return "<div class='ent'><div class='hd'><span class='hw'>" + esc(e.w) + "</span>" +
+      (e.i ? "<span class='ipa'>/" + esc(e.i) + "/</span>" : "") + (e.p ? "<span class='pos'>" + esc(e.p) + "</span>" : "") +
+      "<button class='play' data-e='" + i + "' title='Listen'>🔊</button>" + from + "</div>" +
+      (e.vi ? "<div class='vi'>" + esc(e.vi) + "</div>" : "") +
+      (e.def ? "<div class='def'>" + esc(e.def) + "</div>" : "") +
+      (e.x ? "<div class='ex'>" + esc(e.x) + "</div>" : "") +
+      "<div class='more'>" + (e.u ? "<span>" + esc(e.u) + (e.g ? " · p." + e.g : "") + "</span>" : "") +
+      ext(DICT_PAGE + "#q=" + encodeURIComponent(e.w), "Dictionary") + ext(camUrl(e.w), "Cambridge") + "</div></div>";
+  }
+
+  // text: the word as written; el: the tapped span (or null for the word list)
+  function showWord(text, el, autoplay) {
+    const s = STORIES[cur], k = norm(text.trim());
+    sheetWord = { text, el };
+    main.querySelectorAll(".picked").forEach(x => x.classList.remove("picked"));
+    if (el) el.classList.add("picked");
+    let heads = k.includes(" ") ? [k] : cands(k);
+    let found = [];
+    if (dict) {
+      for (const c of heads) for (const e of dict.get(c) || []) found.push(e);
+      if (!found.length && k.includes("-"))           // well-known: not a card, its parts are
+        for (const part of k.split("-")) for (const e of dict.get(part) || []) found.push(e);
+    }
+    const extra = (s.extra || []).find(x => x.w.toLowerCase() === k) || (s.extra || []).find(x => x.w.toLowerCase().split(" ").includes(k));
+    const fromList = !found.length && el && el.classList.contains("nw") ? viFor(s, text) : null;
+    sheetEntries = found.slice(0, 3);
+    let h = "";
+    if (sheetEntries.length) {
+      h += sheetEntries.map((e, i) => entryHtml(e, i, i === 0 ? k : "")).join("");
+    } else if (extra || fromList) {
+      const e = extra || fromList;
+      h += "<div class='ent'><div class='hd'><span class='hw'>" + esc(e.w) + "</span><span class='pos'>" + esc(e.p || "") + "</span>" +
+           "<button class='play' data-say='" + esc(e.w) + "' title='Listen'>🔊</button></div><div class='vi'>" + esc(e.vi) + "</div>" +
+           "<div class='more'>" + ext(gtUrl(e.w), "Google Translate") + ext(camUrl(e.w), "Cambridge") + "</div></div>";
+    } else if (dictState === "loading") {
+      h += "<div class='none'><b>" + esc(text) + "</b>: loading the dictionary…</div>";
+    } else {
+      h += "<div class='none'><b>" + esc(text) + "</b> is not in your dictionary" + (dictState === "failed" ? " (the dictionary could not be loaded)" : "") +
+           ".<div class='more'>" + ext(gtUrl(text), "Google Translate") + ext(camUrl(text), "Cambridge") +
+           "<button class='play' data-say='" + esc(text) + "'>🔊 Computer voice</button></div></div>";
+      if (dictState === "ok") noteMissing(k, text, s.id);
+    }
+    const head = sheetEntries.length ? sheetEntries[0].w.toLowerCase() : heads[0];
+    const others = (SEEN[head] || []).filter(id => id !== s.id);
+    if (others.length) {
+      h += "<div class='seen'>Also in " + others.length + " other " + (others.length > 1 ? "stories" : "story") + ": " +
+           others.slice(0, 12).map(id => "<button data-go='" + esc(id) + "' data-head='" + esc(head) + "' title='" +
+             esc(STORIES[byId(id)] ? STORIES[byId(id)].title : id) + "'>" + esc(id) + "</button>").join("") +
+           (others.length > 12 ? " …" : "") + "</div>";
+    }
+    const senEl = el && el.closest(".s");
+    if (senEl) {
+      const sen = cleanText(senEl);
+      const pEl = senEl.closest("[data-p]"), para = pEl ? s.p[+pEl.dataset.p] : null;
+      h += "<div class='sen'><q>" + esc(sen) + "</q><div class='more'>" +
+           (para && para[2] ? "<button id='paraVi'>Vietnamese (paragraph)</button>" : "") +
+           ext(gtUrl(sen), "Google Translate (sentence)") + ext(aiUrl(sen), "Ask AI") + "</div>" +
+           (para && para[2] ? "<div class='vi-para' id='paraViText' hidden>" + esc(para[2]) + "</div>" : "") + "</div>";
+    }
+    openSheet(h);
+    keepVisible(el);
+    if (autoplay) {
+      if (sheetEntries.length) playEntry(sheetEntries[0], sheetBody.querySelector(".play"));
+      else if (extra || fromList) say((extra || fromList).w);
+    }
+  }
+
+  sheetBody.addEventListener("click", ev => {
+    const b = ev.target.closest("button");
+    if (!b) return;
+    if (b.dataset.e !== undefined) playEntry(sheetEntries[+b.dataset.e], b);
+    else if (b.dataset.say) say(b.dataset.say);
+    else if (b.dataset.go) {
+      const i = byId(b.dataset.go), head = b.dataset.head;
+      if (i < 0) return;
+      cur = i; target = null; render(); focusWord(head);
+    } else if (b.id === "paraVi") { const t = $("paraViText"); t.hidden = !t.hidden; }
+    else if (b.id === "copyMissing") {
+      const text = missing.map(m => m.w + "\t" + m.story).join("\n");
+      (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(
+        () => { b.textContent = "Copied ✓"; }, () => { prompt("Copy:", text); });
+    } else if (b.id === "clearMissing") {
+      if (confirm("Clear the list of missing words?")) { missing = []; localStorage.setItem("stories-missing", "[]"); closeSheet(); render(); }
+    }
+  });
+
+  // ---------- words the dictionary does not have (to add later, W61+) ----------
+  let missing = [];
+  try { missing = JSON.parse(localStorage.getItem("stories-missing") || "[]"); } catch (e) { missing = []; }
+  function noteMissing(k, text, story) {
+    // names (capital letter) and short forms like don't are not dictionary words
+    if (/^[A-Z]/.test(text) || k.includes("'") || missing.some(m => m.w === k)) return;
+    missing.push({ w: k, story, at: new Date().toISOString().slice(0, 10) });
+    localStorage.setItem("stories-missing", JSON.stringify(missing));
+  }
+  function missingNote() {
+    return missing.length ? " <br>Words you tapped that are not in the dictionary: " + missing.length + " <button id='missBtn'>Show</button>" : "";
+  }
+  function showMissing() {
+    openSheet("<div class='none'><b>Not in the dictionary (" + missing.length + ")</b>: send this list to the AI to add them (W61+).</div>" +
+      "<div style='font-family:ui-monospace,monospace;font-size:14px;white-space:pre-wrap'>" +
+      esc(missing.map(m => m.w + "  (" + m.story + ")").join("\n")) + "</div>" +
+      "<div class='more'><button id='copyMissing'>Copy</button><button id='clearMissing'>Clear</button></div>");
+  }
+
+  // ---------- taps ----------
+  // Long press (listen mode): look the word up. The click that follows the long press is ignored.
+  let lpTimer = 0, lpAt = null, skipClick = false;
+  main.addEventListener("pointerdown", ev => {
+    if (!listenMode) return;
+    const w = ev.target.closest(".w, .nw");
+    if (!w) return;
+    lpAt = [ev.clientX, ev.clientY];
+    clearTimeout(lpTimer);
+    lpTimer = setTimeout(() => {
+      skipClick = true; setTimeout(() => { skipClick = false; }, 900);
+      stopSpeak();
+      showWord(w.textContent, w, true);
+    }, 450);
+  });
+  main.addEventListener("pointermove", ev => {
+    if (lpAt && Math.hypot(ev.clientX - lpAt[0], ev.clientY - lpAt[1]) > 10) { clearTimeout(lpTimer); lpAt = null; }
+  });
+  ["pointerup", "pointercancel"].forEach(t => main.addEventListener(t, () => { clearTimeout(lpTimer); lpAt = null; }));
+  main.addEventListener("contextmenu", ev => { if (listenMode && ev.target.closest(".w, .nw")) ev.preventDefault(); });
+
   document.addEventListener("keydown", ev => {
-    if (ev.key === "Escape") closeTips();
+    if (ev.key === "Escape") closeSheet();
     if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList && ev.target.classList.contains("nw")) {
       ev.preventDefault(); ev.target.click();
     }
   });
   main.addEventListener("click", ev => {
-    const nw = ev.target.closest(".nw");
-    const td = ev.target.closest("td");
-    if (nw) {
-      if (document.body.classList.contains("review") && !nw.classList.contains("shown")) { nw.classList.add("shown"); return; }
-      const had = nw.querySelector(".tip"); closeTips();
-      if (!had && nw.dataset.vi) {
-        const t = document.createElement("span"); t.className = "tip"; t.textContent = nw.dataset.vi; nw.appendChild(t);
-        clearTimeout(tipTimer);
-        tipTimer = setTimeout(() => t.remove(), 2500);   // hides by itself
-      }
-      say(nw.firstChild.textContent);
+    if (skipClick) { skipClick = false; return; }
+    const t = ev.target;
+    const vib = t.closest(".vib");
+    if (vib) { const d = $("pvi" + vib.dataset.p); if (d) d.hidden = !d.hidden; return; }
+    const sayEn = t.closest(".say-en");
+    if (sayEn) { say(sayEn.textContent); return; }
+    const td = t.closest("td");
+    if (td) {
+      if (td.classList.contains("vi")) td.classList.toggle("peek");
+      if (td.classList.contains("w")) showWord(td.textContent, null, true);
       return;
     }
-    closeTips();
-    const sen = ev.target.closest(".s");
-    if (sen) { playFrom([...main.querySelectorAll(".s")].indexOf(sen)); return; }
-    if (td && td.classList.contains("vi")) td.classList.toggle("peek");
-    if (td && td.classList.contains("w")) say(td.textContent);
+    const nw = t.closest(".nw");
+    if (nw && document.body.classList.contains("review") && !nw.classList.contains("shown")) { nw.classList.add("shown"); return; }
+    const sen = t.closest(".s");
+    if (listenMode) {
+      closeSheet();
+      if (sen) playFrom([...main.querySelectorAll(".s")].indexOf(sen));
+      return;
+    }
+    const w = t.closest(".w, .nw");
+    if (w) { showWord(w.textContent, w, true); return; }
+    closeSheet();
   });
 
   // computer voice (free). Real audio can replace this later.
@@ -227,16 +640,7 @@ const STORIES = /*DATA*/null;
     const vs = englishVoices();
     return vs.find(v => v.name === $("voiceSel").value) || vs[0];
   }
-  // each sentence is its own span, so a tap can start reading there
-  function splitSentences(text) {
-    const parts = text.match(/[^.!?]+(?:[.!?]+["'’)\]]*\s*|$)/g) || [text];
-    const out = [];
-    for (const p of parts) {
-      if (out.length && /\b(Mr|Mrs|Ms|Dr)\.\s*$/.test(out[out.length - 1])) out[out.length - 1] += p;
-      else out.push(p);
-    }
-    return out;
-  }
+  // Each sentence is its own span (split by build.py), so a tap can start reading there.
   function say(text) {
     if (!window.speechSynthesis) return;
     stopSpeak();
@@ -336,7 +740,11 @@ const STORIES = /*DATA*/null;
     playFrom(last > 0 ? last : 0);
   };
 
+  setTap(listenMode);
   render();
+  loadDict();
+  // offline on the phone (sw.js). Not for a file opened on the computer.
+  if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
 })();
 </script>
 </body>

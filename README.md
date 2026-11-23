@@ -13,6 +13,50 @@ Trang thật cập nhật sau khoảng 1–2 phút. Trên điện thoại, kéo 
 
 Link tới một truyện: `…/word-stories/#W02-1` (mở đúng truyện đó; địa chỉ luôn đổi theo truyện đang đọc). Trang thẻ ngữ pháp dùng link này cho mục "In Minh's story" (xem `D:\English\ielts-grammar\_web\README.md`). Nếu sửa câu trong truyện, chạy lại `python _web/build_site.py` bên ielts-grammar: nó báo lỗi khi câu đã gắn vào thẻ không còn đúng nguyên văn.
 
+**Link tới đúng câu** (2026-11-24): `…/word-stories/#W02-1?s=17&w=sweater` mở truyện W02-1, cuộn tới câu 17, tô nền câu và tô vàng chữ "sweater". `s=12-13` tô một đoạn nhiều câu. Nếu truyện đã sửa và câu 17 không còn chữ đó, trang tự chọn câu gần nhất có chữ đó.
+- Câu được tách **một lần** trong `_tools/build.py` (`split_sentences`, đánh số 1, 2, 3… trong từng truyện) và trang đọc dùng lại đúng cách tách đó.
+- `build.py` ghi thêm **`stories.json`** (schema `word-stories/1`): mỗi truyện có `id`, `series`, `title`, `sents` (mọi câu theo thứ tự số câu, giữ `**từ mới**`). Từ điển (`typing-app/tools/build_dictionary.py`, mục "In the stories" trên thẻ) và trang ngữ pháp (`ielts-grammar/_web/build_site.py`) đọc file này khi dựng. Sửa truyện xong thì chạy `build.py` trước, rồi mới dựng lại hai trang kia.
+- Bộ truyện (series) khai trong `SERIES` ở đầu `build.py` (mã, tên, mẫu mã truyện). Thêm bộ mới chỉ cần thêm một dòng; từ điển tự nhận khi dựng lại. Chỉ đưa câu tiếng Anh của truyện vào `sents` (không đưa dòng dịch hay phần luyện tập), và số câu trong `sents` phải khớp số câu trên trang.
+
+## Trang đọc (2026-11-24)
+
+- **Chạm vào bất kỳ từ nào** để tra: thẻ hiện ở đáy màn hình, gồm từ gốc (`stood → stand`), IPA, nghĩa Việt, định nghĩa, ví dụ, nút 🔊 giọng Jon của từ điển, link Dictionary và Cambridge, dòng "Also in N other stories" (chỉ với từ chưa biết, bấm để sang truyện đó và từ đó nhấp nháy), và câu đang đọc kèm "Vietnamese (paragraph)" (truyện My day), "Google Translate (sentence)", "Ask AI".
+- Màu: **xanh đậm** = từ mới của truyện này (ẩn trong Review); xanh gạch chấm = từ chưa biết (status `new` trong `words.tsv`) nhưng thuộc truyện khác. Chữ viết hoa giữa câu là tên riêng, không tô.
+- Thứ tự tra: dữ liệu từ điển (`data.js`) → bảng "Extra words" của truyện → báo "not in your dictionary" kèm Google Translate, Cambridge. Từ không có được ghi vào danh sách "Missing words" ở cuối truyện (Show → Copy) để sau gửi AI thêm vào từ điển, W61+.
+- **Nút `Tap: look up` / `Tap: listen 🎧`** trên thanh trên cùng. Chế độ nghe: chạm một câu để đọc từ câu đó; muốn tra từ thì nhấn giữ. `▶ Listen` vẫn đọc cả truyện. Trên điện thoại, ô chọn giọng và tốc độ chỉ hiện ở chế độ nghe.
+- Dữ liệu tra từ **không chép vào trang**: trang nạp `data.js` của từ điển khi chạy. Trên web: `/english-words-dictionary/data.js` (cùng địa chỉ gốc joyfulsteps.github.io). Mở file trên máy tính: `../typing-app/exports/dictionary/site/data.js`. Audio cũng vậy (`audio/<s>.mp3`). Trên điện thoại, trang đọc audio mà từ điển đã lưu (cache `dict-audio-v1`, nút "Save all" của từ điển), nên không cần mạng.
+- `build.py` chỉ ghi vào trang một chỉ mục nhỏ `WORDS`: `lex` (dạng từ → từ gốc), `unk` (dạng từ chưa biết), `seen` (từ chưa biết → các truyện có nó). Logic nằm trong `_tools/lexicon.py`.
+- `sw.js`: chạy offline trên điện thoại. File của trang: lấy mạng trước, mất mạng thì dùng bản đã lưu. `data.js` của từ điển: dùng bản đã có trong máy trước. Không đụng tới audio.
+- Thử trên máy: server `stories-with-dictionary` trong `D:\English\.claude\launch.json` (phục vụ cả `D:\English`), mở `http://localhost:8790/stories/index.html`.
+
+## Bộ truyện "My day" (D001…, từ 2026-11-24)
+
+Truyện đời thường của **chính người đọc**, kể bằng "I", thì hiện tại, để đi đường hay làm gì cũng nghĩ được bằng tiếng Anh. 250–420 chữ, trình độ A2–B1. **Không có danh sách từ**: viết tự nhiên, nhưng chủ động đưa từ chưa biết hợp cảnh vào (khoảng 15–25 từ). `build.py` tự in đậm mọi từ chưa biết.
+
+Thế giới truyện (theo đời thật của người dùng; trang công khai nên **không dùng tên thật của người nhà**, chỉ gọi my dad, my mom, my sister, các cháu dùng tên giả; không ghi gì chi tiết hơn tên Trạm Trôi, Ba Vì, Hà Nam):
+- "I": developer backend Java, ở trọ một mình ở **Tram Troi** (Hoài Đức, Hà Nội), đi làm bằng xe máy qua **Highway 32**.
+- Quê **Ba Vi** (đồng lúa, không phải vùng bò sữa). Bố thợ xây. Mẹ may vá, làm ruộng, giờ lên trông con thứ hai (6 tháng) cho chị gái làm kế toán; con đầu của chị học mẫu giáo lớn. Chị kia ở **Ha Nam**, có 2 con gái (lớp 2 và lớp 4). Bà nội ở nhà chú.
+- **Bit**: robot nhỏ "I" tự làm (cỡ nồi cơm điện, một mắt tròn xanh, hai bánh xe), học tiếng Anh trên mạng nên hiểu thành ngữ theo nghĩa đen. Nhân vật riêng, không dùng nhân vật Doraemon.
+- Mạch: ngoài đường · nhà và khu phố · developer · kinh tế và toán quanh mình · động vật, thiên nhiên · truyện cảm động · Bit. Idol của người dùng (GS Đỗ Quốc Anh, Ngô Bảo Châu, Vũ Hà Văn): chỉ nhắc kèm sự thật kiểm chứng được, **không bịa lời**.
+- Viết tên Việt không dấu như báo tiếng Anh (Hanoi, Ba Vi, pho, banh mi), để giọng đọc tiếng Anh đọc được và để tra từ.
+
+Đã viết: D001 Red Light in Tram Troi (đường phố), D002 My Father's Hands (bố), D003 NullPointerException at 2 a.m. (dev), D004 Why Did My Pho Cost More? (kinh tế), D005 The Gecko on My Wall (động vật), D006 Bit and the Cats and Dogs (Bit). Đây là đợt thử: chờ người dùng góp ý rồi mới viết tiếp.
+
+Định dạng file `text/D001.md`:
+```
+# Tiêu đề
+Đoạn tiếng Anh…
+= Bản dịch tiếng Việt của đoạn đó (ẩn trên trang, nút VI)
+
+## Say it yourself
+- Câu dùng được ngay. = Câu tiếng Việt.
+! Việc nhỏ để làm ngoài đời (Your turn). = Tiếng Việt.
+
+## Extra words
+honk | v | bấm còi
+```
+`build.py` báo `!!` nếu truyện có từ không nằm trong từ điển mà chưa có trong "Extra words" (tên riêng viết hoa, số đếm, dạng rút gọn như don't thì bỏ qua). Khi build xong, xem danh sách từ in đậm của truyện: nếu từ điển cho nghĩa khác nghĩa trong câu (ví dụ "night shift" ≠ shift "sự thay đổi"), đổi cách viết câu.
+
 ## Kế hoạch
 
 - **8.662 từ** trong từ điển (cả từ đã biết và chưa biết), mỗi từ có trong ít nhất 1 truyện.
