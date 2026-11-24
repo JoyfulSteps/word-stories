@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Word Stories</title>
+<meta name="theme-color" content="#ffffff">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
 <style>
   :root { --fg:#222; --muted:#777; --line:#e3e3e3; --hl:#1565c0; --hlbg:#e8f0fe; }
   * { box-sizing:border-box; }
@@ -420,7 +424,11 @@ const SERIES = /*SERIES*/null;
   const camUrl = w => "https://dictionary.cambridge.org/dictionary/english/" + encodeURIComponent(w.trim().toLowerCase().replace(/\s+/g, "-"));
   const aiUrl = sen => "https://claude.ai/new?q=" + encodeURIComponent(
     "Giải thích câu tiếng Anh này cho người học trình độ A2–B1, trả lời bằng tiếng Việt: nghĩa cả câu, cấu trúc ngữ pháp, các cụm từ đáng học.\n\n\"" + sen + "\"");
-  const ext = (href, label) => "<a href='" + esc(href) + "' target='_blank' rel='noopener'>" + esc(label) + "</a>";
+  // Links to other sites. data-win names the window: on a computer each kind opens in one small window on the right
+  // (the dictionary, Cambridge, Google Translate, AI), reused by the next link; on a phone a new tab as usual.
+  const winFor = href => /english-words-dictionary|exports\/dictionary/.test(href) ? "ws_dict" : /cambridge\.org/.test(href) ? "ws_cam" :
+    /translate\.google/.test(href) ? "ws_gt" : /claude\.ai/.test(href) ? "ws_ai" : "ws_ext";
+  const ext = (href, label) => "<a href='" + esc(href) + "' target='_blank' rel='noopener' data-win='" + winFor(href) + "'>" + esc(label) + "</a>";
 
   function entryHtml(e, i, tapped) {
     const from = tapped && tapped !== e.w.toLowerCase() ? "<span class='from'>" + esc(tapped) + " → " + esc(e.w) + "</span>" : "";
@@ -739,6 +747,17 @@ const SERIES = /*SERIES*/null;
     const last = sents.findIndex(x => x.classList.contains("last"));
     playFrom(last > 0 ? last : 0);
   };
+
+  // Same as the dictionary site: a computer (wide screen with a mouse) opens outside links in a window beside the story.
+  const wide = () => window.matchMedia("(min-width: 760px) and (hover: hover)").matches;
+  document.addEventListener("click", ev => {
+    const a = ev.target.closest && ev.target.closest("a[data-win]");
+    if (!a || !wide() || ev.ctrlKey || ev.metaKey || ev.shiftKey) return;   // Ctrl/Shift-click: the browser's own new tab
+    ev.preventDefault();
+    const w = Math.min(980, screen.availWidth - 80), h = Math.min(860, screen.availHeight - 80);
+    const win = window.open(a.href, a.dataset.win, "popup=yes,width=" + w + ",height=" + h + ",left=" + (screen.availWidth - w - 20) + ",top=40");
+    if (win) win.focus(); else window.open(a.href, "_blank", "noopener");
+  });
 
   setTap(listenMode);
   render();

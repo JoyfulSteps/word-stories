@@ -7,7 +7,9 @@ const CACHE = "stories-v1";
 const SCOPE = new URL("./", self.location).pathname;   // /word-stories/
 
 self.addEventListener("install", (ev) => {
-  ev.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "index.html"])).then(() => self.skipWaiting()));
+  // the page plus what "Add to home screen" needs (manifest, icons), so the installed app opens offline
+  ev.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "index.html", "manifest.webmanifest", "icon.svg", "icon-192.png", "icon-512.png", "icon-maskable-512.png"]))
+    .then(() => self.skipWaiting()));
 });
 
 self.addEventListener("activate", (ev) => ev.waitUntil(self.clients.claim()));

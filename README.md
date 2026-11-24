@@ -13,6 +13,8 @@ Trang thật cập nhật sau khoảng 1–2 phút. Trên điện thoại, kéo 
 
 Link tới một truyện: `…/word-stories/#W02-1` (mở đúng truyện đó; địa chỉ luôn đổi theo truyện đang đọc). Trang thẻ ngữ pháp dùng link này cho mục "In Minh's story" (xem `D:\English\ielts-grammar\_web\README.md`). Nếu sửa câu trong truyện, chạy lại `python _web/build_site.py` bên ielts-grammar: nó báo lỗi khi câu đã gắn vào thẻ không còn đúng nguyên văn.
 
+**Cài như app và cửa sổ nổi** (2026-11-24, giống từ điển): `manifest.webmanifest` + `icon.svg`, `icon-192.png`, `icon-512.png`, `icon-maskable-512.png` (chữ S trắng trên nền xanh #1565c0) ở thư mục gốc; `sw.js` lưu sẵn các file này để app mở được khi offline. Trên máy tính, link ra ngoài (Dictionary, Cambridge, Google Translate, Ask AI) mở trong một cửa sổ nhỏ bên phải, mỗi loại một cửa sổ dùng lại (`data-win` = ws_dict, ws_cam, ws_gt, ws_ai); trên điện thoại vẫn mở tab mới. Ctrl/Shift-click thì để trình duyệt mở tab như thường.
+
 **Link tới đúng câu** (2026-11-24): `…/word-stories/#W02-1?s=17&w=sweater` mở truyện W02-1, cuộn tới câu 17, tô nền câu và tô vàng chữ "sweater". `s=12-13` tô một đoạn nhiều câu. Nếu truyện đã sửa và câu 17 không còn chữ đó, trang tự chọn câu gần nhất có chữ đó.
 - Câu được tách **một lần** trong `_tools/build.py` (`split_sentences`, đánh số 1, 2, 3… trong từng truyện) và trang đọc dùng lại đúng cách tách đó.
 - `build.py` ghi thêm **`stories.json`** (schema `word-stories/1`): mỗi truyện có `id`, `series`, `title`, `sents` (mọi câu theo thứ tự số câu, giữ `**từ mới**`). Từ điển (`typing-app/tools/build_dictionary.py`, mục "In the stories" trên thẻ) và trang ngữ pháp (`ielts-grammar/_web/build_site.py`) đọc file này khi dựng. Sửa truyện xong thì chạy `build.py` trước, rồi mới dựng lại hai trang kia.
