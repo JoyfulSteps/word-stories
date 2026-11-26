@@ -61,7 +61,7 @@
   body.review .nw.shown { color:var(--hl); background:var(--hlbg); }
   body.review .nw.shown::before { content:""; }
   .vib { font:600 11px system-ui, sans-serif; padding:1px 6px; margin-left:6px; color:var(--muted); vertical-align:2px; }
-  .pvi { font:15px/1.6 system-ui, sans-serif; color:#555; background:#f4f1e8; border-radius:6px; padding:8px 12px; margin:-6px 0 16px; }
+  .pvi { font:15px/1.6 system-ui, sans-serif; color:#555; background:#f4f1e8; border-radius:6px; padding:8px 12px; margin:-6px 0 16px; white-space:pre-line; }
   h2 { font:600 16px system-ui, sans-serif; margin:34px 0 8px; border-top:1px solid var(--line); padding-top:18px; }
   ul.say { list-style:none; padding:0; margin:0; font:16px/1.5 system-ui, sans-serif; }
   ul.say li { padding:7px 0; border-bottom:1px solid var(--line); }
@@ -106,7 +106,7 @@
   .seen button { font-size:12px; padding:1px 7px; margin:2px 3px 0 0; }
   .sen { border-top:1px solid var(--line); margin-top:8px; padding-top:8px; }
   .sen q { display:block; color:#444; font-family:Georgia, serif; }
-  .sen .vi-para { margin-top:6px; background:#f4f1e8; border-radius:6px; padding:6px 10px; }
+  .sen .vi-para { margin-top:6px; background:#f4f1e8; border-radius:6px; padding:6px 10px; white-space:pre-line; }
   .none { padding:6px 36px 4px 0; }
   /* the story list: full screen on a phone, a card in the middle on a computer; it opens at the story you are reading */
   #lib { position:fixed; inset:0; z-index:6; background:rgba(0,0,0,.35); display:flex; justify-content:center; align-items:flex-start;
@@ -281,7 +281,7 @@ const SERIES = /*SERIES*/null;
     h += "<div class='nav'><button id='prev2'>◀ Previous</button><button id='next2'>Next ▶</button></div>";
     h += "<div class='help'>Tap any word to look it up. Blue words are words you don't know yet; bold blue words are the new words of this story." +
          " <b>Tap: listen</b> (top bar): tap a sentence to hear it, hold a word to look it up. ▶ Listen reads the whole story." +
-         " Review: the new words are hidden, try to remember them, tap to check." + (day ? " VI: the paragraph in Vietnamese." : "") +
+         " Review: the new words are hidden, try to remember them, tap to check." + (s.p.some(p => p[2]) ? " VI: the paragraph in Vietnamese." : "") +
          missingNote() + "</div>";
     main.innerHTML = h;
     $("prev2").onclick = () => go(-1);

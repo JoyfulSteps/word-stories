@@ -47,15 +47,31 @@ def split_sentences(text):
     return out
 
 
-def paragraphs(body):
-    """[[is_quote, [sentence, …]], …]. Sentences keep their own spaces and line breaks, so the page looks the same."""
+def split_en_vi(body):
+    """Split story body into [(en_block, vi_text), …]. Lines starting with '=' are Vietnamese for that block."""
     out = []
     for block in re.split(r"\n\s*\n", body):
         if not block.strip():
             continue
-        quote = block.startswith(">")
-        raw = re.sub(r"^> ?", "", block, flags=re.M)
-        out.append([1 if quote else 0, split_sentences(raw)])
+        en_lines, vi_lines = [], []
+        for line in block.splitlines():
+            s = line.strip()
+            if s.startswith("="):
+                vi_lines.append(s[1:].strip())
+            else:
+                en_lines.append(line)
+        if en_lines:
+            out.append(("\n".join(en_lines), "\n".join(vi_lines)))
+    return out
+
+
+def paragraphs(blocks):
+    """[[is_quote, [sentence, …]] or [is_quote, [sentence, …], vi], …]. Sentences keep their own spaces and line breaks."""
+    out = []
+    for en, vi in blocks:
+        quote = en.startswith(">")
+        raw = re.sub(r"^> ?", "", en, flags=re.M)
+        out.append([1 if quote else 0, split_sentences(raw), vi] if vi else [1 if quote else 0, split_sentences(raw)])
     return out
 
 IRREG = {
@@ -183,9 +199,11 @@ for path in sorted(TEXT.glob("*.md"), key=story_order):
     lines = raw.strip().splitlines()
     title = lines[0].lstrip("# ").strip()
     body = "\n".join(lines[1:]).strip()
-    plain = body.replace("**", "")
+    blocks = split_en_vi(body)
+    en_body = "\n\n".join(en for en, _ in blocks)
+    plain = en_body.replace("**", "")
     toks = set(tokens(plain))
-    bold = {b.lower() for b in re.findall(r"\*\*(.+?)\*\*", body)}
+    bold = {b.lower() for b in re.findall(r"\*\*(.+?)\*\*", en_body)}
     assigned = by_story.get(sid, [])
     new = [r for r in assigned if r["status"] == "new"]
     miss = [r["word"] for r in assigned if not found(r["word"], toks, plain)]
@@ -198,8 +216,8 @@ for path in sorted(TEXT.glob("*.md"), key=story_order):
           + (f"\n    missing: {miss}" if miss else "")
           + (f"\n    new but not bold: {not_bold}" if not_bold else "")
           + (f"\n    bold but not new: {extra_bold}" if extra_bold else ""))
-    paras = paragraphs(body)
-    broken = [s for _, ss in paras for s in ss if s.count("**") % 2]
+    paras = paragraphs(blocks)
+    broken = [s for para in paras for s in para[1] if s.count("**") % 2]
     if broken:
         print(f"!! {sid}: bold cut by a sentence end: {broken[0][:60]!r}")
         problems += 1
